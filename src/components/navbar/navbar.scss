@@ -1,0 +1,55 @@
+@import "src/globals/global-styles/variables";
+
+.nav {
+  top: 0;
+  left: 0;
+  z-index: 5;
+  box-shadow: lightgray 0px 1px 1px 1px !important;
+  background-color: $light-grey  !important;
+  padding: 20px 3%;
+  @media(max-width: 900px) {
+    padding: 0;
+  }
+  img {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.nav-address {
+  display: block;
+  padding: 0 3%;
+  text-align: right;
+  color: black;
+  font-family: $montserrat;
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.nexrage-logo {
+  width: 25vw;
+  @media(max-width: 1200px) {
+    width: 30vw;
+  }
+}
+
+.contact-button {
+
+  color: white;
+  background-color: $lt-blue;
+  padding: 2px 25px;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $royal-yellow;
+  }
+}
+
+#list-item {
+  font-family: $montserrat;
+  color: black;
+}

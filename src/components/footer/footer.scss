@@ -1,0 +1,59 @@
+@import "src/globals/global-styles/variables";
+
+#footer-master{
+    font-family: "montserrat";
+    background: $black-19;
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        .link {
+            color: white;
+            font-family: $montserrat;
+            text-decoration-line: none;
+            font-size: $font-18;
+            line-height: 40px;
+            transition:all 0.3s ease-in-out;
+            &:hover {
+                color:$lt-blue;
+            }
+
+        }
+        .address {
+            color: white;
+            font-family: $montserrat;
+            text-decoration-line: none;
+            font-size: $font-18;
+            line-height: 20px;
+        }
+        .footer-border {
+            border-bottom: 0.25px solid grey;
+            width: 100%;
+            margin-top: 100px;
+        }
+        .copy-right-text {
+            margin: 20px 0 0 20px;
+        }
+        .site-map-text-row{
+            margin: 20px 20px 0 0;
+            a {
+                color: #fff;
+            }
+        }
+        .sitemap-privacy-row {
+            color: $white;
+            // justify-content: space-between;
+            margin-top: 2rem;
+          }
+
+
+// .mobile-resp-logo{
+//     display: flex;
+//     flex-direction: column;
+// }
+}
+// #grid-master{
+//     justify-content: space-evenly;
+//     padding: 60px;
+// }
