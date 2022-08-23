@@ -9,5 +9,5 @@ import React from "react"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 export default function FightIcon(props: { icon: string }) {
-    return (<img src={props.icon} alt={props.icon} />)
+  return (<img src={props.icon} alt={props.icon} />)
 }

@@ -1,7 +1,7 @@
-import React from "react";
-import { NavBar } from "@src/components/navbar/navbar";
-import Header from "@src/components/header/header";
-import { ThemeWrapper } from "@src/globals/global-wrapper/wrapper";
+import React from "react"
+import { NavBar } from "@src/components/navbar/navbar"
+import Header from "@src/components/header/header"
+import { ThemeWrapper } from "@src/globals/global-wrapper/wrapper"
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -12,9 +12,10 @@ import { ThemeWrapper } from "@src/globals/global-wrapper/wrapper";
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function FightersPage() {
-        <ThemeWrapper>
-            <NavBar>
-                <Header logo={null} title={""} link={""} />
-            </NavBar>
-        </ThemeWrapper>
-} 
+  <ThemeWrapper>
+    <NavBar>
+      <Header logo={null} title="" link="" />
+    </NavBar>
+
+  </ThemeWrapper>
+}
