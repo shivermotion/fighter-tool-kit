@@ -1,7 +1,6 @@
 {
   "name": "fighter-tool-kit",
   "version": "0.1.0",
-  "homepage": "https://shivermotion.github.io",
   "private": true,
   "homepage": "https://shivermotion.github.io/Fighter-Tool-Kit",
   "dependencies": {
