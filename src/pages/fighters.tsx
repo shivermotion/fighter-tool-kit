@@ -4,10 +4,7 @@ import React from "react"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
-import { NavBar } from "../components/navbar/navbar"
-import Header from "../components/header/header"
 import Andy from "../components/fighters/andy"
-import Footer from "../components/footer/footer"
 
 
 // Application Screen || Define Exports
@@ -16,11 +13,12 @@ import Footer from "../components/footer/footer"
 export default function FightersPage() {
   return (
     <ThemeWrapper>
-      <NavBar>
-        <Header logo={null} title="FIGHTERS" link="TEST" />
-      </NavBar>
       <Andy />
-      <Footer />
+      <Andy />
+      <Andy />
+      <Andy />
+      <Andy />
+      <Andy />
     </ThemeWrapper>
   )
 }
