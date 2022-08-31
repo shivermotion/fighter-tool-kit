@@ -35,7 +35,7 @@ export const Header = (props: {
       <Bounce top>
         <Box
           className="header-title-width"
-          mb={{ xs: "2rem" }}
+          m={{ xs: "2rem" }}
         >
           <Typography variant="h1">{props.title}</Typography>
         </Box>
