@@ -1,0 +1,61 @@
+// Application Styles || Global Imports
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+body {
+  overflow-x: hidden;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: none !important;
+}
+
+.link {
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #53b7e6;
+    cursor: pointer;
+  }
+}
+
+.hidden-tablet {
+  @media(max-width: 900px) {
+    display: none;
+  }
+}
+
+.hidden-mobile {
+  @media(max-width: 600px) {
+    display: none;
+  }
+}
+
+.fa-arrow-alt-circle-right {
+  font-size: 1.5rem;
+}
+
+.fa-arrow-alt-circle-right:hover {
+  cursor: pointer;
+}
+
+.fa-minus {
+  margin-left: 1rem;
+  font-size: 75%;
+}
+
+select {
+  -webkit-appearance: none;
+}
+
+.MuiContainer-root {
+  @media (max-width: 899px) {
+    padding: 0 !important;
+  }
+}

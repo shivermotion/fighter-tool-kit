@@ -1,23 +1,26 @@
 import React from "react"
-import ReactDOM from "react-dom/client"
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Header from "./components/header/header"
-import { NavBar } from "./components/navbar/navbar"
-import FightersPage from "./pages/fighters"
+import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
+import { NavBar } from "../components/navbar/navbar"
+import Header from "../components/header/header"
+import Andy from "./fighters/andy"
+import Footer from "../components/footer/footer"
 
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-const root = ReactDOM.createRoot(document.getElementById("root")!)
-root.render(
-  <React.StrictMode>
-    <NavBar>
-      <Header logo={null} title="" link="" />
-    </NavBar>
-    <FightersPage />
-  </React.StrictMode>,
-)
+export default function FightersPage() {
+  return (
+    <ThemeWrapper>
+      <NavBar>
+        <Header logo={null} title="FIGHTERS" link="TEST" />
+      </NavBar>
+      <Andy />
+      <Footer />
+    </ThemeWrapper>
+  )
+}

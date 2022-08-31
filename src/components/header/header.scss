@@ -1,0 +1,32 @@
+@import "src/globals/global-styles/variables";
+
+.header-title-width {
+  max-width: 1230px;
+  @media(max-width: 600px) {
+    max-width: 450px;
+    text-align: center;
+  }
+}
+.subtitle-width {
+  max-width: 950px;
+  @media(max-width: 600px) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+#header-link-btn-text {
+  font-weight: bold;
+  color: $navy-blue;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: $lt-blue;
+  }
+}
+.arrow-row-header {
+  display: flex;
+  align-items: center;
+  @media(max-width: 1200px) {
+    margin-top: 10%;
+  }
+}
