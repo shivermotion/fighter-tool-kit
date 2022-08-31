@@ -6,7 +6,7 @@ import React from "react"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
 import { NavBar } from "../components/navbar/navbar"
 import Header from "../components/header/header"
-import Andy from "./fighters/andy"
+import Andy from "../components/fighters/andy"
 import Footer from "../components/footer/footer"
 
 

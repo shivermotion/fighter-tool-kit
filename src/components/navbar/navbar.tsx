@@ -7,13 +7,14 @@ import { BrowserRouter as Router, Link } from "react-router-dom"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-const drawerWidth = 240
+import logo from "../../assets/logo/logo.png"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // eslint-disable-next-line react/no-unused-prop-types
 export const NavBar = (props: { color?: "white" | "black", children?: React.ReactNode }) => {
+  const drawerWidth = 240
   const [mobileOpen, setMobileOpen] = React.useState(false)
 
   const handleDrawerToggle = () => {
@@ -32,14 +33,14 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
             Home
           </List>
         </Link>
-        <Link to="/fighters">
+        <Link to="/fighters/">
           <List id="list-item">
             Fighters
           </List>
         </Link>
-        <Link to="/portfolio">
+        <Link to="/contact/">
           <List id="list-item">
-            Portfolio
+            Contact
           </List>
         </Link>
       </List>
@@ -50,10 +51,10 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
     <Router>
       <Box>
         <AppBar component="nav" className="nav">
-          <Box className="nav-address hidden-tablet hidden-mobile">
+          {/* <Box className="nav-address hidden-tablet hidden-mobile">
           469-545-0009 <br />
           2221 Lakeside Blvd Ste 100, Richardson, TX 75082
-          </Box>
+          </Box> */}
           <Toolbar>
             <IconButton
               color="inherit"
@@ -73,7 +74,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
               <Grid item>
                 <Box>
                   <a href="/">
-                    {/* <img alt="nexrage studios logo" className="nexrage-logo hidden-mobile hidden-tablet" src={logo} /> */}
+                    <img alt="nexrage studios logo" className="nexrage-logo hidden-mobile hidden-tablet" src={logo} />
                   </a>
                 </Box>
               </Grid>
@@ -81,25 +82,25 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
                 <Box sx={{ display: { xs: "none", sm: "block" }, color: "black" }}>
                   <List sx={{ display: "flex" }}>
                     <ListItem>
-                      <a href="/" className="link">
+                      <Link to="/" className="link">
                         <Typography variant="subtitle1">
                         Home
                         </Typography>
-                      </a>
+                      </Link>
                     </ListItem>
                     <ListItem>
-                      <a href="/services" className="link">
+                      <Link to="/fighters/" className="link">
                         <Typography variant="subtitle1">
-                        Services
+                        Fighters
                         </Typography>
-                      </a>
+                      </Link>
                     </ListItem>
                     <ListItem>
-                      <a href="/portfolio" className="link">
+                      <Link to="/contact/" className="link">
                         <Typography variant="subtitle1">
-                        Portfolio
+                        Contact
                         </Typography>
-                      </a>
+                      </Link>
                     </ListItem>
                   </List>
                 </Box>
