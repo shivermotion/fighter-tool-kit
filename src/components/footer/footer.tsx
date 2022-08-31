@@ -7,7 +7,7 @@ import { Twitter, Facebook, Instagram, LinkedIn } from "@mui/icons-material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import "./footer.scss"
-import fist from "../../assets/icons/fightFist-circle.png"
+import logo from "../../assets/logo/logo-footer.png"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -19,11 +19,11 @@ export default function Footer() {
         <Grid container gap={{ xs: 12, md: 0 }} direction={{ xs: "column", md: "row" }} justifyContent={{ xs: "center", md: "space-around" }} sx={{ px: "50px", pt: "100px" }}>
           <Grid item>
             <Box>
-              <img src={fist} alt="logo" />
+              <img src={logo} alt="logo" />
               <Typography variant="h2">FIGHTER TOOL KIT</Typography>
             </Box>
           </Grid>
-          <Grid item>
+          {/* <Grid item>
             <Box><h2>Services</h2></Box>
             <Box><a href="/services/custom-software-development/" className="link" color="white">Custom Software Development</a></Box>
             <Box><a href="/services/android-app-development/" className="link" color="white">Android App Development</a></Box>
@@ -32,7 +32,7 @@ export default function Footer() {
             <Box><a href="/services/website-design-and-development/" className="link" color="white">Website Design and Development</a></Box>
             <Box><a href="/services/turnkey/" className="link" color="white">Turnkey Website Development</a></Box>
             <Box><a href="/services/seo/" className="link" color="white">Search Engine Optimization</a></Box>
-          </Grid>
+          </Grid> */}
           <Grid item>
             <Box><h2>Contact</h2></Box>
             <Box>
