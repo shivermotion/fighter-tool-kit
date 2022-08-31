@@ -1,6 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
-import { Container, Box, Typography } from "@mui/material"
+import { Container, Box, Typography, Grid } from "@mui/material"
 // @ts-ignore
 import { Fade, Bounce } from "react-reveal"
 
@@ -33,12 +33,12 @@ export const Header = (props: {
   <>
     <Container maxWidth={false}>
       <Bounce top>
-        <Box
+        <Grid
           className="header-title-width"
           m={{ xs: "2rem" }}
         >
           <Typography variant="h1">{props.title}</Typography>
-        </Box>
+        </Grid>
       </Bounce>
       <Fade bottom>
         <Box
