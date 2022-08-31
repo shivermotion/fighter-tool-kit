@@ -23,7 +23,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h5" sx={{ my: 2, color: "#53b7e6" }}>
+      <Typography variant="h5" sx={{ my: 2, color: "rgb(25,25,25)" }}>
         FIGHTER TOOL KIT
       </Typography>
       <Divider />
@@ -63,7 +63,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
               onClick={handleDrawerToggle}
               sx={{ mr: 2, display: { sm: "none" } }}
             >
-              <Menu fontSize="large" sx={{ color: "#53b7e6" }} />
+              <Menu fontSize="large" sx={{ color: "rgb(25,25,25)" }} />
             </IconButton>
             <Grid
               container
@@ -74,7 +74,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
               <Grid item>
                 <Box>
                   <a href="/">
-                    <img alt="nexrage studios logo" className="nexrage-logo hidden-mobile hidden-tablet" src={logo} />
+                    <img alt="ftk logo" className="nexrage-logo hidden-mobile hidden-tablet" src={logo} />
                   </a>
                 </Box>
               </Grid>

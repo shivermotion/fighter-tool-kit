@@ -50,8 +50,8 @@ export default function Footer() {
           </Grid>
           <Grid item>
             <Grid item><a href="/" className="link" color="white"><h2>Home</h2></a></Grid>
-            <Grid item><a href="/services/" className="link" color="white"><h2>Fighters</h2></a></Grid>
-            <Grid item><a href="/portfolio/" className="link" color="white"><h2>Portfolio</h2></a></Grid>
+            <Grid item><a href="/fighters/" className="link" color="white"><h2>Fighters</h2></a></Grid>
+            <Grid item><a href="/contact/" className="link" color="white"><h2>Portfolio</h2></a></Grid>
             {/* <Grid item><a href="/our-team/" className="link" color="white"><h2>Our Team</h2></a></Grid> */}
             {/* <Grid item><a href="/blogs/" className="link" color="white"><h2>Blogs</h2></a></Grid> */}
             {/* <Grid item><a href="/contact/" className="link" color="white"><h2>Contact</h2></a></Grid> */}
