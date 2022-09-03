@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Fighter-Tool-Kit/static/css/main.3122f420.css",
-    "main.js": "/Fighter-Tool-Kit/static/js/main.ef488288.js",
+    "main.js": "/Fighter-Tool-Kit/static/js/main.bf1d8a26.js",
     "index.html": "/Fighter-Tool-Kit/index.html",
     "main.3122f420.css.map": "/Fighter-Tool-Kit/static/css/main.3122f420.css.map",
-    "main.ef488288.js.map": "/Fighter-Tool-Kit/static/js/main.ef488288.js.map"
+    "main.bf1d8a26.js.map": "/Fighter-Tool-Kit/static/js/main.bf1d8a26.js.map"
   },
   "entrypoints": [
     "static/css/main.3122f420.css",
-    "static/js/main.ef488288.js"
+    "static/js/main.bf1d8a26.js"
   ]
 }
