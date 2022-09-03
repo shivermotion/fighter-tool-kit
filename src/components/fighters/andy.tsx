@@ -5,7 +5,12 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import FightIcon from "../icon/icon"
+
+import { CloseBy, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And } from "../icons/condition"
+import { CommandMoves, SpecialMoves, SuperSpecialMoves, ClimaxSuperSpecialMoves, NormalThrows, MoveName, InputBar } from "../accordion/accordion"
+import Press from "../icons/press"
+import Or from "../icons/or"
+import Plus from "../icons/plus"
 import right from "../../assets/icons/right.png"
 import left from "../../assets/icons/left.png"
 import up from "../../assets/icons/up.png"
@@ -22,6 +27,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
+
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -36,132 +42,119 @@ export default function Andy() {
       >
         <Typography>ANDY BOGARD</Typography>
       </AccordionSummary>
-      <AccordionDetails>
-        <Grid container sx={{ justifyContent: "center" }}>
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-            COMMAND MOVES
-          </Typography>
-        </Grid>
-        <Divider />
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-            HIRATE UCHI
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <FightIcon icon={left} />
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>OR</Typography>
-          <FightIcon icon={right} />
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>+</Typography>
-          <FightIcon icon={punchLow} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-        GENEI SHIRANUI
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>[IN AIR]</Typography>
-          <FightIcon icon={down} />
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>+</Typography>
-          <FightIcon icon={kickHigh} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-        TARGET COMBO 1
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>[PRESS IN ORDER - CLOSE BY]</Typography>
-          <FightIcon icon={kickLow} />
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}> - </Typography>
-          <FightIcon icon={kickHigh} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ justifyContent: "center" }}>
-          <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-        SPECIAL MOVES
-          </Typography>
-        </Grid>
-        <Divider />
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-        ZAN-EI KEN [EX]
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <FightIcon icon={hadoken} />
-          <Typography>+</Typography>
-          <FightIcon icon={punchLow} />
-          <Typography>OR</Typography>
-          <FightIcon icon={punchHigh} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography>
-        KUUHA DAN [EX]
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <FightIcon icon={left} />
-          <Typography>OR</Typography>
-          <FightIcon icon={right} />
-          <Typography>+</Typography>
-          <FightIcon icon={punchLow} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography>
-        KUUHA DAN (BRAKE)
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <FightIcon icon={left} />
-          <Typography>OR</Typography>
-          <FightIcon icon={right} />
-          <Typography>+</Typography>
-          <FightIcon icon={punchLow} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography>
-        HISHOU KEN [EX]
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <FightIcon icon={left} />
-          <Typography>OR</Typography>
-          <FightIcon icon={right} />
-          <Typography>+</Typography>
-          <FightIcon icon={punchLow} />
-        </Grid>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Typography>
-        SHOURYUU DAN [EX]
-        </Typography>
-      </AccordionDetails>
-      <AccordionDetails>
-        <Grid container sx={{ backgroundColor: "whitesmoke", fontFamily: "montserrat", alignItems: "center" }}>
-          <FightIcon icon={left} />
-          <Typography>OR</Typography>
-          <FightIcon icon={right} />
-          <Typography>+</Typography>
-          <FightIcon icon={punchLow} />
-        </Grid>
-      </AccordionDetails>
+      <CommandMoves />
+      <MoveName move="HIRATE UCHI" />
+      <InputBar>
+        <Press icon={left} />
+        <Or />
+        <Press icon={right} />
+        <Plus />
+        <Press icon={punchLow} />
+      </InputBar>
+      <MoveName move="GENEI SHIRANUI" />
+      <InputBar>
+        <InAir />
+        <Press icon={down} />
+        <Plus />
+        <Press icon={kickHigh} />
+      </InputBar>
+      <MoveName move="TARGET COMBO 1" />
+      <InputBar>
+        <PressInOrder />
+        <CloseBy />
+        <Press icon={kickLow} />
+        <LinkTo />
+        <Press icon={kickHigh} />
+      </InputBar>
+      <SpecialMoves />
+      <MoveName move="ZAN-EI KEN [EX]" />
+      <InputBar>
+        <Press icon={hadoken} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName move="KUUHA DAN [EX]" />
+      <InputBar>
+        <Press icon={halfCircleFoward} />
+        <Plus />
+        <Press icon={kickLow} />
+        <Or />
+        <Press icon={kickHigh} />
+      </InputBar>
+      <MoveName move="KUUHA DAN (BRAKE)" />
+      <InputBar>
+        <AfterMove move="[KUUHA DAN]" />
+        <Press icon={kickLow} />
+        <And />
+        <Press icon={kickHigh} />
+      </InputBar>
+      <MoveName move="HISHOU KEN [EX]" />
+      <InputBar>
+        <Press icon={reverseHadoken} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName move="SHOURYUU DAN [EX]" />
+      <InputBar>
+        <Press icon={shory} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <SuperSpecialMoves />
+      <MoveName move="CHOU REPPA DAN [MAX]" />
+      <InputBar>
+        <Press icon={reverseHadoken} />
+        <Press icon={halfCircleFoward} />
+        <Plus />
+        <Press icon={kickLow} />
+        <Or />
+        <Press icon={kickHigh} />
+      </InputBar>
+      <MoveName move="ZETSU HITSHOU KEN [MAX]" />
+      <InputBar>
+        <Press icon={hadoken} />
+        <Press icon={halfCircleFoward} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <ClimaxSuperSpecialMoves />
+      <MoveName move="CHOU SHIN SOKU SAN-EI KEN" />
+      <InputBar>
+        <InAir />
+        <Press icon={reverseHadoken} />
+        <Press icon={halfCircleFoward} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <NormalThrows />
+      <MoveName move="KAKAEKOMI NAGE (FORWARD)" />
+      <InputBar>
+        <CloseBy />
+        <Press icon={left} />
+        <Or />
+        <Press icon={right} />
+        <Plus />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName move="KAKAEKOMI NAGE (BACKWARD)" />
+      <InputBar>
+        <CloseBy />
+        <Press icon={left} />
+        <Or />
+        <Press icon={right} />
+        <Plus />
+        <Press icon={kickHigh} />
+      </InputBar>
     </Accordion>
   )
 }
