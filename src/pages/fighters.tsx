@@ -18,10 +18,6 @@ export default function FightersPage() {
       <Container>
         <Andy />
         <Angel />
-        <Andy />
-        <Andy />
-        <Andy />
-        <Andy />
       </Container>
     </ThemeWrapper>
   )
