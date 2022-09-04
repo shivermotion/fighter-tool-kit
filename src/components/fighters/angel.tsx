@@ -45,11 +45,9 @@ export default function Angel() {
       <CommandMoves />
       <MoveName move="MIDDLE SPIN" />
       <InputBar>
-        <Press icon={left} />
-        <Or />
         <Press icon={right} />
         <Plus />
-        <Press icon={punchLow} />
+        <Press icon={kickLow} />
       </InputBar>
       <MoveName move="HEAVY KNEE ATTACK" />
       <InputBar>
@@ -61,51 +59,49 @@ export default function Angel() {
       <SpecialMoves />
       <MoveName move="RED SKY [EX]" />
       <InputBar>
-        <Press icon={hadoken} />
+        <Press icon={halfCircleBack} />
         <Plus />
-        <Press icon={punchLow} />
+        <Press icon={kickLow} />
         <Or />
-        <Press icon={punchHigh} />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName move="MAD MURDER [EX]" />
       <InputBar>
+        <CloseBy />
         <Press icon={halfCircleFoward} />
         <Plus />
-        <Press icon={kickLow} />
+        <Press icon={punchLow} />
         <Or />
-        <Press icon={kickHigh} />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName move="UNCHAIN LOW" />
       <InputBar>
-        <AfterMove move="[KUUHA DAN]" />
+        <Press icon={downRight} />
+        <Plus />
         <Press icon={kickLow} />
-        <And />
-        <Press icon={kickHigh} />
       </InputBar>
       <MoveName move="UNCHAIN HEEL" />
       <InputBar>
-        <Press icon={reverseHadoken} />
+        <Press icon={downRight} />
         <Plus />
-        <Press icon={punchLow} />
-        <Or />
-        <Press icon={punchHigh} />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName move="UNCHAIN TORNADO" />
       <InputBar>
-        <Press icon={shory} />
+        <Press icon={left} />
+        <Press icon={right} />
+        <Plus />
+        <Press icon={kickLow} />
+        <Or/>
+        <Press icon={kickHigh}
+        </InputBar>
+      <MoveName move="UNCHAIN BLOW [EX]" />
+      <InputBar>
+        <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={punchLow} />
         <Or />
         <Press icon={punchHigh} />
-      </InputBar>
-      <MoveName move="UNCHAIN BLOW [EX]" />
-      <InputBar>
-        <Press icon={reverseHadoken} />
-        <Press icon={halfCircleFoward} />
-        <Plus />
-        <Press icon={kickLow} />
-        <Or />
-        <Press icon={kickHigh} />
       </InputBar>
       <MoveName move="UNCHAIN STEP [EX]" />
       <InputBar>
