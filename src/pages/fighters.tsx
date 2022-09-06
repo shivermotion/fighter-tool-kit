@@ -3,7 +3,7 @@ import React from "react"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Bjenet from "../components/fighters/b-jenet"
+import Angel from "../components/fighters/angel"
 import Andy from "../components/fighters/andy"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
 
@@ -15,7 +15,8 @@ export default function FightersPage() {
   return (
     <ThemeWrapper>
       <Andy />
-      <Bjenet />
+      <Angel />
+
     </ThemeWrapper>
   )
 }
