@@ -32,3 +32,6 @@ export function And() {
   return (<Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}> AND </Typography>)
 }
 
+export function AirOk() {
+  return (<Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>[AIR AirOk]</Typography>)
+}
