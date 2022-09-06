@@ -6,7 +6,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-import { CloseBy, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And } from "../icons/condition"
+import { CloseBy, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And, AirOk } from "../icons/condition"
 import { CommandMoves, SpecialMoves, SuperSpecialMoves, ClimaxSuperSpecialMoves, NormalThrows, MoveName, InputBar } from "../accordion/accordion"
 import Press from "../icons/press"
 import Or from "../icons/or"
@@ -102,6 +102,7 @@ export default function Bjenet() {
       <SuperSpecialMoves />
       <MoveName move="MANY MANY TORPEDOES [MAX]" />
       <InputBar>
+        <AirOk />
         <Press icon={hadoken} />
         <Press icon={hadoken} />
         <Plus />
@@ -112,22 +113,21 @@ export default function Bjenet() {
       <MoveName move="AURORA [MAX]" />
       <InputBar>
         <Press icon={hadoken} />
-        <Press icon={halfCircleFoward} />
+        <Press icon={hadoken} />
         <Plus />
-        <Press icon={punchLow} />
+        <Press icon={kickLow} />
         <Or />
-        <Press icon={punchHigh} />
+        <Press icon={kickHigh} />
       </InputBar>
       <ClimaxSuperSpecialMoves />
-      <MoveName move="CHOU SHIN SOKU SAN-EI KEN" />
+      <MoveName move="ENNUI MADEMOISELLE" />
       <InputBar>
-        <InAir />
         <Press icon={reverseHadoken} />
         <Press icon={halfCircleFoward} />
         <Plus />
-        <Press icon={punchLow} />
-        <Or />
         <Press icon={punchHigh} />
+        <Press icon={kickHigh} />
+        <InTimeWith />
       </InputBar>
       <NormalThrows />
       <MoveName move="BYE BYE BOO" />
