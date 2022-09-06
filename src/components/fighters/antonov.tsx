@@ -45,36 +45,28 @@ export default function Antonov() {
       <CommandMoves />
       <MoveName move="PRESIDENT BINTA" />
       <InputBar>
-        <PressInOrder />
         <Press icon={right} />
-        <Plus/>
+        <Plus />
         <Press icon={punchLow} />
       </InputBar>
-      <SpecialMoves />
       <MoveName move="TARGET COMBO 1" />
       <InputBar>
-      <PressInOrder/>
-      <CloseBy/>
+        <PressInOrder />
+        <CloseBy />
         <Press icon={kickHigh} />
-       <LinkTo/>
+        <LinkTo />
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName move="TARGET COMBO 2" />
       <InputBar>
-      <PressInOrder/>
-      <CloseBy/>
+        <PressInOrder />
+        <CloseBy />
         <Press icon={kickHigh} />
-       <LinkTo/>
-        <Press icon={kickHigh} />
-      </InputBar>
-      <MoveName move="KUUHA DAN (BRAKE)" />
-      <InputBar>
-        <AfterMove move="[KUUHA DAN]" />
-        <Press icon={kickLow} />
-        <And />
+        <LinkTo />
         <Press icon={kickHigh} />
       </InputBar>
-      <MoveName move="HISHOU KEN [EX]" />
+      <SpecialMoves />
+      <MoveName move="WHALE STREAM [EX]" />
       <InputBar>
         <Press icon={reverseHadoken} />
         <Plus />
@@ -82,7 +74,7 @@ export default function Antonov() {
         <Or />
         <Press icon={punchHigh} />
       </InputBar>
-      <MoveName move="SHOURYUU DAN [EX]" />
+      <MoveName move="VERTICAL MACHO [EX]" />
       <InputBar>
         <Press icon={shory} />
         <Plus />
@@ -90,8 +82,29 @@ export default function Antonov() {
         <Or />
         <Press icon={punchHigh} />
       </InputBar>
+      <MoveName move="GIGANTIC BACK [EX]" />
+      <InputBar>
+        <Press icon={halfCircleBack} />
+        <Plus />
+        <Press icon={kickLow} />
+      </InputBar>
+      <MoveName move="GIGANTIC BACK PRESS [EX]" />
+      <InputBar>
+        <Press icon={halfCircleBack} />
+        <Plus />
+        <Press icon={kickHigh} />
+      </InputBar>
+      <MoveName move="BERING WAVE [EX]" />
+      <InputBar>
+        <InAir />
+        <Press icon={hadoken} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
       <SuperSpecialMoves />
-      <MoveName move="CHOU REPPA DAN [MAX]" />
+      <MoveName move="TUNGUNSKA BOMBER [MAX]" />
       <InputBar>
         <Press icon={reverseHadoken} />
         <Press icon={halfCircleFoward} />
@@ -100,25 +113,23 @@ export default function Antonov() {
         <Or />
         <Press icon={kickHigh} />
       </InputBar>
-      <MoveName move="ZETSU HITSHOU KEN [MAX]" />
+      <MoveName move="KAMCHATKA COLLPASE [MAX]" />
       <InputBar>
         <Press icon={hadoken} />
-        <Press icon={halfCircleFoward} />
+        <Press icon={hadoken} />
         <Plus />
-        <Press icon={punchLow} />
+        <Press icon={kickLow} />
         <Or />
-        <Press icon={punchHigh} />
+        <Press icon={kickHigh} />
       </InputBar>
       <ClimaxSuperSpecialMoves />
-      <MoveName move="CHOU SHIN SOKU SAN-EI KEN" />
+      <MoveName move="KOSMOS REGRESSION" />
       <InputBar>
-        <InAir />
         <Press icon={reverseHadoken} />
         <Press icon={halfCircleFoward} />
         <Plus />
-        <Press icon={punchLow} />
-        <Or />
         <Press icon={punchHigh} />
+        <Press icon={kickHigh} />
       </InputBar>
       <NormalThrows />
       <MoveName move="PRESIDENT LIFT" />
@@ -138,7 +149,6 @@ export default function Antonov() {
         <Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
-      </InputBar>
       </InputBar>
     </Accordion>
   )
