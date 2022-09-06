@@ -175,13 +175,15 @@ export default function Athena() {
         <Press icon={kickHigh} />
       </InputBar>
       <MoveName move="PSYCHIC SHOOT" />
-      <CloseBy />
-      <InAir />
-      <Press icon={left} />
-      <Or />
-      <Press icon={right} />
-      <Plus />
-      <Press icon={punchHigh} />
+      <InputBar>
+        <CloseBy />
+        <InAir />
+        <Press icon={left} />
+        <Or />
+        <Press icon={right} />
+        <Plus />
+        <Press icon={punchHigh} />
+      </InputBar>
     </Accordion>
   )
 }
