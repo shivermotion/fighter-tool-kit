@@ -45,40 +45,39 @@ export default function Benimaru() {
       </AccordionSummary>
       <CommandMoves />
       <MoveName move=" FLYING DRILL" />
-      <InputBar> <InAir /> <Press icon={down} />  <Plus />  <Press icon={kickHigh} /></InputBar>
+      <InputBar><InAir /><Press icon={down} /><Plus /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" JACK KNIFE KICK" />
-      <InputBar> <Press icon={right} />  <Plus /> <Press icon={kickLow} /> </InputBar>
+      <InputBar><Press icon={right} /><Plus /><Press icon={kickLow} /></InputBar>
       <SpecialMoves />
       <MoveName move=" AIR RAIJINKEN [EX]" />
-      <InputBar> <InAir /> <Press icon={hadoken} />  <Plus /> <Press icon={punchLow} /><Or /><Press icon={punchHigh} /> </InputBar>
+      <InputBar><InAir /><Press icon={hadoken} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" BENIMARU COLLIDER [EX]" />
-      <InputBar> <CloseBy /> <Press icon={halfCircleBack} /> <Press icon={right} />  <Plus /> <Press icon={punchLow} /><Or /><Press icon={punchHigh} /> </InputBar>
+      <InputBar><CloseBy /><Press icon={halfCircleBack} /><Press icon={right} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" IAI-GERI [EX]" />
-      <InputBar> <Press icon={hadoken} />  <Plus /> <Press icon={kickLow} /><Or /> <Press icon={kickHigh} /> </InputBar>
+      <InputBar><Press icon={hadoken} /><Plus /><Press icon={kickLow} /><Or /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" INAZUMA SANDAN-GERI" />
-      <InputBar> <AfterMove move="IAI-GERI" /> <Press icon={down} /> <Press icon={up} /><Plus /> <Press icon={kickLow} /><Or /> <Press icon={kickHigh} /> </InputBar>
+      <InputBar><AfterMove move="IAI-GERI" /><Press icon={down} /><Press icon={up} /><Plus /><Press icon={kickLow} /><Or /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" RAIJINKEN [EX]" />
-      <InputBar> <Press icon={hadoken} />  <Plus /> <Press icon={punchLow} /><Or /><Press icon={punchHigh} /> </InputBar>
+      <InputBar><Press icon={hadoken} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" RAIMEITOU [EX] " />
-      <InputBar> <Press icon={reverseHadoken} />  <Plus /> <Press icon={punchLow} /><Or /><Press icon={punchHigh} /> </InputBar>
+      <InputBar><Press icon={reverseHadoken} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" SUPER JINRAI KICK [EX] " />
-      <InputBar> <Press icon={shory} />  <Plus /> <Press icon={kickLow} /><Or /><Press icon={kickHigh} /> </InputBar>
+      <InputBar><Press icon={shory} /><Plus /><Press icon={kickLow} /><Or /><Press icon={kickHigh} /></InputBar>
       <SuperSpecialMoves />
       <MoveName move=" BENIMARU RISING SHOT [MAX]" />
-      <InputBar> <Press icon={hadoken} /> <Press icon={hadoken} />  <Plus /> <Press icon={kickLow} /><Or /> <Press icon={kickHigh} /> </InputBar>
+      <InputBar><Press icon={hadoken} /><Press icon={hadoken} /><Plus /><Press icon={kickLow} /><Or /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" RAI-KOU KEN [MAX]" />
-      <InputBar> <Press icon={hadoken} /> <Press icon={hadoken} />  <Plus /> <Press icon={punchLow} /><Or /><Press icon={punchHigh} /> </InputBar>
+      <InputBar><Press icon={hadoken} /><Press icon={hadoken} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <ClimaxSuperSpecialMoves />
       <MoveName move=" RAIHA JIN-OU KEN" />
-      <InputBar> <Press icon={reverseHadoken} /> <Press icon={halfCircleFoward} />  <Plus /> <Press icon={punchHigh} />  <Press icon={kickHigh} /> </InputBar>
+      <InputBar><Press icon={reverseHadoken} /><Press icon={halfCircleFoward} /><Plus /><Press icon={punchHigh} /><Press icon={kickHigh} /></InputBar>
       <NormalThrows />
       <MoveName move=" CATCH AND SHOOT" />
-      <InputBar> <CloseBy /> <Press icon={left} /><Or /><Press icon={right} />  <Plus /> <Press icon={punchHigh} /> </InputBar>
+      <InputBar><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" FRONT SUPLEX" />
-      <InputBar> <CloseBy /> <Press icon={left} /><Or /><Press icon={right} />  <Plus />  <Press icon={kickHigh} /> </InputBar>
+      <InputBar><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" SPINNING KNEE DROP " />
-      <InputBar> <InAir /><CloseBy /> <Press icon={left} /><Or /><Press icon={right} />  <Plus /> <Press icon={punchHigh} /> </InputBar>
-
+      <InputBar><InAir /><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
     </Accordion>
   )
 }
