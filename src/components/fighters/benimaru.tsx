@@ -77,7 +77,7 @@ export default function Benimaru() {
       <MoveName move=" FRONT SUPLEX" />
       <InputBar> <CloseBy /> <Press icon={left} /><Or /><Press icon={right} />  <Plus />  <Press icon={kickHigh} /> </InputBar>
       <MoveName move=" SPINNING KNEE DROP " />
-      <InputBar> <InAir /><CloseBy /><InAir /> <Press icon={left} /><Or /><Press icon={right} />  <Plus /> <Press icon={punchHigh} /> </InputBar>
+      <InputBar> <InAir /><CloseBy /> <Press icon={left} /><Or /><Press icon={right} />  <Plus /> <Press icon={punchHigh} /> </InputBar>
 
     </Accordion>
   )
