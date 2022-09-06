@@ -15,10 +15,9 @@ import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
 export default function FightersPage() {
   return (
     <ThemeWrapper>
-      <Container>
-        <Andy />
-        <Angel />
-      </Container>
+      <Andy />
+      <Angel />
+
     </ThemeWrapper>
   )
 }
