@@ -42,10 +42,10 @@ export default function Footer() {
           <Grid item>
             <Box><h2>Follow Us</h2></Box>
             <Box sx={{ mt: "10px" }}>
-              <a aria-label="link" href="https://www.facebook.com/nexragestudios" className="link"><Facebook sx={{ fontSize: "30px" }} /></a>
-              <a aria-label="link" href="https://www.instagram.com/nexragestudios" className="link"><Instagram sx={{ fontSize: "30px" }} /></a>
-              <a aria-label="link" href="https://www.twitter.com/nexragestudios" className="link"><Twitter sx={{ fontSize: "30px" }} /></a>
-              <a aria-label="link" href="https://www.aedin.com/company/nexrage-studios-llc" className="link"><LinkedIn sx={{ fontSize: "30px" }} /></a>
+              <a aria-label="link" href="https://www.facebook.com/" className="link"><Facebook sx={{ fontSize: "30px" }} /></a>
+              <a aria-label="link" href="https://www.instagram.com/" className="link"><Instagram sx={{ fontSize: "30px" }} /></a>
+              <a aria-label="link" href="https://www.twitter.com/" className="link"><Twitter sx={{ fontSize: "30px" }} /></a>
+              <a aria-label="link" href="https://www.Linkedin.com/" className="link"><LinkedIn sx={{ fontSize: "30px" }} /></a>
             </Box>
           </Grid>
           <Grid item>
