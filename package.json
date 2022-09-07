@@ -1,8 +1,8 @@
 {
+  "homepage": "https://shivermotion.github.io/Fighter-Tool-Kit",
   "name": "fighter-tool-kit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shivermotion.github.io/Fighter-Tool-Kit",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
