@@ -13,25 +13,8 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-import {
-  CloseBy,
-  InAir,
-  PressInOrder,
-  AfterMove,
-  InTimeWith,
-  Charge,
-  LinkTo,
-  And,
-} from "../icons/condition"
-import {
-  CommandMoves,
-  SpecialMoves,
-  SuperSpecialMoves,
-  ClimaxSuperSpecialMoves,
-  NormalThrows,
-  MoveName,
-  InputBar,
-} from "../accordion/accordion"
+import { CloseBy, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And } from "../icons/condition"
+import { CommandMoves, SpecialMoves, SuperSpecialMoves, ClimaxSuperSpecialMoves, NormalThrows, MoveName, InputBar } from "../accordion/accordion"
 import Press from "../icons/press"
 import Or from "../icons/or"
 import Plus from "../icons/plus"

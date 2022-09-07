@@ -49,6 +49,10 @@ import Terry from "../components/fighters/terry"
 import Angel from "../components/fighters/angel"
 import Andy from "../components/fighters/andy"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
+import Billy from "../components/fighters/billy"
+import Chizuru from "../components/fighters/chizuru"
+import Krohnen from "../components/fighters/krohnen"
+import Meitenkun from "../components/fighters/meitenkun"
 
 
 // Application Screen || Define Exports
