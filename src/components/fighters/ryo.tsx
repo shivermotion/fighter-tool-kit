@@ -55,7 +55,7 @@ import upLeft from "../../assets/icons/upLeft.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Angel() {
+export default function Ryo() {
   return (
     <Accordion>
       <AccordionSummary
@@ -142,8 +142,8 @@ export default function Angel() {
         <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" ZANRETSUKEN [EX]
@@ -204,8 +204,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={punchHigh} />
       </InputBar>
@@ -216,8 +216,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
       </InputBar>

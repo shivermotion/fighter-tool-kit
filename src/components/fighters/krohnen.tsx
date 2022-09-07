@@ -55,7 +55,7 @@ import upLeft from "../../assets/icons/upLeft.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Angel() {
+export default function Krohnen() {
   return (
     <Accordion>
       <AccordionSummary
@@ -121,8 +121,8 @@ export default function Angel() {
         <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
 
       <SuperSpecialMoves />
@@ -147,8 +147,8 @@ export default function Angel() {
         <Press icon={hadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <ClimaxSuperSpecialMoves />
       <MoveName
@@ -160,8 +160,8 @@ export default function Angel() {
         <Press icon={halfCircleFoward} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <NormalThrows />
       <MoveName
@@ -171,8 +171,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={punchHigh} />
       </InputBar>
@@ -183,8 +183,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
       </InputBar>

@@ -55,7 +55,7 @@ import upLeft from "../../assets/icons/upLeft.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Angel() {
+export default function Robert() {
   return (
     <Accordion>
       <AccordionSummary
@@ -121,8 +121,8 @@ export default function Angel() {
         <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" HIEN RYUUJIN KYAKU
@@ -133,8 +133,8 @@ export default function Angel() {
         <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" GEN-EI KYAKU [EX]
@@ -146,8 +146,8 @@ export default function Angel() {
         <Press icon={right} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" RYUUREN·GEN-EI KYAKU [EX]
@@ -209,8 +209,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={punchHigh} />
       </InputBar>
@@ -221,8 +221,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
       </InputBar>

@@ -55,7 +55,7 @@ import upLeft from "../../assets/icons/upLeft.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Angel() {
+export default function Kyo() {
   return (
     <Accordion>
       <AccordionSummary
@@ -109,8 +109,8 @@ export default function Angel() {
         <Press icon={shory} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" R.E.D. KICK [EX]
@@ -121,8 +121,8 @@ export default function Angel() {
         <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" 75 SHIKI KAI [EX]
@@ -132,8 +132,8 @@ export default function Angel() {
         <Press icon={hadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" 75 SHIKI KAI (FOLLOW UP)
@@ -142,8 +142,8 @@ export default function Angel() {
       <InputBar>
         [
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
         75 SHIKI KAI]
         <Press icon={kickLow} />
         or
@@ -167,8 +167,8 @@ export default function Angel() {
         <Press icon={halfCircleBack} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 402 SHIKI・BATSUYOMI
@@ -179,8 +179,8 @@ export default function Angel() {
         <Press icon={right} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 100 SHIKI・ONIYAKI
@@ -191,8 +191,8 @@ export default function Angel() {
         <Press icon={shory} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 114 SHIKI・ARAGAMI
@@ -212,8 +212,8 @@ export default function Angel() {
         <Press icon={hadoken} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 125 SHIKI NANASE
@@ -222,8 +222,8 @@ export default function Angel() {
       <InputBar>
         [128 SHIKI・KONOKIZU]
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" 127 SHIKI・YANOSABI①
@@ -232,8 +232,8 @@ export default function Angel() {
       <InputBar>
         [128 SHIKI・KONOKIZU]
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 128 SHIKI・YANOSABI②
@@ -244,8 +244,8 @@ export default function Angel() {
         <Press icon={halfCircleBack} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 212 SHIKI・KOTOTSUKI YO
@@ -256,8 +256,8 @@ export default function Angel() {
         <Press icon={halfCircleBack} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" GE-SHIKI・MIGARI UGACHI
@@ -266,8 +266,8 @@ export default function Angel() {
       <InputBar>
         [128 SHIKI・YANOSABI②]
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 124 SHIKI・MUNOTSHUCHI
@@ -278,8 +278,8 @@ export default function Angel() {
         <Press icon={halfCircleBack} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" 427 SHIKI・HIKIGANE
@@ -288,8 +288,8 @@ export default function Angel() {
       <InputBar>
         [124 SHIKI・MUNOTSHUCHI]
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <MoveName
         move=" GE-SHIKI・TSURUBEOTOSHI
@@ -298,8 +298,8 @@ export default function Angel() {
       <InputBar>
         [124 SHIKI・MUNOTSHUCHI]
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
       </InputBar>
       <MoveName
         move=" 212 SHIKI・KOTOTSUKI YO [EX]
@@ -309,8 +309,8 @@ export default function Angel() {
         <Press icon={halfCircleBack} />
         <Plus />
         <Press icon={kickLow} />
-        <Or /> 
-<Press icon={kickHigh} />
+        <Or />
+        <Press icon={kickHigh} />
       </InputBar>
       <SuperSpecialMoves />
       <MoveName
@@ -322,8 +322,8 @@ export default function Angel() {
         <Press icon={halfCircleFoward} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
         [HOLD OK]
       </InputBar>
       <MoveName
@@ -335,8 +335,8 @@ export default function Angel() {
         <Press icon={hadoken} />
         <Plus />
         <Press icon={punchLow} />
-        <Or /> 
-<Press icon={punchHigh} />
+        <Or />
+        <Press icon={punchHigh} />
         [HOLD OK]
       </InputBar>
       <ClimaxSuperSpecialMoves />
@@ -359,8 +359,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={punchHigh} />
       </InputBar>
@@ -371,8 +371,8 @@ export default function Angel() {
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or /> 
-<Press icon={right} />
+        <Or />
+        <Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
       </InputBar>
