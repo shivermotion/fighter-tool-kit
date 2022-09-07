@@ -1,13 +1,37 @@
 import React from "react"
-import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider } from "@mui/material"
+import {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Typography,
+  Grid,
+  Divider,
+} from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-import { CloseBy, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And, AirOk } from "../icons/condition"
-import { CommandMoves, SpecialMoves, SuperSpecialMoves, ClimaxSuperSpecialMoves, NormalThrows, MoveName, InputBar } from "../accordion/accordion"
+import {
+  CloseBy,
+  InAir,
+  PressInOrder,
+  AfterMove,
+  InTimeWith,
+  Charge,
+  LinkTo,
+  And,
+} from "../icons/condition"
+import {
+  CommandMoves,
+  SpecialMoves,
+  SuperSpecialMoves,
+  ClimaxSuperSpecialMoves,
+  NormalThrows,
+  MoveName,
+  InputBar,
+} from "../accordion/accordion"
 import Press from "../icons/press"
 import Or from "../icons/or"
 import Plus from "../icons/plus"
@@ -31,34 +55,46 @@ import upLeft from "../../assets/icons/upLeft.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Bjenet() {
+export default function Meitenkun() {
   return (
     <Accordion>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
         id="panel1a-header"
-        sx={{ backgroundColor: "black", color: "whitesmoke", fontFamily: "montserrat" }}
+        sx={{
+          backgroundColor: "black",
+          color: "whitesmoke",
+          fontFamily: "montserrat",
+        }}
       >
-        <Typography>B. JENET</Typography>
+        <Typography>MEITENKUN</Typography>
       </AccordionSummary>
+
       <CommandMoves />
-      <MoveName move="ROLLING THUNDER" />
+      <MoveName
+        move=" NEZOU RANGEKI
+      "
+      />
       <InputBar>
-        <Press icon={downRight} />
+        <Press icon={right} />
         <Plus />
-        <Press icon={kickHigh} />
+        <Press icon={kickLow} />
+      </InputBar>
+      <MoveName
+        move=" CHINZANKOU
+      "
+      />
+      <InputBar>
+        <Press icon={left} />
+        <Plus />
+        <Press icon={punchLow} />
       </InputBar>
       <SpecialMoves />
-      <MoveName move="BAFFRASS [EX]" />
-      <InputBar>
-        <Press icon={hadoken} />
-        <Plus />
-        <Press icon={punchLow} />
-        <Or />
-        <Press icon={punchHigh} />
-      </InputBar>
-      <MoveName move="CRAZY IVAN [EX]" />
+      <MoveName
+        move=" MAKURA NAGE [EX]
+      "
+      />
       <InputBar>
         <Press icon={reverseHadoken} />
         <Plus />
@@ -66,43 +102,61 @@ export default function Bjenet() {
         <Or />
         <Press icon={punchHigh} />
       </InputBar>
-      <MoveName move="GULF TOMAHAWK [EX]" />
+      <MoveName
+        move=" SEN-SISS HOU [EX]
+      "
+      />
       <InputBar>
-        <Press icon={reverseHadoken} />
+        <Charge />
+        <Press icon={left} />
+        <Press icon={right} />
         <Plus />
-        <Press icon={kickLow} />
+        <Press icon={punchLow} />
         <Or />
-        <Press icon={kickHigh} />
+        <Press icon={punchHigh} />
       </InputBar>
-      <MoveName move="HARRIER BEE [EX]" />
+      <MoveName
+        move=" SEN-SISS HOU (FOLLOW UP)
+      "
+      />
+      <InputBar>
+        [SEN-SISS HOU]
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName
+        move=" GEKI HOU [EX]
+      "
+      />
+      <InputBar>
+        <Charge />
+        <Press icon={down} />
+        <Press icon={up} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName
+        move=" RESSEN KYAKU [EX]
+      "
+      />
       <InputBar>
         <InAir />
-        <Press icon={down} />
+        <Press icon={reverseHadoken} />
         <Plus />
         <Press icon={kickLow} />
         <Or />
         <Press icon={kickHigh} />
       </InputBar>
-      <MoveName move="THE HIND [EX]" />
-      <InputBar>
-        <Press icon={hadoken} />
-        <Plus />
-        <Press icon={kickLow} />
-        <Or />
-        <Press icon={kickHigh} />
-      </InputBar>
-      <MoveName move="BRAKE" />
-      <InputBar>
-        <AfterMove move="[" />
-        <Press icon={kickHigh} />
-        <AfterMove move=" THE HIND]" />
-        <Press icon={punchLow} />
-        <Press icon={kickLow} />
-      </InputBar>
+
       <SuperSpecialMoves />
-      <MoveName move="MANY MANY TORPEDOES [MAX]" />
+      <MoveName
+        move=" CHOU GEKI HOU [MAX]
+      "
+      />
       <InputBar>
-        <AirOk />
         <Press icon={hadoken} />
         <Press icon={hadoken} />
         <Plus />
@@ -110,7 +164,10 @@ export default function Bjenet() {
         <Or />
         <Press icon={punchHigh} />
       </InputBar>
-      <MoveName move="AURORA [MAX]" />
+      <MoveName
+        move=" HAKUCHUU MUSOU [MAX]
+      "
+      />
       <InputBar>
         <Press icon={hadoken} />
         <Press icon={hadoken} />
@@ -120,17 +177,22 @@ export default function Bjenet() {
         <Press icon={kickHigh} />
       </InputBar>
       <ClimaxSuperSpecialMoves />
-      <MoveName move="ENNUI MADEMOISELLE" />
+      <MoveName
+        move=" SEIKAKU MEITENGYOBU
+      "
+      />
       <InputBar>
         <Press icon={reverseHadoken} />
         <Press icon={halfCircleFoward} />
         <Plus />
         <Press icon={punchHigh} />
         <Press icon={kickHigh} />
-        <InTimeWith />
       </InputBar>
       <NormalThrows />
-      <MoveName move="BYE BYE BOO" />
+      <MoveName
+        move=" FEINT MAKURA
+      "
+      />
       <InputBar>
         <CloseBy />
         <Press icon={left} />
@@ -139,7 +201,10 @@ export default function Bjenet() {
         <Plus />
         <Press icon={punchHigh} />
       </InputBar>
-      <MoveName move="BROACH" />
+      <MoveName
+        move=" MAKURA BOMB
+      "
+      />
       <InputBar>
         <CloseBy />
         <Press icon={left} />
@@ -147,16 +212,6 @@ export default function Bjenet() {
         <Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
-      </InputBar>
-      <MoveName move="BROACH" />
-      <InputBar>
-        <CloseBy />
-        <InAir />
-        <Press icon={left} />
-        <Or />
-        <Press icon={right} />
-        <Plus />
-        <Press icon={punchHigh} />
       </InputBar>
     </Accordion>
   )
