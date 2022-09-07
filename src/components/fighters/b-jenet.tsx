@@ -150,7 +150,8 @@ export default function Bjenet() {
       </InputBar>
       <MoveName move="BROACH" />
       <InputBar>
-        <CloseBy /> <InAir />
+        <CloseBy    /> 
+<InAir />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

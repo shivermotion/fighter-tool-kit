@@ -68,52 +68,31 @@ export default function Angel() {
           fontFamily: "montserrat",
         }}
       >
-        <Typography>RALF JONES</Typography>
+        <Typography>MEITENKUN</Typography>
       </AccordionSummary>
 
       <CommandMoves />
       <MoveName
-        move=" JET UPPER
+        move=" NEZOU RANGEKI
       "
       />
       <InputBar>
-        <Press icon={downRight} />
+        <Press icon={right} />
+        <Plus />
+        <Press icon={kickLow} />
+      </InputBar>
+      <MoveName
+        move=" CHINZANKOU
+      "
+      />
+      <InputBar>
+        <Press icon={left} />
         <Plus />
         <Press icon={punchLow} />
       </InputBar>
-
       <SpecialMoves />
       <MoveName
-        move=" RALF KICK [EX]
-      "
-      />
-      <InputBar>
-        <Press icon={halfCircleBack} />
-        <Plus />
-        <Press icon={kickLow} />
-      </InputBar>
-      <MoveName
-        move=" RALF KICK (FEINT)
-      "
-      />
-      <InputBar>
-        <Press icon={halfCircleBack} />
-        <Plus />
-        <Press icon={kickHigh} />
-      </InputBar>
-      <MoveName
-        move=" RALF IMPACT [EX]
-      "
-      />
-      <InputBar>
-        <Press icon={hadoken} />
-        <Plus />
-        <Press icon={kickLow} />
-        <Or />
-        <Press icon={kickHigh} />
-      </InputBar>
-      <MoveName
-        move=" DYNAMITE RALF PUNCH [EX]
+        move=" MAKURA NAGE [EX]
       "
       />
       <InputBar>
@@ -124,42 +103,57 @@ export default function Angel() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" VULCAN PUNCH [EX]
+        move=" SEN-SISS HOU [EX]
       "
       />
       <InputBar>
-        [REPEATEDLY]
-        <Press icon={punchLow} />
-        <Or />
-        <Press icon={punchHigh} />
-      </InputBar>
-      <MoveName
-        move=" GATLING ATTACK [EX]
-      "
-      />
-      <InputBar>
-        <Press icon={hadoken} />
+        <Charge />
+        <Press icon={left} />
+        <Press icon={right} />
         <Plus />
         <Press icon={punchLow} />
         <Or />
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" DIVE BOMBER PUNCH [EX]
+        move=" SEN-SISS HOU (FOLLOW UP)
+      "
+      />
+      <InputBar>
+        [SEN-SISS HOU]
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName
+        move=" GEKI HOU [EX]
+      "
+      />
+      <InputBar>
+        <Charge />
+        <Press icon={down} />
+        <Press icon={up} />
+        <Plus />
+        <Press icon={punchLow} />
+        <Or />
+        <Press icon={punchHigh} />
+      </InputBar>
+      <MoveName
+        move=" RESSEN KYAKU [EX]
       "
       />
       <InputBar>
         <InAir />
-        <Press icon={hadoken} />
+        <Press icon={reverseHadoken} />
         <Plus />
-        <Press icon={punchLow} />
-        <Or />
-        <Press icon={punchHigh} />
+        <Press icon={kickLow} />
+        <Or /> 
+<Press icon={kickHigh} />
       </InputBar>
 
       <SuperSpecialMoves />
       <MoveName
-        move=" GALATICA PHANTOM [MAX]
+        move=" CHOU GEKI HOU [MAX]
       "
       />
       <InputBar>
@@ -171,20 +165,20 @@ export default function Angel() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" BAREBACK VULCAN PUNCH [MAX]
+        move=" HAKUCHUU MUSOU [MAX]
       "
       />
       <InputBar>
-        <Press icon={reverseHadoken} />
-        <Press icon={halfCircleFoward} />
+        <Press icon={hadoken} />
+        <Press icon={hadoken} />
         <Plus />
         <Press icon={kickLow} />
-        <Or />
-        <Press icon={kickHigh} />
+        <Or /> 
+<Press icon={kickHigh} />
       </InputBar>
       <ClimaxSuperSpecialMoves />
       <MoveName
-        move=" RALF SUPER PHALANX
+        move=" SEIKAKU MEITENGYOBU
       "
       />
       <InputBar>
@@ -192,31 +186,30 @@ export default function Angel() {
         <Press icon={halfCircleFoward} />
         <Plus />
         <Press icon={punchHigh} />
-        <Plus />
         <Press icon={kickHigh} />
       </InputBar>
       <NormalThrows />
       <MoveName
-        move=" DYNAMITE HEAD BUTTON
+        move=" FEINT MAKURA
       "
       />
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or />
-        <Press icon={right} />
+        <Or /> 
+<Press icon={right} />
         <Plus />
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" HEAD STRIKE
+        move=" MAKURA BOMB
       "
       />
       <InputBar>
         <CloseBy />
         <Press icon={left} />
-        <Or />
-        <Press icon={right} />
+        <Or /> 
+<Press icon={right} />
         <Plus />
         <Press icon={kickHigh} />
       </InputBar>
