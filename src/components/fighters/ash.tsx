@@ -27,7 +27,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-
+import ash from "../../assets/game-logos/kof/fighters_index_28.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

@@ -4,6 +4,7 @@ import React from "react"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
+import { Container } from "@mui/system"
 import Antonov from "../components/fighters/antonov"
 import Athena from "../components/fighters/athena"
 import Bjenet from "../components/fighters/b-jenet"
@@ -61,54 +62,56 @@ import Meitenkun from "../components/fighters/meitenkun"
 export default function FightersPage() {
   return (
     <ThemeWrapper>
-      <Andy />
-      <Angel />
-      <Antonov />
-      <Ash />
-      <Athena />
-      <Bjenet />
-      <Benimaru />
-      <Billy />
-      <BlueMary />
-      <Chizuru />
-      <Chris />
-      <Clark />
-      <Dolores />
-      <Elisabeth />
-      <Gato />
-      <Geese />
-      <Heidern />
-      <Iori />
-      <Isla />
-      <Joe />
-      <K />
-      <KoD />
-      <King />
-      <Krohnen />
-      <Kukri />
-      <Kula />
-      <Kyo />
-      <Leona />
-      <Luong />
-      <Mai />
-      <Maxima />
-      <Meitenkun />
-      <OroChris />
-      <OroShermie />
-      <OroYashiro />
-      <Ralf />
-      <Ramon />
-      <Robert />
-      <Rock />
-      <Ryo />
-      <Ryuji />
-      <Shermie />
-      <Shunei />
-      <Terry />
-      <Vanessa />
-      <Whip />
-      <Yashiro />
-      <Yuri />
+      <Container>
+        <Andy />
+        <Angel />
+        <Antonov />
+        <Ash />
+        <Athena />
+        <Bjenet />
+        <Benimaru />
+        <Billy />
+        <BlueMary />
+        <Chizuru />
+        <Chris />
+        <Clark />
+        <Dolores />
+        <Elisabeth />
+        <Gato />
+        <Geese />
+        <Heidern />
+        <Iori />
+        <Isla />
+        <Joe />
+        <K />
+        <KoD />
+        <King />
+        <Krohnen />
+        <Kukri />
+        <Kula />
+        <Kyo />
+        <Leona />
+        <Luong />
+        <Mai />
+        <Maxima />
+        <Meitenkun />
+        <OroChris />
+        <OroShermie />
+        <OroYashiro />
+        <Ralf />
+        <Ramon />
+        <Robert />
+        <Rock />
+        <Ryo />
+        <Ryuji />
+        <Shermie />
+        <Shunei />
+        <Terry />
+        <Vanessa />
+        <Whip />
+        <Yashiro />
+        <Yuri />
+      </Container>
     </ThemeWrapper>
   )
 }

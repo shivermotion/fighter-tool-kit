@@ -1,7 +1,6 @@
 import React from "react"
-import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider } from "@mui/material"
+import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
-
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -27,7 +26,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-import andy
+import andy from "../../assets/game-logos/kof/fighters_index_08.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
