@@ -51,7 +51,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-
+import luong from "../../assets/game-logos/kof/fighters_index_22.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -70,7 +70,7 @@ export default function Luong() {
       >
         <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <Grid item xs={2}>
-            <img src={ash} alt={ash} width="110px" height="150px" />
+            <img src={luong} alt={luong} width="110px" height="150px" />
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>

@@ -27,7 +27,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-
+import bluemary from "../../assets/game-logos/kof/fighters_index_21.png"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -43,7 +43,7 @@ export default function BlueMary() {
       >
         <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <Grid item xs={2}>
-            <img src={ash} alt={ash} width="110px" height="150px" />
+            <img src={bluemary} alt={bluemary} width="110px" height="150px" />
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>

@@ -27,7 +27,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-
+import kula from "../../assets/game-logos/kof/fighters_index_38.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -42,11 +42,11 @@ export default function Kula() {
       >
         <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <Grid item xs={2}>
-            <img src={ash} alt={ash} width="110px" height="150px" />
+            <img src={kula} alt={kula} width="110px" height="150px" />
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
-            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>ANGEL</Typography>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>KULA</Typography>
           </Grid>
         </Grid>
       </AccordionSummary>
