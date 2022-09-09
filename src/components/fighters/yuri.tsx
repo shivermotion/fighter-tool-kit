@@ -68,7 +68,16 @@ export default function Yuri() {
           fontFamily: "montserrat",
         }}
       >
-        <Typography>YURI SAKAZAKI</Typography>
+        <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <Grid item xs={2}>
+            <img src={ash} alt={ash} width="110px" height="150px" />
+          </Grid>
+
+          <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>
+        YURI SAKAZAKI</Typography>
+          </Grid>
+        </Grid>
       </AccordionSummary>
 
       <CommandMoves />

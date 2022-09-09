@@ -41,7 +41,15 @@ export default function BlueMary() {
         id="panel1a-header"
         sx={{ backgroundColor: "black", color: "whitesmoke", fontFamily: "montserrat" }}
       >
-        <Typography>BLUE MARY</Typography>
+        <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <Grid item xs={2}>
+            <img src={ash} alt={ash} width="110px" height="150px" />
+          </Grid>
+
+          <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>BLUE MARY</Typography>
+          </Grid>
+        </Grid>
       </AccordionSummary>
       <CommandMoves />
       <AfterMove move=" HAMMER ARCH" />

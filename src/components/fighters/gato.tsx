@@ -40,7 +40,15 @@ export default function Gato() {
         id="panel1a-header"
         sx={{ backgroundColor: "black", color: "whitesmoke", fontFamily: "montserrat" }}
       >
-        <Typography>GATO</Typography>
+        <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <Grid item xs={2}>
+            <img src={ash} alt={ash} width="110px" height="150px" />
+          </Grid>
+
+          <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>GATO</Typography>
+          </Grid>
+        </Grid>
       </AccordionSummary>
       <CommandMoves />
       <MoveName move="MIDDLE SPIN" />
