@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/Fighter-Tool-Kit/static/css/main.3122f420.css",
-    "main.js": "/Fighter-Tool-Kit/static/js/main.2cb57510.js",
+    "main.js": "/Fighter-Tool-Kit/static/js/main.ad9a9ede.js",
+    "static/media/fighters_index_23.png": "/Fighter-Tool-Kit/static/media/fighters_index_23.93244a550cf0c708ba65.png",
+    "static/media/fighters_index_27.png": "/Fighter-Tool-Kit/static/media/fighters_index_27.34d3994cdfcd28c469fc.png",
+    "static/media/fighters_index_28.png": "/Fighter-Tool-Kit/static/media/fighters_index_28.66c9011d1568ed1dd341.png",
+    "static/media/fighters_index_08.png": "/Fighter-Tool-Kit/static/media/fighters_index_08.e79053724318f6b5d923.png",
+    "static/media/fighters_index_36.png": "/Fighter-Tool-Kit/static/media/fighters_index_36.bcf7ea22a053f7714050.png",
     "index.html": "/Fighter-Tool-Kit/index.html",
     "main.3122f420.css.map": "/Fighter-Tool-Kit/static/css/main.3122f420.css.map",
-    "main.2cb57510.js.map": "/Fighter-Tool-Kit/static/js/main.2cb57510.js.map"
+    "main.ad9a9ede.js.map": "/Fighter-Tool-Kit/static/js/main.ad9a9ede.js.map"
   },
   "entrypoints": [
     "static/css/main.3122f420.css",
-    "static/js/main.2cb57510.js"
+    "static/js/main.ad9a9ede.js"
   ]
 }
