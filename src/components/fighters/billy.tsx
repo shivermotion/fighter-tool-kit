@@ -27,7 +27,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-
+import billy from "../../assets/game-logos/kof/fighters_index_45.png"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -41,7 +41,15 @@ export default function Billy() {
         id="panel1a-header"
         sx={{ backgroundColor: "black", color: "whitesmoke", fontFamily: "montserrat" }}
       >
-        <Typography>BILLY KANE</Typography>
+        <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <Grid item xs={2}>
+            <img src={billy} alt={billy} width="110px" height="150px" />
+          </Grid>
+
+          <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>BILLY KANE</Typography>
+          </Grid>
+        </Grid>
       </AccordionSummary>
       <CommandMoves />
       <MoveName move="DAI KAITEN-GERI" />

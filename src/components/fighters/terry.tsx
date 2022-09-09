@@ -51,7 +51,7 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-
+import terry from "../../assets/game-logos/kof/fighters_index_10.png"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -68,7 +68,16 @@ export default function Terry() {
           fontFamily: "montserrat",
         }}
       >
-        <Typography>TERRY BOGARD</Typography>
+        <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <Grid item xs={2}>
+            <img src={terry} alt={terry} width="110px" height="150px" />
+          </Grid>
+
+          <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>
+        TERRY BOGARD</Typography>
+          </Grid>
+        </Grid>
       </AccordionSummary>
 
       <CommandMoves />
