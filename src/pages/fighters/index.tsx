@@ -1,28 +1,33 @@
+import { Container } from "@mui/material"
 import React from "react"
+import Footer from "../../components/footer/footer"
+import Header from "../../components/header/header"
+import { NavBar } from "../../components/navbar/navbar"
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Header from "./components/header/header"
-import { NavBar } from "./components/navbar/navbar"
-import Footer from "./components/footer/footer"
-import FightersPage from "./pages/fighters"
-import { ThemeWrapper } from "./globals/global-wrapper/wrapper"
+
+
+import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
+
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-const App = () => (
-  <>
+export default function FightersPage() {
+  return (
     <ThemeWrapper>
-      <NavBar>
-        <Header logo={null} title="FIGHTERS" link="" />
-      </NavBar>
-      <FightersPage />
-      <Footer />
+
+      <>
+        <ThemeWrapper>
+          <NavBar>
+            <Header logo={null} title="FIGHTERS" link="" />
+          </NavBar>
+          <Container>test</Container>
+          <Footer />
+        </ThemeWrapper>
+      </>
     </ThemeWrapper>
-  </>
-)
-
-export default App
-
+  )
+}

@@ -1,18 +1,26 @@
 import React from "react"
-import ReactDOM from "react-dom/client"
-
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import App from "./pages/App"
-
+import Header from "../components/header/header"
+import { NavBar } from "../components/navbar/navbar"
+import Footer from "../components/footer/footer"
+import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-const root = ReactDOM.createRoot(document.getElementById("root")!)
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+const Home = () => (
+  <>
+    <ThemeWrapper>
+      <NavBar>
+        <Header logo={null} title="FIGHTER TOOL KIT" link="" />
+      </NavBar>
+        home
+      <Footer />
+    </ThemeWrapper>
+  </>
 )
+
+export default Home
+
