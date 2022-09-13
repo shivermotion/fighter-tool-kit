@@ -1,24 +1,25 @@
 import React from "react"
-import { Route, Switch } from "wouter"
-import FightersPage from "./fighters"
-import Kof15 from "./fighters/kof15"
-import Sf5 from "./fighters/sf5"
-import Home from "./home"
+import { Container } from "@mui/system"
+
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
+import Ryu from "../../components/fighters/sf5/ryu"
 
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-const App = () => (
-  <Switch>
-    <Route path="/Fighter-Tool-Kit" component={Home} />
-    <Route path="/fighters" component={FightersPage} />
-    <Route path="/fighters/sf5" component={Sf5} />
-  </Switch>
-)
-
-export default App
-
+export default function Sf5() {
+  return (
+    <ThemeWrapper>
+      <Container>
+        <Ryu />
+        <Ryu />
+        <Ryu />
+      </Container>
+    </ThemeWrapper>
+  )
+}

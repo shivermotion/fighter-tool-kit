@@ -6,33 +6,13 @@ export const itemData = [
   {
     img: kof15,
     title: "KoF15",
+    url: "/fighters/kof15",
+
   },
   {
     img: sf5,
     title: "SFV",
+    url: "/fighters/sf5",
   },
-  {
-    img: kof15,
-    title: "KoF15",
-  },
-  {
-    img: sf5,
-    title: "SFV",
-  },
-  {
-    img: kof15,
-    title: "KoF15",
-  },
-  {
-    img: sf5,
-    title: "SFV",
-  },
-  {
-    img: kof15,
-    title: "KoF15",
-  },
-  {
-    img: sf5,
-    title: "SFV",
-  },
+
 ]

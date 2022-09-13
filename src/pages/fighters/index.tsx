@@ -9,7 +9,7 @@ import Footer from "../../components/footer/footer"
 import Header from "../../components/header/header"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
-import GameImageList from "../../components/imagelist/image-list"
+import GameImageList from "../../components/game-list/game-list"
 
 
 // Application Screen || Define Exports
