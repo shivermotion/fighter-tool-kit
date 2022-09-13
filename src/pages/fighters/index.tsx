@@ -1,15 +1,15 @@
-import { Container } from "@mui/material"
 import React from "react"
-import Footer from "../../components/footer/footer"
-import Header from "../../components/header/header"
-import { NavBar } from "../../components/navbar/navbar"
+import { Container, Grid } from "@mui/material"
+
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-
+import Footer from "../../components/footer/footer"
+import Header from "../../components/header/header"
+import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
+import GameImageList from "../../components/imagelist/image-list"
 
 
 // Application Screen || Define Exports
@@ -18,16 +18,19 @@ import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
 export default function FightersPage() {
   return (
     <ThemeWrapper>
-
-      <>
-        <ThemeWrapper>
-          <NavBar>
-            <Header logo={null} title="FIGHTERS" link="" />
-          </NavBar>
-          <Container>test</Container>
-          <Footer />
-        </ThemeWrapper>
-      </>
+      <NavBar>
+        <Header logo={null} title="FIGHTERS" link="" />
+      </NavBar>
+      <Container>
+        <Grid container>
+          <Grid item xs={12} sx={{ border: "solid red 1px", display: "flex", justifyContent: "center" }}>
+            <GameImageList />
+          </Grid>
+        </Grid>
+      </Container>
+      <Footer />
     </ThemeWrapper>
   )
 }
+
+
