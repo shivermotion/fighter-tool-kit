@@ -1,5 +1,8 @@
 import React from "react"
 import { Container } from "@mui/system"
+import Header from "../../components/header/header"
+import { NavBar } from "../../components/navbar/navbar"
+import Footer from "../../components/footer/footer"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
 import Antonov from "../../components/fighters/kof15/antonov"
 import Athena from "../../components/fighters/kof15/athena"
@@ -58,6 +61,9 @@ import Meitenkun from "../../components/fighters/kof15/meitenkun"
 export default function Kof15() {
   return (
     <ThemeWrapper>
+      <NavBar>
+        <Header logo={null} title="KING OF FIGHTERS XV" link="" />
+      </NavBar>
       <Container>
         <Andy />
         <Angel />
@@ -108,6 +114,7 @@ export default function Kof15() {
         <Yashiro />
         <Yuri />
       </Container>
+      <Footer />
     </ThemeWrapper>
   )
 }
