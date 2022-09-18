@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -174,7 +174,7 @@ export default function Dolores() {
       <NormalThrows />
       <MoveName move=" SALABA " />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -183,7 +183,7 @@ export default function Dolores() {
       </InputBar>
       <MoveName move=" MARAN " />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

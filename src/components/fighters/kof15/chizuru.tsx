@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -181,7 +181,7 @@ export default function Chizuru() {
       <NormalThrows />
       <AfterMove move=" REI GETSU" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -190,7 +190,7 @@ export default function Chizuru() {
       </InputBar>
       <AfterMove move=" KAI TEN" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

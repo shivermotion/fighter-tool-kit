@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -120,7 +120,7 @@ export default function Athena() {
       </InputBar>
       <MoveName move="SUPER PSYCHIC THROW [EX]" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleBack} />
         <Press icon={right} />
         <Plus />
@@ -185,7 +185,7 @@ export default function Athena() {
       <NormalThrows />
       <MoveName move=" PSYCHIC ATTACK" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -194,7 +194,7 @@ export default function Athena() {
       </InputBar>
       <MoveName move="PSYCHIC THROW" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -203,7 +203,7 @@ export default function Athena() {
       </InputBar>
       <MoveName move="PSYCHIC SHOOT" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <InAir />
         <Press icon={left} />
         <Or />

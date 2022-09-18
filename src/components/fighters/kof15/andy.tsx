@@ -5,7 +5,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-import { CloseBy, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And, AirOk } from "../../icons/condition"
+import { NearOpponent, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And, AirOk } from "../../icons/condition"
 
 import {
   CommandMoves,
@@ -77,7 +77,7 @@ export default function Andy() {
       <MoveName move="TARGET COMBO 1" />
       <InputBar>
         <PressInOrder />
-        <CloseBy />
+        <NearOpponent />
         <Press icon={kickLow} />
         <LinkTo />
         <Press icon={kickHigh} />
@@ -155,7 +155,7 @@ export default function Andy() {
       <NormalThrows />
       <MoveName move="KAKAEKOMI NAGE (FORWARD)" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -164,7 +164,7 @@ export default function Andy() {
       </InputBar>
       <MoveName move="KAKAEKOMI NAGE (BACKWARD)" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

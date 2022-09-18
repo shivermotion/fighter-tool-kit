@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -203,7 +203,7 @@ export default function Ash() {
       <NormalThrows />
       <MoveName move="RECOMPENSES" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -212,7 +212,7 @@ export default function Ash() {
       </InputBar>
       <MoveName move="VERTUS" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

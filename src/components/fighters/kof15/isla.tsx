@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -313,7 +313,7 @@ export default function Isla() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -325,7 +325,7 @@ export default function Isla() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -159,7 +159,7 @@ export default function Bjenet() {
       <NormalThrows />
       <MoveName move="BYE BYE BOO" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -168,7 +168,7 @@ export default function Bjenet() {
       </InputBar>
       <MoveName move="BROACH" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -177,7 +177,7 @@ export default function Bjenet() {
       </InputBar>
       <MoveName move="BROACH" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <InAir />
         <Press icon={left} />
         <Or />

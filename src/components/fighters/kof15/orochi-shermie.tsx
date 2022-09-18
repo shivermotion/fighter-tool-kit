@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -94,7 +94,7 @@ export default function OroShermie() {
       </InputBar>
       <MoveName move="MAD MURDER [EX]" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleForward} />
         <Plus />
         <Press icon={punchLow} />
@@ -260,7 +260,7 @@ export default function OroShermie() {
       </InputBar>
       <MoveName move="FINISH GRAPPLE KICK" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <AfterMove move="[UNCHAIN CIRCLE]" />
         <Or />
         <AfterMove move="[SPECIAL CIRCLE]" />
@@ -300,7 +300,7 @@ export default function OroShermie() {
       <NormalThrows />
       <MoveName move="TEKITOU RUSH" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

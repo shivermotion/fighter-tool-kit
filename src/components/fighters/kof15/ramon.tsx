@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -138,7 +138,7 @@ export default function Ramon() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleForward} />
         <Plus />
         <Press icon={punchLow} />
@@ -325,7 +325,7 @@ export default function Ramon() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleBack} />
         <Press icon={halfCircleBack} />
         <Plus />
@@ -363,7 +363,7 @@ export default function Ramon() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -375,7 +375,7 @@ export default function Ramon() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

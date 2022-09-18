@@ -88,5 +88,100 @@ export function InputBar(props: { children: string | number | boolean | React.Re
     </AccordionDetails>
   )
 }
-
+export function Vtrigger1() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        V-TRIGGER I
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function Vtrigger2() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        V-TRIGGER II
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function VskillⅠ() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        V-SKILL Ⅰ
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function VskillIⅠ() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        V-SKILL ⅠI
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function Vreversal() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        V-REVERSAL
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function Vshift() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        V-SHIFT
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function UniqueAttacks() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        UNIQUE ATTACKS
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
+export function CriticalArts() {
+  return (
+    <AccordionDetails>
+      <Grid container sx={{ justifyContent: "center" }}>
+        <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
+        CRITICAL ART
+        </Typography>
+      </Grid>
+      <Divider />
+    </AccordionDetails>
+  )
+}
 

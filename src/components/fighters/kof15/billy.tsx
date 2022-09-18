@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -105,9 +105,9 @@ export default function Billy() {
       <InputBar><Press icon={reverseHadoken} /><Plus /><Press icon={punchHigh} /><Press icon={kickHigh} /></InputBar>
       <NormalThrows />
       <MoveName move="JIGOKU OTOSHI" />
-      <InputBar><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
+      <InputBar><NearOpponent /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
       <MoveName move="IPPON TSURI NAGE" />
-      <InputBar><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={kickHigh} /></InputBar>
+      <InputBar><NearOpponent /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={kickHigh} /></InputBar>
     </Accordion>
   )
 }

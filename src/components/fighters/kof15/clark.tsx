@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -158,7 +158,7 @@ export default function Clark() {
         move=" SUPER ARGENTINE BACKBREAKER [EX] "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleForward} />
         <Plus />
         <Press icon={kickLow} />
@@ -201,7 +201,7 @@ export default function Clark() {
         move=" FRANKENSTEINER [EX] "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={shory} />
         <Plus />
         <Press icon={kickLow} />
@@ -213,7 +213,7 @@ export default function Clark() {
         move=" ULTRA ARGENTINE BACKBREAKER [MAX] "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleBack} />
         <Press icon={halfCircleBack} />
         <Plus />
@@ -249,7 +249,7 @@ export default function Clark() {
         move=" NAGEPPANASHI GERMAN "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -260,7 +260,7 @@ export default function Clark() {
         move=" FISHERMAN BUSTER "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

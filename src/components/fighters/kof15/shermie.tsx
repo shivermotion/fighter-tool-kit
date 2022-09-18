@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -98,7 +98,7 @@ export default function Shermie() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleForward} />
         <Plus />
         <Press icon={punchLow} />
@@ -191,7 +191,7 @@ export default function Shermie() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleForward} />
         <Press icon={halfCircleForward} />
         <Plus />
@@ -217,7 +217,7 @@ export default function Shermie() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -229,7 +229,7 @@ export default function Shermie() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -78,7 +78,7 @@ export default function Antonov() {
       <MoveName move="TARGET COMBO 1" />
       <InputBar>
         <PressInOrder />
-        <CloseBy />
+        <NearOpponent />
         <Press icon={kickHigh} />
         <LinkTo />
         <Press icon={punchHigh} />
@@ -86,7 +86,7 @@ export default function Antonov() {
       <MoveName move="TARGET COMBO 2" />
       <InputBar>
         <PressInOrder />
-        <CloseBy />
+        <NearOpponent />
         <Press icon={kickHigh} />
         <LinkTo />
         <Press icon={kickHigh} />
@@ -160,7 +160,7 @@ export default function Antonov() {
       <NormalThrows />
       <MoveName move="PRESIDENT LIFT" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -169,7 +169,7 @@ export default function Antonov() {
       </InputBar>
       <MoveName move="PRESIDENT TOSS" />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

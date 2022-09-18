@@ -27,11 +27,11 @@ import kickHigh from "../../assets/icons/kickHigh.png"
 import kickLow from "../../assets/icons/kickLow.png"
 import upRight from "../../assets/icons/upRight.png"
 import upLeft from "../../assets/icons/upLeft.png"
-import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
+import pic from "../../../assets/game-logos/sf5/portrait-abigail-stats-min.jpg"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Ryu() {
+export default function Abigail() {
   return (
     <Accordion>
       <AccordionSummary
@@ -46,7 +46,7 @@ export default function Ryu() {
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
-            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>RYU</Typography>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>ABIGAIL</Typography>
           </Grid>
         </Grid>
       </AccordionSummary>

@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -203,7 +203,7 @@ export default function KoD() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={reverseHadoken} />
         <Press icon={halfCircleForward} />
         <Plus />
@@ -216,7 +216,7 @@ export default function KoD() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -228,7 +228,7 @@ export default function KoD() {
       "
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />

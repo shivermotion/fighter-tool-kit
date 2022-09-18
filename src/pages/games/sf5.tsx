@@ -4,10 +4,12 @@ import { Container } from "@mui/system"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import Footer from "../../components/footer/footer"
-import Header from "../../components/header/header"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
+import Header from "../../components/header/header"
+import Footer from "../../components/footer/footer"
+import Abigail from "../../components/fighters/sf5/abigail"
+import Akuma from "../../components/fighters/sf5/akuma"
 import Ryu from "../../components/fighters/sf5/ryu"
 
 
@@ -22,8 +24,8 @@ export default function Sf5() {
       </NavBar>
       <Container>
         <Ryu />
-        <Ryu />
-        <Ryu />
+        <Abigail />
+        <Akuma />
       </Container>
       <Footer />
     </ThemeWrapper>

@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -80,7 +80,7 @@ export default function Benimaru() {
       <MoveName move=" AIR RAIJINKEN [EX]" />
       <InputBar><InAir /><Press icon={hadoken} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" BENIMARU COLLIDER [EX]" />
-      <InputBar><CloseBy /><Press icon={halfCircleBack} /><Press icon={right} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
+      <InputBar><NearOpponent /><Press icon={halfCircleBack} /><Press icon={right} /><Plus /><Press icon={punchLow} /><Or /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" IAI-GERI [EX]" />
       <InputBar><Press icon={hadoken} /><Plus /><Press icon={kickLow} /><Or /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" INAZUMA SANDAN-GERI" />
@@ -101,11 +101,11 @@ export default function Benimaru() {
       <InputBar><Press icon={reverseHadoken} /><Press icon={halfCircleForward} /><Plus /><Press icon={punchHigh} /><Press icon={kickHigh} /></InputBar>
       <NormalThrows />
       <MoveName move=" CATCH AND SHOOT" />
-      <InputBar><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
+      <InputBar><NearOpponent /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
       <MoveName move=" FRONT SUPLEX" />
-      <InputBar><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={kickHigh} /></InputBar>
+      <InputBar><NearOpponent /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={kickHigh} /></InputBar>
       <MoveName move=" SPINNING KNEE DROP " />
-      <InputBar><InAir /><CloseBy /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
+      <InputBar><InAir /><NearOpponent /><Press icon={left} /><Or /><Press icon={right} /><Plus /><Press icon={punchHigh} /></InputBar>
     </Accordion>
   )
 }

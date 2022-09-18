@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 
 import {
-  CloseBy,
+  NearOpponent,
   InAir,
   PressInOrder,
   AfterMove,
@@ -120,7 +120,7 @@ export default function Heidern() {
         move="STORM BRINGER [EX]"
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={halfCircleBack} />
         <Plus />
         <Press icon={punchLow} />
@@ -192,7 +192,7 @@ export default function Heidern() {
         move="LEAD BELCHER"
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
@@ -203,7 +203,7 @@ export default function Heidern() {
         move="BACKSTABBING"
       />
       <InputBar>
-        <CloseBy />
+        <NearOpponent />
         <Press icon={left} />
         <Or />
         <Press icon={right} />
