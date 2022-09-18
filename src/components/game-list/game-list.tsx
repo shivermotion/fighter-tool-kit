@@ -4,7 +4,8 @@ import ImageListItem from "@mui/material/ImageListItem"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import { Link } from "wouter"
+
+import { Link } from "react-router-dom"
 import { itemData } from "./game-list-data"
 
 // Application Screen || Define Exports
@@ -15,7 +16,7 @@ export default function GameImageList() {
     <ImageList sx={{ width: "100%", height: "100%" }} cols={3} rowHeight={300}>
       {itemData.map((item: any) => (
         <ImageListItem key={item.img}>
-          <Link href={item.url}>
+          <Link to={item.url}>
             <img
               style={{ width: "100%", height: "100%" }}
               src={item.img}

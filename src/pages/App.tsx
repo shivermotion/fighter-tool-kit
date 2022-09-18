@@ -1,8 +1,8 @@
 import React from "react"
-import { Route, Switch } from "wouter"
-import FightersPage from "./fighters"
-import Kof15 from "./fighters/kof15"
-import Sf5 from "./fighters/sf5"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import FightersPage from "../pages/games/index"
+import Kof15 from "../pages/games/kof15"
+import Sf5 from "../pages/games/sf5"
 import Home from "./home"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -13,11 +13,19 @@ import Home from "./home"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const App = () => (
-  <Switch>
-    <Route path="/Fighter-Tool-Kit" component={Home} />
-    <Route path="/fighters" component={FightersPage} />
-    <Route path="/fighters/sf5" component={Sf5} />
-  </Switch>
+
+
+  <>
+    <Routes>
+      <Route index={false} path="/Fighter-Tool-Kit" element={<Home />} />
+      <Route path="/games" element={<FightersPage />} />
+      <Route path="/games/kof15" element={<Kof15 />} />
+      <Route path="/games/sf5" element={<Sf5 />} />
+      <Route>404, Not Found!</Route>
+    </Routes>
+  </>
+
+
 )
 
 export default App

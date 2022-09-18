@@ -2,12 +2,12 @@ import React from "react"
 import "./navbar.scss"
 import { AppBar, Box, Toolbar, Drawer, IconButton, Typography, Divider, List, ListItem, Grid } from "@mui/material"
 import { Menu } from "@mui/icons-material"
-
+import { Link } from "react-router-dom"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-import { Link } from "wouter"
+
 import logo from "../../assets/logo/logo.png"
 
 // Application Screen || Define Exports
@@ -77,23 +77,26 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
               <Box sx={{ display: { xs: "none", sm: "block" }, color: "black" }}>
                 <List sx={{ display: "flex" }}>
                   <ListItem>
-                    <Link href="/Fighter-Tool-Kit">
+                    <Link to="/">
+
                       <Typography variant="subtitle1" className="link">
                           Home
                       </Typography>
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link href="/fighters">
+                    <Link to="/games">
                       <Typography variant="subtitle1" className="link">
                         Fighters
                       </Typography>
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Typography variant="subtitle1" className="link">
+                    <Link to="/">
+                      <Typography variant="subtitle1" className="link">
                         Contact
-                    </Typography>
+                      </Typography>
+                    </Link>
                   </ListItem>
                 </List>
               </Box>
