@@ -5,13 +5,13 @@ import sf5 from "../../assets/game-logos/sf5/sfvce-logo-min.png"
 export const itemData = [
   {
     img: kof15,
-    title: "KoF15",
+    title: "KING OF FIGHTERS XV",
     url: "/games/kof15",
 
   },
   {
     img: sf5,
-    title: "SFV",
+    title: "STREET FIGHTER V: CHAMPION EDITION",
     url: "/games/sf5",
   },
 

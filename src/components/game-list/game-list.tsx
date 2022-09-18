@@ -6,6 +6,7 @@ import ImageListItem from "@mui/material/ImageListItem"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 import { Link } from "react-router-dom"
+import { Typography } from "@mui/material"
 import { itemData } from "./game-list-data"
 
 // Application Screen || Define Exports
@@ -13,10 +14,10 @@ import { itemData } from "./game-list-data"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function GameImageList() {
   return (
-    <ImageList sx={{ width: "100%", height: "100%" }} cols={3} rowHeight={300}>
+    <ImageList cols={3} rowHeight={300}>
       {itemData.map((item: any) => (
-        <ImageListItem key={item.img}>
-          <Link to={item.url}>
+        <Link key={item.img} to={item.url}>
+          <ImageListItem style={{ width: "100%", height: "100%" }}>
             <img
               style={{ width: "100%", height: "100%" }}
               src={item.img}
@@ -24,8 +25,9 @@ export default function GameImageList() {
               alt={item.title}
               loading="lazy"
             />
-          </Link>
-        </ImageListItem>
+            <Typography variant="h3" fontFamily="montserrat" style={{ display: "flex", justifyContent: "center" }}>{item.title}</Typography>
+          </ImageListItem>
+        </Link>
       ))}
     </ImageList>
   )

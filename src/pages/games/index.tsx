@@ -23,7 +23,7 @@ export default function FightersPage() {
       </NavBar>
       <Container>
         <Grid container>
-          <Grid item xs={12} sx={{ border: "solid red 1px", display: "flex", justifyContent: "center" }}>
+          <Grid item xs={12}>
             <GameImageList />
           </Grid>
         </Grid>
