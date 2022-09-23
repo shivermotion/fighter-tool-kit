@@ -10,8 +10,8 @@ import { Typography } from "@mui/material"
 export function AfterMove(props : {move : string}) {
   return (<Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>{props.move}</Typography>)
 }
-export function CloseBy() {
-  return (<Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>[CLOSE BY]</Typography>)
+export function NearOpponent() {
+  return (<Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>[NEAR OPPONENT]</Typography>)
 }
 export function PressInOrder() {
   return (<Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>[PRESS IN ORDER]</Typography>)
