@@ -77,10 +77,17 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
               <Box sx={{ display: { xs: "none", sm: "block" }, color: "black" }}>
                 <List sx={{ display: "flex" }}>
                   <ListItem>
-                    <Link to="/">
+                    <Link to="/Fighter-Tool-Kit">
 
                       <Typography variant="subtitle1" className="link">
                           Home
+                      </Typography>
+                    </Link>
+                  </ListItem>
+                  <ListItem>
+                    <Link to="/blogs">
+                      <Typography variant="subtitle1" className="link">
+                        News
                       </Typography>
                     </Link>
                   </ListItem>
@@ -92,7 +99,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="/">
+                    <Link to="/contact">
                       <Typography variant="subtitle1" className="link">
                         Contact
                       </Typography>
