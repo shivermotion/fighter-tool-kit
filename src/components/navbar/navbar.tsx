@@ -48,7 +48,6 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
 
   return (
     <Box>
-
       <AppBar component="nav" className="nav">
         <Toolbar>
           <IconButton
@@ -68,8 +67,8 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
           >
             <Grid item>
               <Box>
-                <a href="/">
-                  <img alt="ftk logo" className="nexrage-logo hidden-mobile hidden-tablet" src={logo} />
+                <a href="/Fighter-Tool-Kit">
+                  <img alt="ftk logo" className="ftk-logo hidden-mobile hidden-tablet" style={{ maxWidth: "50%" }} src={logo} />
                 </a>
               </Box>
             </Grid>
