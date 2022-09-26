@@ -4,26 +4,31 @@ import CardContent from "@mui/material/CardContent"
 import CardMedia from "@mui/material/CardMedia"
 import Typography from "@mui/material/Typography"
 import { Button, CardActionArea, CardActions } from "@mui/material"
+// Application Screen || Define Imports
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import ken from "../../assets/blog-assets/ken-blog.jpg"
 
-export default function MultiCard() {
+// Application Screen || Define Exports
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+export default function MultiCard(props:{image:string, title:string, description:string}) {
   return (
-    <Card style={{ backgroundColor: "whitesmoke", boxShadow: "none" }}>
+    <Card style={{ backgroundColor: "whitesmoke", boxShadow: "none", padding: "1rem" }}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          image={ken}
+          image={props.image}
           alt="green iguana"
           style={{ borderRadius: "22px" }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            {props.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {props.description}
           </Typography>
         </CardContent>
       </CardActionArea>
