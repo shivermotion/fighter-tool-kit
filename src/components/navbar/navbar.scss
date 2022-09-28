@@ -4,9 +4,9 @@
   top: 0;
   left: 0;
   z-index: 5;
-  box-shadow: lightgray 0px 1px 1px 1px !important;
+  box-shadow: whitesmoke 0px 2.5px 2.5px 2.5px !important;
   background-color: $light-grey  !important;
-  padding: 20px 3%;
+  padding: 0px 3%;
   @media(max-width: 900px) {
     padding: 0;
   }
@@ -29,7 +29,7 @@
   }
 }
 
-.nexrage-logo {
+.ftk-logo {
   width: 3vw;
   @media(max-width: 1200px) {
     width: 5vw;
