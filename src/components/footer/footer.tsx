@@ -23,16 +23,6 @@ export default function Footer() {
               <Typography variant="h2">FIGHTER TOOL KIT</Typography>
             </Box>
           </Grid>
-          {/* <Grid item>
-            <Box><h2>Services</h2></Box>
-            <Box><a href="/services/custom-software-development/" className="link" color="white">Custom Software Development</a></Box>
-            <Box><a href="/services/android-app-development/" className="link" color="white">Android App Development</a></Box>
-            <Box><a href="/services/ios-app-development/" className="link" color="white">iOS App Development</a></Box>
-            <Box><a href="/services/cross-platform-app/" className="link" color="white">Cross-Platform App Development</a></Box>
-            <Box><a href="/services/website-design-and-development/" className="link" color="white">Website Design and Development</a></Box>
-            <Box><a href="/services/turnkey/" className="link" color="white">Turnkey Website Development</a></Box>
-            <Box><a href="/services/seo/" className="link" color="white">Search Engine Optimization</a></Box>
-          </Grid> */}
           <Grid item>
             <Box><h2>Contact</h2></Box>
             <Box>
@@ -51,10 +41,8 @@ export default function Footer() {
           <Grid item>
             <Grid item><a href="/" className="link" color="white"><h2>Home</h2></a></Grid>
             <Grid item><a href="/fighters/" className="link" color="white"><h2>Fighters</h2></a></Grid>
-            <Grid item><a href="/contact/" className="link" color="white"><h2>Portfolio</h2></a></Grid>
-            {/* <Grid item><a href="/our-team/" className="link" color="white"><h2>Our Team</h2></a></Grid> */}
-            {/* <Grid item><a href="/blogs/" className="link" color="white"><h2>Blogs</h2></a></Grid> */}
-            {/* <Grid item><a href="/contact/" className="link" color="white"><h2>Contact</h2></a></Grid> */}
+            <Grid item><a href="/whatsnew/" className="link" color="white"><h2>What's New</h2></a></Grid>
+
           </Grid>
         </Grid>
         <Box className="footer-border" />

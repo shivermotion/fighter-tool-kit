@@ -1,9 +1,9 @@
 import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import NewsPage from "../pages/blogs/index"
-import FightersPage from "../pages/games/index"
-import Kof15 from "../pages/games/kof15"
-import Sf5 from "../pages/games/sf5"
+import WhatsNewPage from "./whatsnew"
+import FightersPage from "./fighters/index"
+import Kof15 from "./fighters/kof15"
+import Sf5 from "./fighters/sf5"
 import Home from "./home"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -19,10 +19,10 @@ const App = () => (
   <>
     <Routes>
       <Route index={false} path="/Fighter-Tool-Kit" element={<Home />} />
-      <Route path="/games" element={<FightersPage />} />
-      <Route path="/games/kof15" element={<Kof15 />} />
-      <Route path="/games/sf5" element={<Sf5 />} />
-      <Route path="/blogs" element={<NewsPage />} />
+      <Route path="/fighters" element={<FightersPage />} />
+      <Route path="/fighters/kof15" element={<Kof15 />} />
+      <Route path="/fighters/sf5" element={<Sf5 />} />
+      <Route path="/whatsnew" element={<WhatsNewPage />} />
       <Route>404, Not Found!</Route>
     </Routes>
   </>

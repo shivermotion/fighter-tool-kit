@@ -19,7 +19,7 @@ export default function FightersPage() {
   return (
     <ThemeWrapper>
       <NavBar>
-        <Header logo={null} title="NEWS" link="" />
+        <Header logo={null} title="FIGHTERS" link="" />
       </NavBar>
       <Container>
         <Grid container>
