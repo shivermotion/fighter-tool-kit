@@ -6,13 +6,13 @@ export const itemData = [
   {
     img: kof15,
     title: "KING OF FIGHTERS XV",
-    url: "/games/kof15",
+    url: "/fighters/kof15",
 
   },
   {
     img: sf5,
     title: "STREET FIGHTER V: CHAMPION EDITION",
-    url: "/games/sf5",
+    url: "/fighters/sf5",
   },
 
 ]

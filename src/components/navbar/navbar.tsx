@@ -84,14 +84,14 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="/blogs">
+                    <Link to="/whatsnew">
                       <Typography variant="subtitle1" className="link">
                         What's New
                       </Typography>
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link to="/games">
+                    <Link to="/fighters">
                       <Typography variant="subtitle1" className="link">
                         Fighters
                       </Typography>
