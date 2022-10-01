@@ -35,7 +35,12 @@ const Home = () => (
             <Grid item xs={12} md={6}>
               <Typography sx={{ mt: "2rem" }}>WELCOME TO FIGHTER TOOL KIT </Typography>
               <Divider />
-              <Paper style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}>
+              <Paper
+                sx={{ ":hover": {
+                  boxShadow: 20,
+                } }}
+                style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}
+              >
                 <MultiCard image={teamSamurai} title="Team Samurai Announced" description="Following the conclusion of their Evo 2022 grand finals, the developers announced Team Samurai Shodown is coming to KOF15 as the final DLC additions of Season 1 plus the confirmation that fan-favorites Shingo Yabuki and Kim Kaphwan are coming in Season 2." />
               </Paper>
             </Grid>
