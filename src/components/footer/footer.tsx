@@ -26,16 +26,13 @@ export default function Footer() {
           <Grid item>
             <Box><h2>Contact</h2></Box>
             <Box>
-              <a href="shiver_motion@hotmail.com" className="link"> Email</a>
+              <a href="fightertoolkit@gmail.com" className="link">Email</a>
             </Box>
           </Grid>
           <Grid item>
             <Box><h2>Follow Us</h2></Box>
             <Box sx={{ mt: "10px" }}>
-              <a aria-label="link" href="https://www.facebook.com/" className="link"><Facebook sx={{ fontSize: "30px" }} /></a>
-              <a aria-label="link" href="https://www.instagram.com/" className="link"><Instagram sx={{ fontSize: "30px" }} /></a>
-              <a aria-label="link" href="https://www.twitter.com/" className="link"><Twitter sx={{ fontSize: "30px" }} /></a>
-              <a aria-label="link" href="https://www.Linkedin.com/" className="link"><LinkedIn sx={{ fontSize: "30px" }} /></a>
+              <a aria-label="link" href="https://www.twitter.com/fightertoolkit" className="link"><Twitter sx={{ fontSize: "60px" }} /></a>
             </Box>
           </Grid>
           <Grid item>
