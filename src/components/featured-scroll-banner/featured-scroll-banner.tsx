@@ -22,11 +22,15 @@ export default function FeaturedScrollBanner() {
       <Swiper
         spaceBetween={30}
         centeredSlides
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: true,
+        }}
         pagination={{
           clickable: true,
         }}
         navigation
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><FeaturedMediaCard blogImage={ken} backgroundImg={honda} /></SwiperSlide>

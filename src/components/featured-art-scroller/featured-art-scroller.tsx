@@ -22,16 +22,16 @@ export default function FeaturedArtScroller() {
       <Swiper
         spaceBetween={30}
         centeredSlides
-        pagination={{
-          clickable: true,
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
         }}
-        navigation
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><MultiCard image={shermie} title="art" description="" /></SwiperSlide>
-        <SwiperSlide><MultiCard image={team} title="art" description="" /></SwiperSlide>
-        <SwiperSlide><MultiCard image={honda} title="art" description="" /></SwiperSlide>
+        <SwiperSlide><MultiCard image={shermie} title="" description="" /></SwiperSlide>
+        <SwiperSlide><MultiCard image={team} title="" description="" /></SwiperSlide>
+        <SwiperSlide><MultiCard image={honda} title="" description="" /></SwiperSlide>
       </Swiper>
     </>
   )
