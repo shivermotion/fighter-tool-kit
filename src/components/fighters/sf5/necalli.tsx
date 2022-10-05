@@ -1,4 +1,4 @@
-import React from "react"
+import React , {useState} from "react"
 import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // Application Screen || Define Imports
@@ -31,9 +31,10 @@ import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Ryu() {
+export default function Ryu(){
+const [shiny, setShiny] = useState(true) 
   return (
-    <Accordion>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"

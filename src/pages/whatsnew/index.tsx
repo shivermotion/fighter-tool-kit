@@ -24,7 +24,12 @@ export default function WhatsNewPage() {
       </NavBar>
       <Container>
         <Grid container>
-          <Grid item sx={{ mb: "4rem" }} xs={12}>
+          <Grid
+            item
+            xs={12}
+            sx={{ marginBottom: "4rem", ":hover": {
+              boxShadow: 20 } }}
+          >
             <FeatArticle src={ken} text=";alskdfj;asdkjf;aslkfjls;afj;askjf;ajskfj;sadfj" title="Ken Announced for Street Fighter 6" />
           </Grid>
           <Grid item xs={12}>

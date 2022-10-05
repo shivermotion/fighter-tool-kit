@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // Application Screen || Define Imports
@@ -33,7 +33,7 @@ import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function Ryu() {
   return (
-    <Accordion>
+    <Accordion className="shine-effect-button">
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"

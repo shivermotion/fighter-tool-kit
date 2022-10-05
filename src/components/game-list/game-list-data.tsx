@@ -1,6 +1,6 @@
 import React from "react"
-import kof15 from "../../assets/game-logos/kof/kof-logo-min.png"
-import sf5 from "../../assets/game-logos/sf5/sfvce-logo-min.png"
+import kof15 from "../../assets/game-logos/kof/kof15-front.png"
+import sf5 from "../../assets/game-logos/sf5/s5v-logo-clear.png"
 
 export const itemData = [
   {

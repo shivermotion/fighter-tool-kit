@@ -1,10 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
+import { ClassNames } from "@emotion/react"
 import { NearOpponent, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And } from "../../icons/condition"
 
 import { Vshift, Vreversal, Vtrigger1, Vtrigger2, UniqueAttacks, SpecialMoves, NormalThrows, MoveName, InputBar, CriticalArts } from "../../accordion/accordion"
@@ -32,8 +33,9 @@ import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function Ryu() {
+  const [shiny, setShiny] = useState(true)
   return (
-    <Accordion>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
