@@ -60,7 +60,7 @@ import shermie from "../../../assets/game-logos/kof/fighters_index_14.png"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function Shermie() {
-  const [shiny, setShiny] = useState(true) 
+  const [shiny, setShiny] = useState(true)
   return (
     <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
       <AccordionSummary
