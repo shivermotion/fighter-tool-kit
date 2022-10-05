@@ -31,16 +31,22 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
       <List>
 
         <List id="list-item">
+          <Link to="/fighter-tool-kit" style={{ textDecoration: "none" }}>
             Home
+          </Link>
         </List>
 
 
         <List id="list-item">
+          <Link to="/fighters" style={{ textDecoration: "none" }}>
             Fighters
+          </Link>
         </List>
 
         <List id="list-item">
+          <Link to="/contact" style={{ textDecoration: "none" }}>
             Contact
+          </Link>
         </List>
       </List>
     </Box>
