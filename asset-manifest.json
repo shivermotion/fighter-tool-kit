@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Fighter-Tool-Kit/static/css/main.b5cf58ef.css",
-    "main.js": "/Fighter-Tool-Kit/static/js/main.7f8dcac2.js",
+    "main.css": "/Fighter-Tool-Kit/static/css/main.6411bc02.css",
+    "main.js": "/Fighter-Tool-Kit/static/js/main.3655c698.js",
+    "static/media/s5v-logo-clear.png": "/Fighter-Tool-Kit/static/media/s5v-logo-clear.daa57fe1875266d98c99.png",
     "static/media/ken-blog.jpg": "/Fighter-Tool-Kit/static/media/ken-blog.2e0d371c78fefb43c367.jpg",
     "static/media/fighters_index_22.png": "/Fighter-Tool-Kit/static/media/fighters_index_22.c59df033388bad066c4f.png",
     "static/media/fighters_index_01.png": "/Fighter-Tool-Kit/static/media/fighters_index_01.fa89579ef9a15c1b9af0.png",
@@ -49,20 +50,19 @@
     "static/media/fighters_index_17.png": "/Fighter-Tool-Kit/static/media/fighters_index_17.7aac86b0688dde72b097.png",
     "static/media/honda-sketch.jpg": "/Fighter-Tool-Kit/static/media/honda-sketch.7a3d5f464b60c16898f8.jpg",
     "static/media/evo.jpg": "/Fighter-Tool-Kit/static/media/evo.3fe4706b8f209f43bfb4.jpg",
-    "static/media/kof-logo-min.png": "/Fighter-Tool-Kit/static/media/kof-logo-min.8e52a504dfc5aa9736ab.png",
     "static/media/shermie.jpg": "/Fighter-Tool-Kit/static/media/shermie.8f7aee1d81c8e8f5ef14.jpg",
-    "static/media/sfvce-logo-min.png": "/Fighter-Tool-Kit/static/media/sfvce-logo-min.bf7cc70f738619b21397.png",
     "static/media/portrait-ryu-stats-2.jpg": "/Fighter-Tool-Kit/static/media/portrait-ryu-stats-2.43084ba4744540757c9c.jpg",
+    "static/media/kof15-front.png": "/Fighter-Tool-Kit/static/media/kof15-front.ccdf600f24be590f96ce.png",
     "static/media/anime.png": "/Fighter-Tool-Kit/static/media/anime.8ea2467d27f073b8147e.png",
     "static/media/portrait-abigail-stats-min.jpg": "/Fighter-Tool-Kit/static/media/portrait-abigail-stats-min.92550ea0e02fe9563626.jpg",
     "static/media/portrait-akuma-stats-min.jpg": "/Fighter-Tool-Kit/static/media/portrait-akuma-stats-min.328c4b4df27464816bf3.jpg",
     "static/media/team-samurai.jpg": "/Fighter-Tool-Kit/static/media/team-samurai.96ee7e3333b4f521559b.jpg",
     "index.html": "/Fighter-Tool-Kit/index.html",
-    "main.b5cf58ef.css.map": "/Fighter-Tool-Kit/static/css/main.b5cf58ef.css.map",
-    "main.7f8dcac2.js.map": "/Fighter-Tool-Kit/static/js/main.7f8dcac2.js.map"
+    "main.6411bc02.css.map": "/Fighter-Tool-Kit/static/css/main.6411bc02.css.map",
+    "main.3655c698.js.map": "/Fighter-Tool-Kit/static/js/main.3655c698.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5cf58ef.css",
-    "static/js/main.7f8dcac2.js"
+    "static/css/main.6411bc02.css",
+    "static/js/main.3655c698.js"
   ]
 }
