@@ -1,5 +1,6 @@
 import React from "react"
 import { Container } from "@mui/system"
+import { Typography } from "@mui/material"
 import Header from "../../components/header/header"
 import { NavBar } from "../../components/navbar/navbar"
 import Footer from "../../components/footer/footer"
@@ -64,7 +65,9 @@ export default function Kof15() {
       <NavBar>
         <Header logo={null} title="KING OF FIGHTERS XV" link="" />
       </NavBar>
+
       <Container>
+        <Typography variant="h3" component="h1" p={2} display="flex" justifyContent="center">-CHOOSE A FIGHTER-</Typography>
         <Andy />
         <Angel />
         <Antonov />

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
@@ -45,14 +45,17 @@ import kickHigh from "../../../assets/icons/kickHigh.png"
 import kickLow from "../../../assets/icons/kickLow.png"
 import upRight from "../../../assets/icons/upRight.png"
 import upLeft from "../../../assets/icons/upLeft.png"
+import "../../../globals/global-styles/shine-effect.scss"
+
 import bluemary from "../../../assets/game-logos/kof/fighters_index_21.png"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function BlueMary() {
+  const [shiny, setShiny] = useState(true)
   return (
-    <Accordion>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"

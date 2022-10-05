@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // Application Screen || Define Imports
@@ -32,8 +32,9 @@ import pic from "../../../assets/game-logos/sf5/portrait-akuma-stats-min.jpg"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function Akuma() {
+  const [shiny, setShiny] = useState(true)
   return (
-    <Accordion>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
