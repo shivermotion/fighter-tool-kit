@@ -10,9 +10,9 @@ import { Autoplay, Pagination, Navigation } from "swiper"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import "../featured-scroll-banner/featured-scroll-banner.scss"
 import MultiCard from "../non-featured-media-card/multi-card"
-import duo from "../../assets/sf-tekken.jpg"
-import chizuru from "../../assets/chizuru.jpg"
-import kyo from "../../assets/kyo-concept-art.jpg"
+import duo from "../../assets/featured-art/sf-tekken.jpg"
+import chizuru from "../../assets/featured-art/chizuru.jpg"
+import kyo from "../../assets/featured-art/kyo-concept-art.jpg"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

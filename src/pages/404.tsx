@@ -9,7 +9,7 @@ import { Container, Typography, Paper } from "@mui/material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import { Link } from "react-router-dom"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
-import oops from "../assets/nutz.jpg"
+import oops from "../assets/404-page/nutz.jpg"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

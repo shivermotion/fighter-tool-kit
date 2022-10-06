@@ -38,7 +38,7 @@ const ConnectWithOurTeam = () => (
               </Grid>
               <Grid item lg={2} mb="2rem">
                 <Box mb="1rem">
-                  <Typography variant="h5" color="grey.600">Talk to me baby.</Typography>
+                  <Typography variant="h5" color="grey.600">Lets Talk.</Typography>
                 </Box>
                 <Box>
                   <Typography variant="h5" color="darkred">
