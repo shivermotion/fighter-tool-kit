@@ -23,7 +23,7 @@ export default function FeaturedScrollBanner() {
         spaceBetween={30}
         centeredSlides
         autoplay={{
-          delay: 3500,
+          delay: 5500,
           disableOnInteraction: true,
         }}
         pagination={{

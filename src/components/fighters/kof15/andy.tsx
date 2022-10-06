@@ -45,7 +45,7 @@ import andy from "../../../assets/game-logos/kof/fighters_index_08.png"
 export default function Andy() {
   const [shiny, setShiny] = useState(true)
   return (
-    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!shiny) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
