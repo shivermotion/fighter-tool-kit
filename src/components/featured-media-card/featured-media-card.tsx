@@ -18,18 +18,18 @@ export const FeaturedMediaCard = (props: {
 blogImage: string,
 backgroundImg:string
 }) => (
-  <Grid container>
-    <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-      <Paper component="image" style={{ flexGrow: "1", opacity: ".2" }}>
-        <img src={props.backgroundImg} alt="honda" />
-      </Paper>
-    </Grid>
+  <Grid container direction="row">
     <Grid container>
       <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
         <br />
         <br />
       </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+        <Paper component="image" style={{ flexGrow: "1", opacity: ".2" }}>
+          <img src={props.backgroundImg} alt="honda" />
+        </Paper>
+      </Grid>
+      <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
         <Card style={{ backgroundColor: "whitesmoke", boxShadow: "none" }}>
           <CardActionArea>
             <CardMedia
@@ -66,5 +66,6 @@ backgroundImg:string
 
   </Grid>
 )
+
 
 export default FeaturedMediaCard
