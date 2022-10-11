@@ -67,12 +67,8 @@ const Home = () => (
           </Grid>
         </Grid>
         <Divider />
-        <Typography sx={{ mb: "2rem" }}>TWITTER</Typography>
-        <>
-          <div id="curator-feed">
-            <a href="https://curator.io" target="_blank" className="crt-logo" rel="noreferrer">Powered by Curator.io</a>
-          </div>
-        </>
+        {/* <Typography sx={{ mb: "2rem" }}>TWITTER</Typography> */}
+
       </Container>
       <Footer />
     </ThemeWrapper>
