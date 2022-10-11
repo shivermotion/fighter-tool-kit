@@ -18,7 +18,7 @@ const App = () => (
 
   <>
     <Routes>
-      <Route index={false} path="/Fighter-Tool-Kit" element={<Home />} />
+      <Route index={false} path="/" element={<Home />} />
       <Route path="/fighters" element={<FightersPage />} />
       <Route path="/fighters/kof15" element={<Kof15 />} />
       <Route path="/fighters/sf5" element={<Sf5 />} />
