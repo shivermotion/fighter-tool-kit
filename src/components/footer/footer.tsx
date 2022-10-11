@@ -37,8 +37,8 @@ export default function Footer() {
           </Grid>
           <Grid item>
             <Grid item><a href="/" className="link" color="white"><h2>Home</h2></a></Grid>
-            <Grid item><a href="/fighters/" className="link" color="white"><h2>Fighters</h2></a></Grid>
-            <Grid item><a href="/whatsnew/" className="link" color="white"><h2>What's New</h2></a></Grid>
+            <Grid item><a href="/fighters" className="link" color="white"><h2>Fighters</h2></a></Grid>
+            <Grid item><a href="/whatsnew" className="link" color="white"><h2>What's New</h2></a></Grid>
 
           </Grid>
         </Grid>
