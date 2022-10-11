@@ -82,7 +82,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
               <Box sx={{ display: { xs: "none", sm: "block" }, color: "black" }}>
                 <List sx={{ display: "flex" }}>
                   <ListItem>
-                    <Link to="/Fighter-Tool-Kit">
+                    <Link to="/">
 
                       <Typography variant="subtitle1" className="link">
                           Home
