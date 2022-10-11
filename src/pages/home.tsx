@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, CardMedia, Container, Divider, Grid, Paper, Typography } from "@mui/material"
+import { Box, CardMedia, Container, Divider, Grid, Paper, Stack, Typography } from "@mui/material"
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -13,7 +13,7 @@ import MultiCard from "../components/non-featured-media-card/multi-card"
 import FeaturedArtScroller from "../components/featured-art-scroller/featured-art-scroller"
 import teamSamurai from "../assets/blog-assets/team-samurai.jpg"
 import evo from "../assets/blog-assets/evo.jpg"
-import TwitchPlayer from "../components/twitch-player/twitch-player"
+import FeatureBar from "../components/feature-bar/feature-bar"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -24,13 +24,13 @@ const Home = () => (
         <Header logo={null} title="FIGHTER TOOL KIT" link="" />
       </NavBar>
       <Container style={{ backgroundColor: "whitesmoke" }}>
-        <Grid container xs={12}>
+        <Grid container>
           <Typography>NEWS</Typography>
           <Grid item xs={12}>
             <Divider />
             <FeaturedScrollBanner />
           </Grid>
-          <Grid container xs={12} sx={{ display: "flex", justifyContent: "space-evenly" }}>
+          <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
 
             <Grid item xs={12} md={6}>
               <Typography sx={{ mt: "2rem" }}>WELCOME TO FIGHTER TOOL KIT </Typography>
@@ -52,6 +52,12 @@ const Home = () => (
               </Paper>
             </Grid>
           </Grid>
+          {/* future feature bar */}
+          {/* <Grid container>
+            <Grid item xs={12}>
+              <FeatureBar />
+            </Grid>
+          </Grid> */}
           <Grid item xs={12}>
             <Divider />
             <Typography sx={{ mb: "2rem" }}>FEATURED ART</Typography>

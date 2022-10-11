@@ -5,13 +5,11 @@ import CardContent from "@mui/material/CardContent"
 import CardMedia from "@mui/material/CardMedia"
 import Button from "@mui/material/Button"
 import Typography from "@mui/material/Typography"
-import { Box, Container } from "@mui/system"
 import { CardActionArea, Grid, Paper } from "@mui/material"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-import honda from "../../assets/blog-assets/honda-sketch.jpg"
-import ken from "../../assets/blog-assets/ken-blog.jpg"
+
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -20,18 +18,18 @@ export const FeaturedMediaCard = (props: {
 blogImage: string,
 backgroundImg:string
 }) => (
-  <Grid container>
-    <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-      <Paper component="image" style={{ flexGrow: "1", opacity: ".2" }}>
-        <img src={props.backgroundImg} alt="honda" />
-      </Paper>
-    </Grid>
-    <Grid container xs={12} sm={12} md={6} lg={6} xl={6}>
+  <Grid container direction="row">
+    <Grid container>
       <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
         <br />
         <br />
       </Grid>
-      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+        <Paper component="image" style={{ flexGrow: "1", opacity: ".2" }}>
+          <img src={props.backgroundImg} alt="honda" />
+        </Paper>
+      </Grid>
+      <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
         <Card style={{ backgroundColor: "whitesmoke", boxShadow: "none" }}>
           <CardActionArea>
             <CardMedia
@@ -68,5 +66,6 @@ backgroundImg:string
 
   </Grid>
 )
+
 
 export default FeaturedMediaCard

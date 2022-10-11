@@ -10,9 +10,9 @@ import { Autoplay, Pagination, Navigation } from "swiper"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import "../featured-scroll-banner/featured-scroll-banner.scss"
 import MultiCard from "../non-featured-media-card/multi-card"
-import shermie from "../../assets/blog-assets/shermie.jpg"
-import honda from "../../assets/blog-assets/honda-sketch.jpg"
-import team from "../../assets/blog-assets/team-samurai.jpg"
+import duo from "../../assets/featured-art/sf-tekken.jpg"
+import chizuru from "../../assets/featured-art/chizuru.jpg"
+import kyo from "../../assets/featured-art/kyo-concept-art.jpg"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -23,15 +23,15 @@ export default function FeaturedArtScroller() {
         spaceBetween={30}
         centeredSlides
         autoplay={{
-          delay: 3500,
+          delay: 5500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><MultiCard image={shermie} title="" description="" /></SwiperSlide>
-        <SwiperSlide><MultiCard image={team} title="" description="" /></SwiperSlide>
-        <SwiperSlide><MultiCard image={honda} title="" description="" /></SwiperSlide>
+        <SwiperSlide><MultiCard image={duo} title="" description="" /></SwiperSlide>
+        <SwiperSlide><MultiCard image={chizuru} title="" description="" /></SwiperSlide>
+        <SwiperSlide><MultiCard image={kyo} title="" description="" /></SwiperSlide>
       </Swiper>
     </>
   )

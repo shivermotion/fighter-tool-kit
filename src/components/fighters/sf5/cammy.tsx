@@ -34,7 +34,7 @@ import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
 export default function Ryu() {
   const [shiny, setShiny] = useState(true)
   return (
-    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!shiny) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"

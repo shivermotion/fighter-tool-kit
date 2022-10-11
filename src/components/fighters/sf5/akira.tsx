@@ -34,7 +34,7 @@ import pic from "../../../assets/game-logos/sf5/portrait-abigail-akira-min.jpg"
 export default function Akira() {
   const [shiny, setShiny] = useState(true)
   return (
-    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!shiny) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"

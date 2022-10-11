@@ -20,10 +20,10 @@ export default function GameImageList() {
           <ImageListItem className="link" style={{ width: "100%", height: "100%" }}>
             <Paper sx={{ ":hover": {
               boxShadow: 20,
-            } }}
+            }, borderRadius: "10px" }}
             >
               <img
-                style={{ backgroundColor: "whitesmoke", width: "100%", height: "100%" }}
+                style={{ backgroundColor: "whitesmoke", width: "100%", height: "100%", borderRadius: "10px" }}
                 src={item.img}
                 srcSet={item.img}
                 alt={item.title}

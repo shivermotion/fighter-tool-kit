@@ -63,7 +63,7 @@ import ralf from "../../../assets/game-logos/kof/fighters_index_19.png"
 export default function Ralf() {
   const [shiny, setShiny] = useState(true)
   return (
-    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!useState) }}>
+    <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!shiny) }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
