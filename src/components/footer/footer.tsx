@@ -36,7 +36,7 @@ export default function Footer() {
             </Box>
           </Grid>
           <Grid item>
-            <Grid item><a href="/fighter-tool-kit" className="link" color="white"><h2>Home</h2></a></Grid>
+            <Grid item><a href="/" className="link" color="white"><h2>Home</h2></a></Grid>
             <Grid item><a href="/fighters/" className="link" color="white"><h2>Fighters</h2></a></Grid>
             <Grid item><a href="/whatsnew/" className="link" color="white"><h2>What's New</h2></a></Grid>
 
@@ -46,12 +46,12 @@ export default function Footer() {
         <Grid container justifyContent={{ xs: "center", md: "space-between" }} sx={{ pb: "40px" }}>
           <Grid item>
             <Box className="copy-right-text">
-              <p>Fighter Tool Kit, All Rights Reserved 2022</p>
+              <p>Fighter Tool Kit,  All Rights Reserved 2022</p>
             </Box>
           </Grid>
           <Grid item>
             <Box className="site-map-text-row">
-              <a href="/pagemap">Sitemap</a>
+              {/* <a href="/pagemap">Sitemap</a> */}
             </Box>
           </Grid>
         </Grid>
