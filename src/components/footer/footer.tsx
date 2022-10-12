@@ -27,7 +27,7 @@ export default function Footer() {
           <Grid item>
             <Box><h2>Contact</h2></Box>
             <Box>
-              <a href="fightertoolkit@gmail.com" className="link">Email</a>
+              <a href="mailto:fightertoolkit@gmail.com" className="link">Email</a>
             </Box>
           </Grid>
           <Grid item>
