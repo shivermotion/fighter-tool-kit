@@ -20,7 +20,7 @@ export default function Footer() {
         <Grid container gap={{ xs: 12, md: 0 }} direction={{ xs: "column", md: "row" }} justifyContent={{ xs: "center", md: "space-around" }} sx={{ px: "50px", pt: "100px" }}>
           <Grid item>
             <Box>
-               < img loading="lazy"src={logo} alt="logo" />
+              <img loading="lazy" src={logo} alt="logo" />
               <Typography variant="h2">FIGHTER TOOL KIT</Typography>
             </Box>
           </Grid>

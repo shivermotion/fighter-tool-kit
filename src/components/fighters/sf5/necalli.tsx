@@ -1,4 +1,4 @@
-import React , {useState} from "react"
+import React, { useState } from "react"
 import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 // Application Screen || Define Imports
@@ -31,8 +31,8 @@ import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Ryu(){
-const [shiny, setShiny] = useState(true) 
+export default function Ryu() {
+  const [shiny, setShiny] = useState(true)
   return (
     <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!shiny) }}>
       <AccordionSummary
@@ -43,7 +43,7 @@ const [shiny, setShiny] = useState(true)
       >
         <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <Grid item xs={2}>
-             < img loading="lazy"src={pic} alt={pic} width="100px" height="190px" />
+            <img loading="lazy" src={pic} alt={pic} width="100px" height="190px" />
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
