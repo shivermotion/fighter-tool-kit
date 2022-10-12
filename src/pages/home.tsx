@@ -14,65 +14,74 @@ import FeaturedArtScroller from "../components/featured-art-scroller/featured-ar
 import teamSamurai from "../assets/blog-assets/team-samurai.jpg"
 import evo from "../assets/blog-assets/evo.jpg"
 import FeatureBar from "../components/feature-bar/feature-bar"
+import SEO from "../components/seo-helmet/seo-helmet"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const Home = () => (
-  <Box style={{ backgroundColor: "whitesmoke" }}>
-    <ThemeWrapper>
-      <NavBar>
-        <Header logo={null} title="FIGHTER TOOL KIT" link="" />
-      </NavBar>
-      <Container style={{ backgroundColor: "whitesmoke" }}>
-        <Grid container>
-          <Typography>NEWS</Typography>
-          <Grid item xs={12}>
-            <Divider />
-            <FeaturedScrollBanner />
-          </Grid>
-          <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
-
-            <Grid item xs={12} md={6}>
-              <Typography sx={{ mt: "2rem" }}>WELCOME TO FIGHTER TOOL KIT </Typography>
-              <Divider />
-              <Paper
-                sx={{ ":hover": {
-                  boxShadow: 20,
-                } }}
-                style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}
-              >
-                <MultiCard image={teamSamurai} title="Team Samurai Announced" description="Following the conclusion of their Evo 2022 grand finals, the developers announced Team Samurai Shodown is coming to KOF15 as the final DLC additions of Season 1 plus the confirmation that fan-favorites Shingo Yabuki and Kim Kaphwan are coming in Season 2." />
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Typography sx={{ mt: "2rem" }}>BLOG</Typography>
-              <Divider />
-              <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
-                <MultiCard image={evo} title="EVO FG Tourney Returns!" description="These past two years have been challenging to say the very least, for many reasons. The world has never experienced the things we have gone through and are still going through to this day. We are grateful that we have been able to come together through our passion for fighting games and play with one another in online events." />
-              </Paper>
-            </Grid>
-          </Grid>
-          {/* future feature bar */}
-          {/* <Grid container>
+  <>
+    <SEO
+      title="Fighter Tool Kit | Home"
+      description="Fighting Game Ultimate Tool Kit"
+      name="Fighter Tool Kit"
+      type="website"
+    />
+    <Box style={{ backgroundColor: "whitesmoke" }}>
+      <ThemeWrapper>
+        <NavBar>
+          <Header logo={null} title="FIGHTER TOOL KIT" link="" />
+        </NavBar>
+        <Container style={{ backgroundColor: "whitesmoke" }}>
+          <Grid container>
+            <Typography>NEWS</Typography>
             <Grid item xs={12}>
-              <FeatureBar />
+              <Divider />
+              <FeaturedScrollBanner />
             </Grid>
-          </Grid> */}
-          <Grid item xs={12}>
-            <Divider />
-            <Typography sx={{ mb: "2rem" }}>FEATURED ART</Typography>
-            <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
-              <FeaturedArtScroller />
-            </Paper>
-          </Grid>
-        </Grid>
-        <Divider />
-        {/* <Typography sx={{ mb: "2rem" }}>TWITTER</Typography> */}
+            <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
 
-      </Container>
-      <Footer />
-    </ThemeWrapper>
-  </Box>
+              <Grid item xs={12} md={6}>
+                <Typography sx={{ mt: "2rem" }}>WELCOME TO FIGHTER TOOL KIT </Typography>
+                <Divider />
+                <Paper
+                  sx={{
+                    ":hover": {
+                      boxShadow: 20,
+                    },
+                  }}
+                  style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}
+                >
+                  <MultiCard image={teamSamurai} title="Team Samurai Announced" description="Following the conclusion of their Evo 2022 grand finals, the developers announced Team Samurai Shodown is coming to KOF15 as the final DLC additions of Season 1 plus the confirmation that fan-favorites Shingo Yabuki and Kim Kaphwan are coming in Season 2." />
+                </Paper>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Typography sx={{ mt: "2rem" }}>BLOG</Typography>
+                <Divider />
+                <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
+                  <MultiCard image={evo} title="EVO FG Tourney Returns!" description="These past two years have been challenging to say the very least, for many reasons. The world has never experienced the things we have gone through and are still going through to this day. We are grateful that we have been able to come together through our passion for fighting games and play with one another in online events." />
+                </Paper>
+              </Grid>
+            </Grid>
+            {/* future feature bar */}
+            {/* <Grid container>
+      <Grid item xs={12}>
+        <FeatureBar />
+      </Grid>
+    </Grid> */}
+            <Grid item xs={12}>
+              <Divider />
+              <Typography sx={{ mb: "2rem" }}>FEATURED ART</Typography>
+              <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
+                <FeaturedArtScroller />
+              </Paper>
+            </Grid>
+          </Grid>
+          <Divider />
+          {/* <Typography sx={{ mb: "2rem" }}>TWITTER</Typography> */}
+
+        </Container>
+      </ThemeWrapper>
+    </Box></>
 )
 
 export default Home
