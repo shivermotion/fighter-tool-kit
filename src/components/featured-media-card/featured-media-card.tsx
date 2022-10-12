@@ -26,7 +26,7 @@ backgroundImg:string
       </Grid>
       <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
         <Paper component="image" style={{ flexGrow: "1", opacity: ".2" }}>
-          <img loading="lazy" src={props.backgroundImg} alt="honda" />
+         <img loading="lazy" src={props.backgroundImg} alt="honda" />
         </Paper>
       </Grid>
       <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>

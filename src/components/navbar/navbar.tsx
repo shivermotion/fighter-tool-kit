@@ -74,7 +74,7 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
             <Grid item>
               <Box>
                 <Link to="/">
-                  <img loading="lazy" alt="ftk logo" className="ftk-logo hidden-mobile hidden-tablet" style={{ maxWidth: "50%" }} src={logo} />
+                 <img loading="lazy" alt="ftk logo" className="ftk-logo hidden-mobile hidden-tablet" style={{ maxWidth: "50%" }} src={logo} />
                 </Link>
               </Box>
             </Grid>
