@@ -2,10 +2,8 @@ import React, { useState } from "react"
 import {
   Accordion,
   AccordionSummary,
-  AccordionDetails,
   Typography,
   Grid,
-  Divider,
 } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
@@ -17,12 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import {
   NearOpponent,
   InAir,
-  PressInOrder,
-  AfterMove,
-  InTimeWith,
   Charge,
-  LinkTo,
-  And,
 } from "../../icons/condition"
 
 import {
@@ -43,8 +36,6 @@ import up from "../../../assets/icons/up.png"
 import down from "../../../assets/icons/down.png"
 import downRight from "../../../assets/icons/downRight.png"
 import halfCircleForward from "../../../assets/icons/halfCircleForward.png"
-import halfCircleBack from "../../../assets/icons/halfCircleBack.png"
-import shory from "../../../assets/icons/shory.png"
 import reverseHadoken from "../../../assets/icons/reverseHadoken.png"
 import hadoken from "../../../assets/icons/hadoken.png"
 import punchHigh from "../../../assets/icons/punchHigh.png"
@@ -54,8 +45,9 @@ import kickLow from "../../../assets/icons/kickLow.png"
 import upRight from "../../../assets/icons/upRight.png"
 import upLeft from "../../../assets/icons/upLeft.png"
 import "../../../globals/global-styles/shine-effect.scss"
-
 import mai from "../../../assets/game-logos/kof/fighters_index_13.png"
+
+
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -87,8 +79,7 @@ export default function Mai() {
 
       <CommandMoves />
       <MoveName
-        move=" UKIHANE
-      "
+        move=" UKIHANE"
       />
       <InputBar>
         <InAir /> <Press icon={down} />
@@ -96,8 +87,7 @@ export default function Mai() {
         <Press icon={kickLow} />
       </InputBar>
       <MoveName
-        move=" KOUKAKU NO MAI
-      "
+        move=" KOUKAKU NO MAI"
       />
       <InputBar>
         <Press icon={downRight} />
@@ -105,16 +95,14 @@ export default function Mai() {
         <Press icon={kickHigh} />
       </InputBar>
       <MoveName
-        move=" SANKAKU-TOBI
-      "
+        move=" SANKAKU-TOBI"
       />
       <InputBar>
         [IN AIR BY CORNER]
         <Press icon={upRight} />
       </InputBar>
       <MoveName
-        move=" TARGET COMBO 1
-      "
+        move=" TARGET COMBO 1"
       />
       <InputBar>
         [PRESS IN ORDER - CLOSE BY]
@@ -124,8 +112,7 @@ export default function Mai() {
       </InputBar>
       <SpecialMoves />
       <MoveName
-        move=" RYUUENBU [EX]
-      "
+        move=" RYUUENBU [EX]"
       />
       <InputBar>
         <Press icon={reverseHadoken} />
@@ -135,8 +122,7 @@ export default function Mai() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" KACHOUSEN [EX]
-      "
+        move=" KACHOUSEN [EX]"
       />
       <InputBar>
         <Press icon={hadoken} />
@@ -146,8 +132,7 @@ export default function Mai() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" HISSATSU SHINOBI-BACHI [EX]
-      "
+        move=" HISSATSU SHINOBI-BACHI [EX]"
       />
       <InputBar>
         <Press icon={hadoken} />
@@ -157,8 +142,7 @@ export default function Mai() {
         <Press icon={kickHigh} />
       </InputBar>
       <MoveName
-        move=" MUSASABI NO MAI - FRONT [EX]
-      "
+        move=" MUSASABI NO MAI - FRONT [EX]"
       />
       <InputBar>
         <Charge />
@@ -170,8 +154,7 @@ export default function Mai() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" MUSASABI NO MAI - BACK [EX]
-      "
+        move=" MUSASABI NO MAI - BACK [EX]"
       />
       <InputBar>
         <Charge />
@@ -185,8 +168,7 @@ export default function Mai() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" MUSASABI NO MAI (AIR) [EX]
-      "
+        move=" MUSASABI NO MAI (AIR) [EX]"
       />
       <InputBar>
         <InAir />
@@ -198,8 +180,7 @@ export default function Mai() {
       </InputBar>
       <SuperSpecialMoves />
       <MoveName
-        move=" CHOU HISSATSU SHINOI-BACHI [MAX]
-      "
+        move=" CHOU HISSATSU SHINOI-BACHI [MAX]"
       />
       <InputBar>
         <Press icon={reverseHadoken} />
@@ -210,8 +191,7 @@ export default function Mai() {
         <Press icon={kickHigh} />
       </InputBar>
       <MoveName
-        move=" AIR CHOU HISSATSU SHINOI-BACHI [MAX]
-      "
+        move=" AIR CHOU HISSATSU SHINOI-BACHI [MAX]"
       />
       <InputBar>
         <InAir />
@@ -223,8 +203,7 @@ export default function Mai() {
         <Press icon={kickHigh} />
       </InputBar>
       <MoveName
-        move=" KAGEROU NO MAI [MAX] [MAX]
-      "
+        move=" KAGEROU NO MAI [MAX] [MAX]"
       />
       <InputBar>
         <InAir />
@@ -237,8 +216,7 @@ export default function Mai() {
       </InputBar>
       <ClimaxSuperSpecialMoves />
       <MoveName
-        move=" SHIRANUI-RYUU OUGI KUZUNOHA
-      "
+        move=" SHIRANUI-RYUU OUGI KUZUNOHA"
       />
       <InputBar>
         <InAir />
@@ -250,8 +228,7 @@ export default function Mai() {
       </InputBar>
       <NormalThrows />
       <MoveName
-        move=" SHIRANUI GORIN
-      "
+        move=" SHIRANUI GORIN"
       />
       <InputBar>
         <NearOpponent />
@@ -262,8 +239,7 @@ export default function Mai() {
         <Press icon={punchHigh} />
       </InputBar>
       <MoveName
-        move=" FUUSHA KUZUSHI
-      "
+        move=" FUUSHA KUZUSHI"
       />
       <InputBar>
         <NearOpponent />
@@ -274,8 +250,7 @@ export default function Mai() {
         <Press icon={kickHigh} />
       </InputBar>
       <MoveName
-        move=" YUME-ZAKURA
-      "
+        move=" YUME-ZAKURA"
       />
       <InputBar>
         <InAir /> <Press icon={left} />

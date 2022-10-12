@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider } from "@mui/material"
+import { Accordion, AccordionSummary, Typography, Grid } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 
 // Application Screen || Define Imports
@@ -9,11 +9,8 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import {
   NearOpponent,
   InAir,
-  PressInOrder,
   AfterMove,
   InTimeWith,
-  Charge,
-  LinkTo,
   And,
 } from "../../icons/condition"
 
@@ -43,8 +40,6 @@ import punchHigh from "../../../assets/icons/punchHigh.png"
 import punchLow from "../../../assets/icons/punchLow.png"
 import kickHigh from "../../../assets/icons/kickHigh.png"
 import kickLow from "../../../assets/icons/kickLow.png"
-import upRight from "../../../assets/icons/upRight.png"
-import upLeft from "../../../assets/icons/upLeft.png"
 import "../../../globals/global-styles/shine-effect.scss"
 
 import geese from "../../../assets/game-logos/kof/fighters_index_44.png"
