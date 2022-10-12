@@ -7,6 +7,7 @@ import { Twitter, Facebook, Instagram, LinkedIn } from "@mui/icons-material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import "./footer.scss"
+import { Link } from "react-router-dom"
 import logo from "../../assets/logo/logo-footer.png"
 
 // Application Screen || Define Exports
@@ -36,9 +37,9 @@ export default function Footer() {
             </Box>
           </Grid>
           <Grid item>
-            <Grid item><a href="/" className="link" color="white"><h2>Home</h2></a></Grid>
-            <Grid item><a href="/fighters" className="link" color="white"><h2>Fighters</h2></a></Grid>
-            <Grid item><a href="/whatsnew" className="link" color="white"><h2>What's New</h2></a></Grid>
+            <Grid item><Link to="/" className="link" color="white"><h2>Home</h2></Link></Grid>
+            <Grid item><Link to="/fighters" className="link" color="white"><h2>Fighters</h2></Link></Grid>
+            <Grid item><Link to="/whatsnew" className="link" color="white"><h2>What's New</h2></Link></Grid>
 
           </Grid>
         </Grid>
