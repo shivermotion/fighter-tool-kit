@@ -9,7 +9,7 @@ import { Container, Typography, Paper } from "@mui/material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import { Link } from "react-router-dom"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
-import oops from "../assets/404-page/nutz.jpg"
+import oops from "../assets/404-page/nutz-min.jpg"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -21,7 +21,7 @@ export const FourOhFour = () => (
     <Container>
       <Paper style={{ width: "50%" }}>
         <Typography>404 </Typography>
-        <Typography><Link to="/fighter-tool-kit">Go Back</Link></Typography>
+        <Typography><Link to="/">Go Back</Link></Typography>
         <img src={oops} alt="404" style={{ width: "100%" }} />
       </Paper>
     </Container>
