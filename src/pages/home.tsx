@@ -6,7 +6,6 @@ import { Box, CardMedia, Container, Divider, Grid, Paper, Stack, Typography } fr
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import Header from "../components/header/header"
 import { NavBar } from "../components/navbar/navbar"
-import Footer from "../components/footer/footer"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
 import FeaturedScrollBanner from "../components/featured-scroll-banner/featured-scroll-banner"
 import MultiCard from "../components/non-featured-media-card/multi-card"
