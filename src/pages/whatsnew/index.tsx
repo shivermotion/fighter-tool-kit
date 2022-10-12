@@ -7,7 +7,6 @@ import { Container, Grid } from "@mui/material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import SEO from "../../components/seo-helmet/seo-helmet"
 import { FeatArticle } from "../../components/featured-article/featured-article"
-import Footer from "../../components/footer/footer"
 import Header from "../../components/header/header"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
