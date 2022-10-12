@@ -42,9 +42,9 @@ const ConnectWithOurTeam = () => (
                 </Box>
                 <Box>
                   <Typography variant="h5" color="darkred">
-                    <Link to="mailto:fightertoolkit@gmail.com" className="link">
+                    <a href="mailto:fightertoolkit@gmail.com" className="link">
                     fightertoolkit@gmail.com
-                    </Link>
+                    </a>
                   </Typography>
                 </Box>
 

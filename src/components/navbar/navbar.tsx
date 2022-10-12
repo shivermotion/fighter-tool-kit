@@ -73,9 +73,9 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
           >
             <Grid item>
               <Box>
-                <a href="/Fighter-Tool-Kit">
+                <Link to="/">
                   <img alt="ftk logo" className="ftk-logo hidden-mobile hidden-tablet" style={{ maxWidth: "50%" }} src={logo} />
-                </a>
+                </Link>
               </Box>
             </Grid>
             <Grid item lg={6}>

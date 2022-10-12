@@ -14,14 +14,14 @@ import { itemData } from "./game-list-data"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function GameImageList() {
   return (
-    <ImageList cols={3} rowHeight={300}>
+    <ImageList cols={2} rowHeight={300}>
       {itemData.map((item: any) => (
         <Link key={item.img} to={item.url}>
-          <ImageListItem className="link" style={{ width: "100%", height: "100%" }}>
-            <Paper sx={{ ":hover": {
-              boxShadow: 20,
-            }, borderRadius: "10px" }}
-            >
+          <Paper sx={{ ":hover": {
+            boxShadow: 20,
+          }, borderRadius: "10px", width: "100%", height: "100%", backgroundColor: "whitesmoke", my: "1rem" }}
+          >
+            <ImageListItem className="link" style={{ width: "100%", height: "100%" }}>
               <img
                 style={{ backgroundColor: "whitesmoke", width: "100%", height: "100%", borderRadius: "10px" }}
                 src={item.img}
@@ -29,9 +29,9 @@ export default function GameImageList() {
                 alt={item.title}
                 loading="lazy"
               />
-            </Paper>
-            <Typography variant="h3" fontFamily="montserrat" style={{ display: "flex", justifyContent: "center" }}>{item.title}</Typography>
-          </ImageListItem>
+              <Typography variant="h3" fontFamily="montserrat" style={{ display: "flex", justifyContent: "center" }}>{item.title}</Typography>
+            </ImageListItem>
+          </Paper>
         </Link>
       ))}
     </ImageList>
