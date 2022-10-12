@@ -9,5 +9,5 @@ import React from "react"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 export default function Press(props: { icon: string }) {
-  return (<img src={props.icon} alt={props.icon} />)
+  return ( < img loading="lazy"src={props.icon} alt={props.icon} />)
 }

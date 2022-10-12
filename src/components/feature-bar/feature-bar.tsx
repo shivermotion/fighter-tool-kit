@@ -21,9 +21,9 @@ export default function FeatureBar() {
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
       >
-        <Item><img src={anime} alt="anime" style={{ width: "300px", backgroundColor: "whitesmoke" }} /></Item>
-        <Item><img src={anime} alt="anime" style={{ width: "300px", backgroundColor: "whitesmoke" }} /></Item>
-        <Item><img src={anime} alt="anime" style={{ width: "300px", backgroundColor: "whitesmoke" }} /></Item>
+        <Item> < img loading="lazy"src={anime} alt="anime" style={{ width: "300px", backgroundColor: "whitesmoke" }} /></Item>
+        <Item> < img loading="lazy"src={anime} alt="anime" style={{ width: "300px", backgroundColor: "whitesmoke" }} /></Item>
+        <Item> < img loading="lazy"src={anime} alt="anime" style={{ width: "300px", backgroundColor: "whitesmoke" }} /></Item>
       </Stack>
     </Box>
   )

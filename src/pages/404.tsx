@@ -22,7 +22,7 @@ export const FourOhFour = () => (
       <Paper style={{ width: "50%" }}>
         <Typography>404 </Typography>
         <Typography><Link to="/">Go Back</Link></Typography>
-        <img src={oops} alt="404" style={{ width: "100%" }} />
+         < img loading="lazy"src={oops} alt="404" style={{ width: "100%" }} />
       </Paper>
     </Container>
 

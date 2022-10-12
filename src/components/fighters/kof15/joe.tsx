@@ -76,7 +76,7 @@ export default function Joe() {
       >
         <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <Grid item xs={2}>
-            <img src={joe} alt={joe} width="110px" height="150px" />
+             < img loading="lazy"src={joe} alt={joe} width="110px" height="150px" />
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>

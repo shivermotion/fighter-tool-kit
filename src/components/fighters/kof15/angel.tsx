@@ -58,7 +58,7 @@ export default function Angel() {
       >
         <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
           <Grid item xs={2}>
-            <img src={angel} alt="andy" width="110px" height="150px" />
+             < img loading="lazy"src={angel} alt="andy" width="110px" height="150px" />
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
