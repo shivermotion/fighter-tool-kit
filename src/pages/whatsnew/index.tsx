@@ -5,6 +5,7 @@ import { Container, Grid } from "@mui/material"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+import SEO from "../../components/seo-helmet/seo-helmet"
 import { FeatArticle } from "../../components/featured-article/featured-article"
 import Footer from "../../components/footer/footer"
 import Header from "../../components/header/header"
@@ -18,27 +19,36 @@ import ken from "../../assets/blog-assets/ken-blog.jpg"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function WhatsNewPage() {
   return (
-    <ThemeWrapper>
-      <NavBar>
-        <Header logo={null} title="WHATS NEW" link="" />
-      </NavBar>
-      <Container>
-        <Grid container>
-          <Grid
-            item
-            xs={12}
-            sx={{ marginBottom: "4rem", ":hover": {
-              boxShadow: 20 } }}
-          >
-            <FeatArticle src={ken} text=";alskdfj;asdkjf;aslkfjls;afj;askjf;ajskfj;sadfj" title="Ken Announced for Street Fighter 6" />
+    <>
+      <SEO
+        title="Fighter Tool Kit | What's New"
+        description="Blog List"
+        name="Fighter Tool Kit"
+        type="article"
+      />
+      <ThemeWrapper>
+        <NavBar>
+          <Header logo={null} title="WHATS NEW" link="" />
+        </NavBar>
+        <Container>
+          <Grid container>
+            <Grid
+              item
+              xs={12}
+              sx={{
+                marginBottom: "4rem", ":hover": {
+                  boxShadow: 20,
+                },
+              }}
+            >
+              <FeatArticle src={ken} text=";alskdfj;asdkjf;aslkfjls;afj;askjf;ajskfj;sadfj" title="Ken Announced for Street Fighter 6" />
+            </Grid>
+            <Grid item xs={12}>
+              <BlogList />
+            </Grid>
           </Grid>
-          <Grid item xs={12}>
-            <BlogList />
-          </Grid>
-        </Grid>
-      </Container>
-      <Footer />
-    </ThemeWrapper>
+        </Container>
+      </ThemeWrapper></>
   )
 }
 

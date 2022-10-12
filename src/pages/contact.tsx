@@ -1,33 +1,30 @@
 import React from "react"
 
-// import { Helmet } from "react-helmet"
-import { Divider } from "@mui/material"
-
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-import Footer from "../components/footer/footer"
-
+import { Helmet } from "react-helmet-async"
 import { NavBar } from "../components/navbar/navbar"
 import ConnectWithOurTeam from "../components/contact/contact-email"
 import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
+import SEO from "../components/seo-helmet/seo-helmet"
 
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const ContactRoute = () => (
-  <ThemeWrapper>
-    {/* <Helmet defer={false}>
-      <title>Nexrage Studios Contact</title>
-      <meta name="description" content="Fighter Tool Kit Content" />
-      <link rel="canonical" href="https://www.fightertoolkit.com/contact/" hrefLang="en" lang="en" />
-    </Helmet> */}
-    <NavBar />
-    <ConnectWithOurTeam />
-    <Footer />
-  </ThemeWrapper>
+  <>
+    <SEO
+      title=" Fighter Tool Kit | Contact"
+      description="Contact"
+      name="Fighter Tool Kit"
+      type="website"
+    />
+    <ThemeWrapper>
+      <NavBar />
+      <ConnectWithOurTeam />
+    </ThemeWrapper></>
 )
 
 export default ContactRoute
