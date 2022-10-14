@@ -16,7 +16,8 @@ import { CardActionArea, Grid, Paper } from "@mui/material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export const FeaturedMediaCard = (props: {
 blogImage: string,
-backgroundImg:string
+backgroundImg?:string,
+alt?:string,
 }) => (
   <Grid container direction="row">
     <Grid container>
@@ -26,7 +27,7 @@ backgroundImg:string
       </Grid>
       <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
         <Paper component="image" style={{ flexGrow: "1", opacity: ".2" }}>
-          <img loading="lazy" src={props.backgroundImg} alt="img-background" />
+          <img loading="lazy" src={props.backgroundImg} alt={props.alt} />
         </Paper>
       </Grid>
       <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
