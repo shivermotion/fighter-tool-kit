@@ -40,7 +40,7 @@ export default function WhatsNewPage() {
                 },
               }}
             >
-              <FeatArticle src={ken} text=";alskdfj;asdkjf;aslkfjls;afj;askjf;ajskfj;sadfj" title="Ken Announced for Street Fighter 6" />
+              <FeatArticle src={ken} text="Ken is back!" title="Ken Announced for Street Fighter 6" />
             </Grid>
             <Grid item xs={12}>
               <BlogList />

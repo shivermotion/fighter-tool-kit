@@ -4,6 +4,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import { Autoplay, Pagination, Navigation } from "swiper"
+import { Link } from "react-router-dom"
 import { FeaturedMediaCard } from "../featured-media-card/featured-media-card"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -37,7 +38,7 @@ export default function FeaturedScrollBanner() {
         {windowWidth > 600 ? (
           <>
             <SwiperSlide>
-              <FeaturedMediaCard blogImage={ken} backgroundImg={honda} />
+              <Link to="whatsnew/ken-announced-sf6"> <FeaturedMediaCard blogImage={ken} backgroundImg={honda} /></Link>
             </SwiperSlide>
             <SwiperSlide>
               <FeaturedMediaCard blogImage={honda} backgroundImg={anime} />
