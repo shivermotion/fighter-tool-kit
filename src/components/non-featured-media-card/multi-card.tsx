@@ -20,7 +20,7 @@ export default function MultiCard(props:{image:string, title:string, description
           component="img"
           height="140"
           image={props.image}
-          alt="green iguana"
+          alt={props.image}
           style={{ borderRadius: "22px" }}
         />
         <CardContent>

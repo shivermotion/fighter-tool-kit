@@ -4,6 +4,7 @@ import { Container } from "@mui/system"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+import { Typography } from "@mui/material"
 import SEO from "../../components/seo-helmet/seo-helmet"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
@@ -30,6 +31,7 @@ export default function Sf6() {
           <Header logo={null} title="STREET FIGHTER VI" link="" />
         </NavBar>
         <Container>
+          <Typography variant="h3" component="h1" p={2} display="flex" justifyContent="center">-CHOOSE A FIGHTER-</Typography>
           <Ryu />
           <Abigail />
           <Akuma />

@@ -17,6 +17,7 @@ import anime from "../../assets/icons/anime.png"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 export default function FeaturedScrollBanner() {
+  const windowWidth = window.innerWidth
   return (
     <>
       <Swiper
@@ -33,9 +34,32 @@ export default function FeaturedScrollBanner() {
         modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><FeaturedMediaCard blogImage={ken} backgroundImg={honda} /></SwiperSlide>
-        <SwiperSlide><FeaturedMediaCard blogImage={honda} backgroundImg={anime} /></SwiperSlide>
-        <SwiperSlide><FeaturedMediaCard blogImage={anime} backgroundImg={ken} /></SwiperSlide>
+        {windowWidth > 600 ? (
+          <>
+            <SwiperSlide>
+              <FeaturedMediaCard blogImage={ken} backgroundImg={honda} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <FeaturedMediaCard blogImage={honda} backgroundImg={anime} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <FeaturedMediaCard blogImage={anime} backgroundImg={ken} />
+            </SwiperSlide>
+          </>
+        ) : windowWidth < 600 ? (
+          <>
+            <SwiperSlide>
+              <FeaturedMediaCard blogImage={ken} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <FeaturedMediaCard blogImage={honda} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <FeaturedMediaCard blogImage={anime} />
+            </SwiperSlide>
+          </>
+        ) : null}
+
       </Swiper>
     </>
   )
