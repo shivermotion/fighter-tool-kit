@@ -10,7 +10,7 @@ import { ThemeWrapper } from "../globals/global-wrapper/wrapper"
 import FeaturedScrollBanner from "../components/featured-scroll-banner/featured-scroll-banner"
 import MultiCard from "../components/non-featured-media-card/multi-card"
 import FeaturedArtScroller from "../components/featured-art-scroller/featured-art-scroller"
-import teamSamurai from "../assets/blog-assets/team-samurai.jpg"
+import fightStick from "../assets/blog-assets/fightstick.jpg"
 import evo from "../assets/blog-assets/evo.jpg"
 import FeatureBar from "../components/feature-bar/feature-bar"
 import SEO from "../components/seo-helmet/seo-helmet"
@@ -50,11 +50,26 @@ const Home = () => (
                   }}
                   style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}
                 >
-                  <MultiCard image={teamSamurai} title="Team Samurai Announced" description="Following the conclusion of their Evo 2022 grand finals, the developers announced Team Samurai Shodown is coming to KOF15 as the final DLC additions of Season 1 plus the confirmation that fan-favorites Shingo Yabuki and Kim Kaphwan are coming in Season 2." />
+                  <MultiCard image={fightStick} title="Team Samurai Announced" description="Following the conclusion of their Evo 2022 grand finals, the developers announced Team Samurai Shodown is coming to KOF15 as the final DLC additions of Season 1 plus the confirmation that fan-favorites Shingo Yabuki and Kim Kaphwan are coming in Season 2." />
                 </Paper>
               </Grid>
               <Grid item xs={12} md={6}>
                 <Typography sx={{ mt: "2rem" }}>BLOG</Typography>
+                <Divider />
+                <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
+                  <MultiCard image={evo} title="EVO FG Tourney Returns!" description="These past two years have been challenging to say the very least, for many reasons. The world has never experienced the things we have gone through and are still going through to this day. We are grateful that we have been able to come together through our passion for fighting games and play with one another in online events." />
+                </Paper>
+              </Grid>
+            </Grid>
+            <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+
+              <Grid item xs={12} md={6}>
+                <Typography sx={{ mt: "2rem" }}>CLIP OF THE WEEK</Typography>
+                <Divider style={{ marginBottom: "1rem" }} />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JzS96auqau0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Typography sx={{ mt: "2rem" }}>GEAR REVIEW</Typography>
                 <Divider />
                 <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
                   <MultiCard image={evo} title="EVO FG Tourney Returns!" description="These past two years have been challenging to say the very least, for many reasons. The world has never experienced the things we have gone through and are still going through to this day. We are grateful that we have been able to come together through our passion for fighting games and play with one another in online events." />
