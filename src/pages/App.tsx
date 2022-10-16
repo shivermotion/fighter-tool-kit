@@ -13,7 +13,7 @@ import Contact from "./contact"
 import { FourOhFour } from "./404"
 import Sf6 from "./fighters/sf6"
 import Footer from "../components/footer/footer"
-import { FeatBlog } from "./whatsnew/ken-announced-sf6"
+import { FeatArticle } from "./whatsnew/welcome"
 
 
 // Application Screen || Define Exports
@@ -33,7 +33,7 @@ const App = () => (
           <Route path="/fighters/sf6" element={<Sf6 />} />
           {/* Blogs */}
           <Route path="/whatsnew" element={<WhatsNewPage />} />
-          <Route path="/whatsnew/ken-announced-sf6" element={<FeatBlog />} />
+          <Route path="/whatsnew/welcome" element={<FeatArticle />} />
           {/* Contact */}
           <Route path="/contact" element={<Contact />} />
           {/* 404 */}

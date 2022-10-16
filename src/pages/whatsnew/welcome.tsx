@@ -9,20 +9,19 @@ import { Grid, Box, Container, Typography, Divider, Avatar } from "@mui/material
 import Header from "../../components/header/header"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
-import Footer from "../../components/footer/footer"
 import SEO from "../../components/seo-helmet/seo-helmet"
-import ken from "../../assets/blog-assets/ken-blog.jpg"
+import fightStick from "../../assets/blog-assets/fightstick.jpg"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-export function FeatBlog() {
+export function FeatArticle() {
   return (
     <ThemeWrapper>
-      <SEO title="Ken Announced for Street Fighter 6" description="Ken Announced for Street Fighter 6" name="Fighter Tool Kit" type="Blog" image="test" />
+      <SEO title="Welcome to Fighter Tool Kit" description="Welcome to Fighter Tool Kit" name="Fighter Tool Kit" type="Blog" image="test" />
       <NavBar>
-        <Header logo={null} title="Ken Announced for Street Fighter 6" link="" />
+        <Header logo={null} title="Welcome to Fighter Tool Kit" link="" />
       </NavBar>
 
       <Container sx={{ mb: "8rem" }}>
@@ -34,7 +33,7 @@ export function FeatBlog() {
           my="5rem"
         >
           <Grid item xs={12} sx={{ display: "flex", justifyContent: "center", mb: "2rem" }}>
-            <img src={ken} alt={ken} style={{ maxWidth: "800px", display: "flex", justifyContent: "center", width: "100%" }} />
+            <img src={fightStick} alt={fightStick} style={{ maxWidth: "800px", display: "flex", justifyContent: "center", width: "100%" }} />
           </Grid>
           <Grid item mt="1rem" mx="2rem">
             <Typography variant="body1">
@@ -59,19 +58,19 @@ export function FeatBlog() {
             <Grid item>
               <Box sx={{ display: "flex", justifyContent: "center" }} my="2rem">
                 {/* <img className="blog-author-img" src={pic} alt="author " /> */}
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                <Avatar alt="Jason Day" src="/static/images/avatar/1.jpg" />
               </Box>
             </Grid>
             <Grid item>
               <Box>
-                <Link to="/authors/becky">
-                  <Typography
-                    textAlign={{ xs: "center", lg: "start" }}
-                    className="blog-author-name link"
-                  >
+
+                <Typography
+                  textAlign={{ xs: "center", lg: "start" }}
+                  className="blog-author-name link"
+                >
                     By: rawr
-                  </Typography>
-                </Link>
+                </Typography>
+
                 <Typography textAlign={{ xs: "center", lg: "start" }}>
                  rawr
                 </Typography>
@@ -87,25 +86,35 @@ export function FeatBlog() {
             These trends will surely set you apart from your competitors.
           </Typography>
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">
-            Web Design.</Typography>
+            Currently Supporting</Typography>
           <Typography variant="subtitle1" mb="1rem">
-            By creating a unique, visually aesthetic, and easy-to-use website,
-            your visitors will prefer you over your competitors. 88% of polled
-            users said that they were less likely to return to a website after a
-            bad experience and 85% of adults feel that a company's mobile
-            website should be as good as or better than their desktop website.
-            <a href="https://uxcam.com/blog/ux-statistics/">bluespace</a> The
-            pressure is on. Not only does your desktop site have to go above and
-            beyond, but your mobile site has to be even better.
+          - King of Fighters XIV
           </Typography>
           <Typography variant="subtitle1" mb="1rem">
-            As a web design and development company, we must stay on top of the
-            UI/UX design. So, we've compiled a list of the top web design trends
-            that you should keep an eye out for when you redesign your website.
-            These trends will surely set you apart from your competitors.
+          - Street Fighter V
           </Typography>
-          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">User Interface</Typography>
-          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Dark Mode</Typography>
+          <Typography variant="subtitle1" mb="1rem">
+          - Street Fighter VI
+          </Typography>
+          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">
+            Plans for Supporting in the Near Future</Typography>
+          <Typography variant="subtitle1" mb="1rem">
+          - Mortal Kombat
+          </Typography>
+          <Typography variant="subtitle1" mb="1rem">
+          - Tekken 8
+          </Typography>
+          <Typography variant="subtitle1" mb="1rem">
+          - Super Smash Bros
+          </Typography>
+          <Typography variant="subtitle1" mb="1rem">
+          - Many More Games to come!
+          </Typography>
+          <Typography variant="subtitle1" mb="1rem">
+           Expect Frame Data, Combos, and more!
+          </Typography>
+          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Hear What Others Are Saying in the Fighting Game Community</Typography>
+          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">News, Blogs, Features</Typography>
           <Typography variant="subtitle1" mb="1rem">
             As people spend more and more time on their devices,
             <b>dark mode</b> is becoming more and more popular. There are a lot
@@ -135,7 +144,7 @@ export function FeatBlog() {
             text you will set yourself apart from your competitors and ahead of
             the curve.
           </Typography>
-          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Digital Minimalism or Maximize</Typography>
+          <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Match Breakdowns, Gear Reviews, Featured Art, Tool Kit Updates</Typography>
           <Typography variant="subtitle1" mb="1rem">
             What is <b>minimalism?</b> Minimalism is a concept that embodies
             "less is more". There are a few different ways to utilize minimalism
@@ -166,7 +175,7 @@ export function FeatBlog() {
             </Link>
           </Typography>
           <Typography variant="subtitle1" mb="1rem">
-            For a free website consultation,
+            Want to write for us? Email us at,
             <Link to="/contact/" className="link"> contact us today.</Link>
           </Typography>
         </Box>
