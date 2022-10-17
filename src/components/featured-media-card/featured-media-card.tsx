@@ -37,7 +37,7 @@ alt?:string,
               component="img"
               height="140"
               image={props.blogImage}
-              alt="green iguana"
+              alt={props.blogImage}
               style={{ borderRadius: "22px" }}
             />
             <CardContent>
