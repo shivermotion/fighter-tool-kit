@@ -1,0 +1,3526 @@
+{
+ "character_name": [
+  {
+   "url": "https://us.streetfighter.com/characters/ryu/",
+   "moves": [
+    {
+     "name": "Shoulder Throw"
+    },
+    {
+     "name": "Somersault Throw"
+    },
+    {
+     "name": "Mind's Eye"
+    },
+    {
+     "name": "Thrust Strike"
+    },
+    {
+     "name": "Denjin Renki"
+    },
+    {
+     "name": "Kakko Fubatsu"
+    },
+    {
+     "name": "Hashogeki"
+    },
+    {
+     "name": "Collarbone Breaker"
+    },
+    {
+     "name": "Solar Plexus Strike"
+    },
+    {
+     "name": "Axe Kick"
+    },
+    {
+     "name": "Jodan Nirengeki"
+    },
+    {
+     "name": "Jodan Sanrengeki"
+    },
+    {
+     "name": "Hadoken"
+    },
+    {
+     "name": "Shoryuken"
+    },
+    {
+     "name": "Tatsumaki Senpukyaku"
+    },
+    {
+     "name": "Airborne Tatsumaki Senpukyaku"
+    },
+    {
+     "name": "Jodan Sokutou Geri"
+    },
+    {
+     "name": "Isshin"
+    },
+    {
+     "name": "Shinku Hadoken"
+    },
+    {
+     "name": "Denjin Hadoken"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/chun-li/",
+   "moves": [
+    {
+     "name": "Koshuto"
+    },
+    {
+     "name": "Tenshin Shushu"
+    },
+    {
+     "name": "Ryuseiraku"
+    },
+    {
+     "name": "Rankyaku"
+    },
+    {
+     "name": "Souseikyaku"
+    },
+    {
+     "name": "Hazanshu"
+    },
+    {
+     "name": "Renkiko"
+    },
+    {
+     "name": "Kikosho"
+    },
+    {
+     "name": "Sohakkei"
+    },
+    {
+     "name": "Tsuitotsuken"
+    },
+    {
+     "name": "Hakkei"
+    },
+    {
+     "name": "Senenshu"
+    },
+    {
+     "name": "Tenkukyaku"
+    },
+    {
+     "name": "Yokusenkyaku"
+    },
+    {
+     "name": "Kakurakukyaku"
+    },
+    {
+     "name": "Yosokyaku"
+    },
+    {
+     "name": "Wall Jump"
+    },
+    {
+     "name": "Kikoken"
+    },
+    {
+     "name": "Hyakuretsukyaku"
+    },
+    {
+     "name": "Airborne Hyakuretsukyaku"
+    },
+    {
+     "name": "Spinning Bird Kick"
+    },
+    {
+     "name": "Kikosho"
+    },
+    {
+     "name": "Hoyokusen"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/nash/",
+   "moves": [
+    {
+     "name": "Dragon Suplex"
+    },
+    {
+     "name": "Target Down"
+    },
+    {
+     "name": "Air Jack"
+    },
+    {
+     "name": "Bullet Clear"
+    },
+    {
+     "name": "Silent Sharpness"
+    },
+    {
+     "name": "Sonic Move - Hide"
+    },
+    {
+     "name": "Sonic Move - Blitz Air"
+    },
+    {
+     "name": "Sonic Move - Steel Air"
+    },
+    {
+     "name": "Stealth Dash"
+    },
+    {
+     "name": "Sonic Move - Avoid"
+    },
+    {
+     "name": "Knee Bazooka"
+    },
+    {
+     "name": "Jumping Sobat"
+    },
+    {
+     "name": "Chopping Assault"
+    },
+    {
+     "name": "Step Kick"
+    },
+    {
+     "name": "Spinning Back Knuckle"
+    },
+    {
+     "name": "Side Knee Attack"
+    },
+    {
+     "name": "Rapid Punch"
+    },
+    {
+     "name": "Rapid Kick"
+    },
+    {
+     "name": "Wind Shear"
+    },
+    {
+     "name": "Down Burst"
+    },
+    {
+     "name": "Raptor Combination"
+    },
+    {
+     "name": "Bullet Combination"
+    },
+    {
+     "name": "Sonic Boom"
+    },
+    {
+     "name": "Sonic Scythe"
+    },
+    {
+     "name": "Moonsault Slash"
+    },
+    {
+     "name": "Tragedy Assault"
+    },
+    {
+     "name": "Stealth Dash"
+    },
+    {
+     "name": "Stealth Dash (Stop)"
+    },
+    {
+     "name": "Justice Corridor"
+    },
+    {
+     "name": "Justice Shell"
+    },
+    {
+     "name": "Judgement Saber"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/m-bison/",
+   "moves": [
+    {
+     "name": "Psycho Impact"
+    },
+    {
+     "name": "Psycho Fall"
+    },
+    {
+     "name": "Psycho Reflect"
+    },
+    {
+     "name": "Psycho Punishment"
+    },
+    {
+     "name": "Hell's Warp"
+    },
+    {
+     "name": "Psycho Power"
+    },
+    {
+     "name": "Psycho Nightmare"
+    },
+    {
+     "name": "Psycho Burst"
+    },
+    {
+     "name": "Hell Attack"
+    },
+    {
+     "name": "Psycho Axe"
+    },
+    {
+     "name": "Shadow Axe"
+    },
+    {
+     "name": "Psycho Blast"
+    },
+    {
+     "name": "Double Knee Press"
+    },
+    {
+     "name": "Head Press"
+    },
+    {
+     "name": "Somersault Skull Diver"
+    },
+    {
+     "name": "Devil Reverse"
+    },
+    {
+     "name": "Psycho Inferno"
+    },
+    {
+     "name": "Psycho Charge"
+    },
+    {
+     "name": "Psycho Judgement"
+    },
+    {
+     "name": "Psycho Crusher"
+    },
+    {
+     "name": "Ultimate Psycho Crusher"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/cammy/",
+   "moves": [
+    {
+     "name": "Gyro Clipper"
+    },
+    {
+     "name": "Delta Through"
+    },
+    {
+     "name": "Neck Spiral"
+    },
+    {
+     "name": "Axel Spin Knuckle"
+    },
+    {
+     "name": "Spinning Attack"
+    },
+    {
+     "name": "Delta Drive"
+    },
+    {
+     "name": "Delta Ambush"
+    },
+    {
+     "name": "Delta Step"
+    },
+    {
+     "name": "Strike Back"
+    },
+    {
+     "name": "Knee Bullet"
+    },
+    {
+     "name": "Lift Upper"
+    },
+    {
+     "name": "Lift Combination"
+    },
+    {
+     "name": "Spiral Arrow"
+    },
+    {
+     "name": "Cannon Spike"
+    },
+    {
+     "name": "Cannon Strike"
+    },
+    {
+     "name": "Hooligan Combination"
+    },
+    {
+     "name": "Razor Edge Slicer"
+    },
+    {
+     "name": "Fatal Leg Twister"
+    },
+    {
+     "name": "Cross Scissors Pressure"
+    },
+    {
+     "name": "Cannon Strike"
+    },
+    {
+     "name": "Delta Ambush"
+    },
+    {
+     "name": "Delta Twist"
+    },
+    {
+     "name": "Reverse Edge"
+    },
+    {
+     "name": "Delta Step"
+    },
+    {
+     "name": "Cross Stinger Assault"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/birdie/",
+   "moves": [
+    {
+     "name": "Bad Skull"
+    },
+    {
+     "name": "Bad Chain"
+    },
+    {
+     "name": "Break Time"
+    },
+    {
+     "name": "Banana Time"
+    },
+    {
+     "name": "Drink Time"
+    },
+    {
+     "name": "Chewing Time"
+    },
+    {
+     "name": "Bubble Gum"
+    },
+    {
+     "name": "Blow Bubble"
+    },
+    {
+     "name": "Enjoy Time"
+    },
+    {
+     "name": "Birdie Time"
+    },
+    {
+     "name": "Pepper Pot"
+    },
+    {
+     "name": "Bull Drop"
+    },
+    {
+     "name": "Bull Charge"
+    },
+    {
+     "name": "Bull Slider"
+    },
+    {
+     "name": "Bad Hammer"
+    },
+    {
+     "name": "Bull Head"
+    },
+    {
+     "name": "Bull Horn"
+    },
+    {
+     "name": "Hanging Chain"
+    },
+    {
+     "name": "Killing Head"
+    },
+    {
+     "name": "Bull Revenger"
+    },
+    {
+     "name": "Bull Swing"
+    },
+    {
+     "name": "Bull Capture"
+    },
+    {
+     "name": "Skip To My Chain"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/ken/",
+   "moves": [
+    {
+     "name": "Knee Bash"
+    },
+    {
+     "name": "Hell Wheel"
+    },
+    {
+     "name": "Quick Step"
+    },
+    {
+     "name": "Ryusenkyaku"
+    },
+    {
+     "name": "Heat Rush"
+    },
+    {
+     "name": "Shinryuken"
+    },
+    {
+     "name": "Senpu Nataotoshi"
+    },
+    {
+     "name": "Thunder Kick"
+    },
+    {
+     "name": "Inazuma Kick"
+    },
+    {
+     "name": "Chin Buster"
+    },
+    {
+     "name": "Chin Buster 2nd"
+    },
+    {
+     "name": "Lion Breaker"
+    },
+    {
+     "name": "Hadoken"
+    },
+    {
+     "name": "Shoryuken"
+    },
+    {
+     "name": "Tatsumaki Senpukyaku"
+    },
+    {
+     "name": "Airborne Tatsumaki Senpukyaku"
+    },
+    {
+     "name": "Shinryuken"
+    },
+    {
+     "name": "Guren Enjinkyaku"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/necalli/",
+   "moves": [
+    {
+     "name": "Soul Sealer"
+    },
+    {
+     "name": "Soul Discriminator"
+    },
+    {
+     "name": "Culminated Power"
+    },
+    {
+     "name": "Crawling Beast"
+    },
+    {
+     "name": "Torrent of Power"
+    },
+    {
+     "name": "Eruption Of Power"
+    },
+    {
+     "name": "The Calling"
+    },
+    {
+     "name": "Opening Dagger"
+    },
+    {
+     "name": "Road of the Sun"
+    },
+    {
+     "name": "Sacrificial Altar"
+    },
+    {
+     "name": "Messenger of Chaos"
+    },
+    {
+     "name": "The Disc's Guidance"
+    },
+    {
+     "name": "Raging Light"
+    },
+    {
+     "name": "Mask of Tlalli"
+    },
+    {
+     "name": "Valiant Rebellion"
+    },
+    {
+     "name": "Clouded Mirror"
+    },
+    {
+     "name": "Heart Of Gold"
+    },
+    {
+     "name": "Ceremony of Honor"
+    },
+    {
+     "name": "Soul Offering"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/vega/",
+   "moves": [
+    {
+     "name": "Rainbow Suplex"
+    },
+    {
+     "name": "Crescent Line"
+    },
+    {
+     "name": "Stardust Shot"
+    },
+    {
+     "name": "Matador Turn"
+    },
+    {
+     "name": "Matador Flip"
+    },
+    {
+     "name": "Cosmic Smart"
+    },
+    {
+     "name": "Bloody Kiss - Torero"
+    },
+    {
+     "name": "Bloody Kiss - Rojo"
+    },
+    {
+     "name": "Bloody Kiss - Azul"
+    },
+    {
+     "name": "Alegrias"
+    },
+    {
+     "name": "Backslash"
+    },
+    {
+     "name": "Short Backlash"
+    },
+    {
+     "name": "Mercury Shard"
+    },
+    {
+     "name": "Buster Claw"
+    },
+    {
+     "name": "Matador Flash"
+    },
+    {
+     "name": "Matador Blitz"
+    },
+    {
+     "name": "Wall Jump"
+    },
+    {
+     "name": "Flying Barcelona"
+    },
+    {
+     "name": "Flying Barcelona Attack"
+    },
+    {
+     "name": "Izuna Drop"
+    },
+    {
+     "name": "Grand Izuna Drop"
+    },
+    {
+     "name": "Crimson Terror"
+    },
+    {
+     "name": "Aurora Spin Edge"
+    },
+    {
+     "name": "Switching Claw"
+    },
+    {
+     "name": "Sky High Claw"
+    },
+    {
+     "name": "Bloody Garden"
+    },
+    {
+     "name": "Bloody Garden Attack"
+    },
+    {
+     "name": "Bloody Garden Drop"
+    },
+    {
+     "name": "Flash Arch - Rossa"
+    },
+    {
+     "name": "Flash Arch - Granate"
+    },
+    {
+     "name": "Bloody Rain"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/r-mika/",
+   "moves": [
+    {
+     "name": "Daydream Headlock"
+    },
+    {
+     "name": "Dream Driver"
+    },
+    {
+     "name": "Sell Down"
+    },
+    {
+     "name": "Mic Performance"
+    },
+    {
+     "name": "Pumped Up!"
+    },
+    {
+     "name": "Nadeshiko (above)"
+    },
+    {
+     "name": "Nadeshiko (front)"
+    },
+    {
+     "name": "Nadeshiko (behind)"
+    },
+    {
+     "name": "Steel Chair"
+    },
+    {
+     "name": "Fightin' Dirty"
+    },
+    {
+     "name": "Peach Gator"
+    },
+    {
+     "name": "Stomp Chop"
+    },
+    {
+     "name": "Dive Bomb"
+    },
+    {
+     "name": "Lady Mika"
+    },
+    {
+     "name": "Passion Press"
+    },
+    {
+     "name": "Passion Rope Throw (forward)"
+    },
+    {
+     "name": "Passion Rope Throw (backward)"
+    },
+    {
+     "name": "Shooting Star Combo"
+    },
+    {
+     "name": "Shooting Peach"
+    },
+    {
+     "name": "Wingless Airplane"
+    },
+    {
+     "name": "Rainbow Typhoon"
+    },
+    {
+     "name": "Brimstone"
+    },
+    {
+     "name": "Steel Chair"
+    },
+    {
+     "name": "Fightin' Dirty"
+    },
+    {
+     "name": "Peach Assault"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/rashid/",
+   "moves": [
+    {
+     "name": "Riding Glider"
+    },
+    {
+     "name": "Rising Sun"
+    },
+    {
+     "name": "Front Flip"
+    },
+    {
+     "name": "Airborne Eagle Spike"
+    },
+    {
+     "name": "Rolling Assault"
+    },
+    {
+     "name": "Nail Assault"
+    },
+    {
+     "name": "Wing Stroke"
+    },
+    {
+     "name": "Wing Spike"
+    },
+    {
+     "name": "Airborne Wing Stroke"
+    },
+    {
+     "name": "Airborne Wing Spike"
+    },
+    {
+     "name": "Ysaar"
+    },
+    {
+     "name": "Easifa"
+    },
+    {
+     "name": "Sliding Roll"
+    },
+    {
+     "name": "Flap Spin"
+    },
+    {
+     "name": "Beak Assault"
+    },
+    {
+     "name": "Wall Jump"
+    },
+    {
+     "name": "Spinning Mixer"
+    },
+    {
+     "name": "Dash Spinning Mixer"
+    },
+    {
+     "name": "Eagle Spike"
+    },
+    {
+     "name": "Dash Eagle Spike"
+    },
+    {
+     "name": "Airborne Eagle Spike"
+    },
+    {
+     "name": "Whirlwind Shot"
+    },
+    {
+     "name": "Haboob"
+    },
+    {
+     "name": "Altair"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/karin/",
+   "moves": [
+    {
+     "name": "Hajotsui"
+    },
+    {
+     "name": "Arakuma Inashi"
+    },
+    {
+     "name": "Myo-Oken"
+    },
+    {
+     "name": "Fudo Sosho"
+    },
+    {
+     "name": "Guren No Kata"
+    },
+    {
+     "name": "Tenha No Kata"
+    },
+    {
+     "name": "Ressencho"
+    },
+    {
+     "name": "Tsumujigari"
+    },
+    {
+     "name": "Ku-Renge"
+    },
+    {
+     "name": "Kanzuki-Ryu Hokojutsu Seppo"
+    },
+    {
+     "name": "Tenko"
+    },
+    {
+     "name": "Orochi"
+    },
+    {
+     "name": "Mujinkyaku"
+    },
+    {
+     "name": "Ressenha"
+    },
+    {
+     "name": "Senha Kusabi"
+    },
+    {
+     "name": "Senha Resshu"
+    },
+    {
+     "name": "Guren Ken"
+    },
+    {
+     "name": "Guren Hosho"
+    },
+    {
+     "name": "Guren Senha"
+    },
+    {
+     "name": "Guren Chochu"
+    },
+    {
+     "name": "Guren Hochu"
+    },
+    {
+     "name": "Guren Resshu"
+    },
+    {
+     "name": "Guren Kusabi"
+    },
+    {
+     "name": "Guren Kyoho"
+    },
+    {
+     "name": "Yasha Gaeshi Tenchi"
+    },
+    {
+     "name": "Kanzuki-Ryu Hadorokushiki Hasha No Kata"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/zangief/",
+   "moves": [
+    {
+     "name": "Atomic Drop"
+    },
+    {
+     "name": "Horosho Chokeslam"
+    },
+    {
+     "name": "Captured"
+    },
+    {
+     "name": "Iron Muscle"
+    },
+    {
+     "name": "Muscle Walk"
+    },
+    {
+     "name": "Super Russian Kick"
+    },
+    {
+     "name": "Cyclone Lariat"
+    },
+    {
+     "name": "Cossack Muscle"
+    },
+    {
+     "name": "Muscle Explosion"
+    },
+    {
+     "name": "Head Butt"
+    },
+    {
+     "name": "Knee Hammer"
+    },
+    {
+     "name": "Flying Body Press"
+    },
+    {
+     "name": "Flying Headbutt"
+    },
+    {
+     "name": "Screw Pile Driver"
+    },
+    {
+     "name": "Double Lariat"
+    },
+    {
+     "name": "Siberian Express"
+    },
+    {
+     "name": "Borscht Dynamite"
+    },
+    {
+     "name": "Tundra Storm"
+    },
+    {
+     "name": "Cyclone Lariat"
+    },
+    {
+     "name": "Bolshoi Russian Suplex"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/laura/",
+   "moves": [
+    {
+     "name": "Seoi Throw"
+    },
+    {
+     "name": "Pullback Hold"
+    },
+    {
+     "name": "Volty Line"
+    },
+    {
+     "name": "Linear Movement - Avante"
+    },
+    {
+     "name": "Linear Movement - Esquiva"
+    },
+    {
+     "name": "Linear Movement - Finta"
+    },
+    {
+     "name": "Volty Sprink"
+    },
+    {
+     "name": "Thunder Spike"
+    },
+    {
+     "name": "Heavy Heel"
+    },
+    {
+     "name": "Spark Show"
+    },
+    {
+     "name": "Shock Stance"
+    },
+    {
+     "name": "Double Slap"
+    },
+    {
+     "name": "Step Elbow"
+    },
+    {
+     "name": "Twist Barrage"
+    },
+    {
+     "name": "Dual Crash"
+    },
+    {
+     "name": "Bolt Charge"
+    },
+    {
+     "name": "Split River"
+    },
+    {
+     "name": "Rodeo Break"
+    },
+    {
+     "name": "Thunder Clap"
+    },
+    {
+     "name": "Sunset Wheel"
+    },
+    {
+     "name": "Matsuda Sway"
+    },
+    {
+     "name": "Shock Choke"
+    },
+    {
+     "name": "Inazuma Spin Hold"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/dhalsim/",
+   "moves": [
+    {
+     "name": "Yoga Rocket"
+    },
+    {
+     "name": "Yoga Hoop"
+    },
+    {
+     "name": "Yoga Float"
+    },
+    {
+     "name": "Yoga Float (airborne)"
+    },
+    {
+     "name": "Yoga Deep Breath"
+    },
+    {
+     "name": "Yoga Burner"
+    },
+    {
+     "name": "Yoga Sansara"
+    },
+    {
+     "name": "Yoga Mala"
+    },
+    {
+     "name": "Drill Kick"
+    },
+    {
+     "name": "Yoga Anvil"
+    },
+    {
+     "name": "Yoga Upper"
+    },
+    {
+     "name": "Divine Kick"
+    },
+    {
+     "name": "Thrust Kick"
+    },
+    {
+     "name": "Yoga Fire"
+    },
+    {
+     "name": "Yoga Flame"
+    },
+    {
+     "name": "Yoga Gale"
+    },
+    {
+     "name": "Yoga Teleport"
+    },
+    {
+     "name": "Yoga Sansara"
+    },
+    {
+     "name": "Yoga Sunburst"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/f-a-n-g/",
+   "moves": [
+    {
+     "name": "Shimonshu"
+    },
+    {
+     "name": "Kyoshitsugeki"
+    },
+    {
+     "name": "Nishodoku"
+    },
+    {
+     "name": "Sodokubu"
+    },
+    {
+     "name": "Dokunomu"
+    },
+    {
+     "name": "Koryo Dokuda"
+    },
+    {
+     "name": "Nikaiho"
+    },
+    {
+     "name": "Senpukuga"
+    },
+    {
+     "name": "Nirenko"
+    },
+    {
+     "name": "Nishikyu"
+    },
+    {
+     "name": "Sotoja"
+    },
+    {
+     "name": "Ryobenda"
+    },
+    {
+     "name": "Nikankyaku"
+    },
+    {
+     "name": "Shishiruirui"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/alex/",
+   "moves": [
+    {
+     "name": "Face-Crush Chop"
+    },
+    {
+     "name": "Leg Tomahawk"
+    },
+    {
+     "name": "Overhaul"
+    },
+    {
+     "name": "Overchain"
+    },
+    {
+     "name": "Rage Shift"
+    },
+    {
+     "name": "Rage Boost"
+    },
+    {
+     "name": "Big Boot"
+    },
+    {
+     "name": "Chop"
+    },
+    {
+     "name": "Lariat"
+    },
+    {
+     "name": "Flying Cross Chop"
+    },
+    {
+     "name": "Flash Chop"
+    },
+    {
+     "name": "Slash Elbow"
+    },
+    {
+     "name": "Air Knee Smash"
+    },
+    {
+     "name": "Power Bomb"
+    },
+    {
+     "name": "Power Drop"
+    },
+    {
+     "name": "Air Stampede"
+    },
+    {
+     "name": "Head Crush"
+    },
+    {
+     "name": "Sledge Hammer"
+    },
+    {
+     "name": "Flyng DDT"
+    },
+    {
+     "name": "Choke Sleeper"
+    },
+    {
+     "name": "Heavy Hammer"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/guile/",
+   "moves": [
+    {
+     "name": "Dragon Suplex"
+    },
+    {
+     "name": "Judo Throw"
+    },
+    {
+     "name": "Flying Mare"
+    },
+    {
+     "name": "Flying Buster Chop"
+    },
+    {
+     "name": "Sonic Blade"
+    },
+    {
+     "name": "Dive Sonic"
+    },
+    {
+     "name": "Solid Puncher"
+    },
+    {
+     "name": "Knife Edge"
+    },
+    {
+     "name": "Reverse Back Knuckle"
+    },
+    {
+     "name": "Guile High Kick"
+    },
+    {
+     "name": "Knee Bazooka"
+    },
+    {
+     "name": "Rolling Sobat"
+    },
+    {
+     "name": "Spinning Back Knuckle"
+    },
+    {
+     "name": "Reverse Spin Kick"
+    },
+    {
+     "name": "Burn Straight"
+    },
+    {
+     "name": "Full Bullet Magnum"
+    },
+    {
+     "name": "Tall Edge"
+    },
+    {
+     "name": "Bullet Revolver"
+    },
+    {
+     "name": "Swing Out"
+    },
+    {
+     "name": "Drake Fang"
+    },
+    {
+     "name": "Thrust Combination"
+    },
+    {
+     "name": "Faultless Move"
+    },
+    {
+     "name": "Sonic Boom"
+    },
+    {
+     "name": "Somersault Kick"
+    },
+    {
+     "name": "Sonic Cross"
+    },
+    {
+     "name": "Sonic Break"
+    },
+    {
+     "name": "Sonic Hurricane"
+    },
+    {
+     "name": "Sonic Tempest"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/ibuki/",
+   "moves": [
+    {
+     "name": "Yamikazura"
+    },
+    {
+     "name": "Kubiori"
+    },
+    {
+     "name": "Tobizaru"
+    },
+    {
+     "name": "Tenrai"
+    },
+    {
+     "name": "Makibishi"
+    },
+    {
+     "name": "Rokushaku Horokudama (Akebono)"
+    },
+    {
+     "name": "Rokushaku Horokudama (Hizakari)"
+    },
+    {
+     "name": "Rokushaku Horokudama (Tasogare)"
+    },
+    {
+     "name": "Fuma Shuriken (Haku)"
+    },
+    {
+     "name": "Fuma Shuriken (Kokufu)"
+    },
+    {
+     "name": "Hanagasumi"
+    },
+    {
+     "name": "Agemen"
+    },
+    {
+     "name": "Kobekudaki"
+    },
+    {
+     "name": "Sazan"
+    },
+    {
+     "name": "Bonshogeri"
+    },
+    {
+     "name": "Nobusuma"
+    },
+    {
+     "name": "Shinten"
+    },
+    {
+     "name": "Yagurakuzushi"
+    },
+    {
+     "name": "Gogasha"
+    },
+    {
+     "name": "Shakunage"
+    },
+    {
+     "name": "Sansanaki"
+    },
+    {
+     "name": "Tobikura"
+    },
+    {
+     "name": "Aoji"
+    },
+    {
+     "name": "Kasumigake"
+    },
+    {
+     "name": "Kazekiri"
+    },
+    {
+     "name": "Raida"
+    },
+    {
+     "name": "Kunai"
+    },
+    {
+     "name": "Airborne Kunai"
+    },
+    {
+     "name": "Kunai Ikkinage"
+    },
+    {
+     "name": "Airborne Kunai Ikkinage"
+    },
+    {
+     "name": "Kunai Hoju"
+    },
+    {
+     "name": "Rokushaku Horokudama (Akebono)"
+    },
+    {
+     "name": "Rokushaku Horokudama (Hizakari)"
+    },
+    {
+     "name": "Rokushaku Horokudama (Tasogare)"
+    },
+    {
+     "name": "Kachofugetsu"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/balrog/",
+   "moves": [
+    {
+     "name": "Dirty Bomber"
+    },
+    {
+     "name": "Dirty Shot"
+    },
+    {
+     "name": "KKB"
+    },
+    {
+     "name": "Buffalo Swing"
+    },
+    {
+     "name": "Buffalo Pressure"
+    },
+    {
+     "name": "FFB"
+    },
+    {
+     "name": "Crazy Rush"
+    },
+    {
+     "name": "No Mercy"
+    },
+    {
+     "name": "Buffalo Headbutt"
+    },
+    {
+     "name": "Hard Smasher"
+    },
+    {
+     "name": "Hard Pressure"
+    },
+    {
+     "name": "OTB"
+    },
+    {
+     "name": "Under Impact"
+    },
+    {
+     "name": "Stomping Combo"
+    },
+    {
+     "name": "Dash Straight"
+    },
+    {
+     "name": "Charging Buffalo"
+    },
+    {
+     "name": "Dash Grand Blow"
+    },
+    {
+     "name": "Screw Smash"
+    },
+    {
+     "name": "Bursting Buffalo"
+    },
+    {
+     "name": "Turn Punch"
+    },
+    {
+     "name": "B3"
+    },
+    {
+     "name": "Gigaton Blow"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/juri/",
+   "moves": [
+    {
+     "name": "Chisenkyaku"
+    },
+    {
+     "name": "Kaeikyaku"
+    },
+    {
+     "name": "Zankasen"
+    },
+    {
+     "name": "Kasatsushu"
+    },
+    {
+     "name": "Kasatsushu (stop)"
+    },
+    {
+     "name": "Fuha Enzan"
+    },
+    {
+     "name": "Feng Shui Engine alpha"
+    },
+    {
+     "name": "Feng Shui Engine beta"
+    },
+    {
+     "name": "Kaisenrenkyaku"
+    },
+    {
+     "name": "Korenzan"
+    },
+    {
+     "name": "Senkaikyaku"
+    },
+    {
+     "name": "Kyoretsushu"
+    },
+    {
+     "name": "Enkushu"
+    },
+    {
+     "name": "Fuharenkyaku"
+    },
+    {
+     "name": "Tensenrin"
+    },
+    {
+     "name": "Ryodansatsu"
+    },
+    {
+     "name": "Sakkai Fuhazan"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/urien/",
+   "moves": [
+    {
+     "name": "Spartan Bomb"
+    },
+    {
+     "name": "Metallic Aura"
+    },
+    {
+     "name": "Indignant Thunder"
+    },
+    {
+     "name": "Aegis Reflector (BACK)"
+    },
+    {
+     "name": "Aegis Reflector (FORWARD)"
+    },
+    {
+     "name": "Aegis Reflector (UP)"
+    },
+    {
+     "name": "Tyrant Pressure"
+    },
+    {
+     "name": "Anger Snap Fist"
+    },
+    {
+     "name": "Quarrel Punch"
+    },
+    {
+     "name": "Quarrel Kick"
+    },
+    {
+     "name": "Terrible Smash"
+    },
+    {
+     "name": "Killer Straight"
+    },
+    {
+     "name": "Break Rush"
+    },
+    {
+     "name": "Chariot Tackle"
+    },
+    {
+     "name": "Violence Knee Drop"
+    },
+    {
+     "name": "Dangerous Headbutt"
+    },
+    {
+     "name": "Metallic Sphere"
+    },
+    {
+     "name": "Aegis Reflector (BACK)"
+    },
+    {
+     "name": "Aegis Reflector (FORWARD)"
+    },
+    {
+     "name": "Aegis Reflector (UP)"
+    },
+    {
+     "name": "Tyrant Blaze"
+    },
+    {
+     "name": "Dominant Crush"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/akuma/",
+   "moves": [
+    {
+     "name": "Goshoha"
+    },
+    {
+     "name": "Shuretsuzan"
+    },
+    {
+     "name": "Rakan"
+    },
+    {
+     "name": "Rakan Gosho"
+    },
+    {
+     "name": "Rakan Gokyaku"
+    },
+    {
+     "name": "KIAI"
+    },
+    {
+     "name": "Sekia Goshoha"
+    },
+    {
+     "name": "Dohatsu Shoten"
+    },
+    {
+     "name": "Shiretsu Hasshi"
+    },
+    {
+     "name": "Gosenkyaku"
+    },
+    {
+     "name": "Tenmakujinkyaku"
+    },
+    {
+     "name": "Zugaihasatsu"
+    },
+    {
+     "name": "Tenha"
+    },
+    {
+     "name": "Sekiseiken"
+    },
+    {
+     "name": "Kongoken"
+    },
+    {
+     "name": "Kikokurenzan"
+    },
+    {
+     "name": "Gohadoken"
+    },
+    {
+     "name": "Sekia Goshoha"
+    },
+    {
+     "name": "Zanku Hadoken"
+    },
+    {
+     "name": "Goshoryuken"
+    },
+    {
+     "name": "Tatsumaki Zankukyaku"
+    },
+    {
+     "name": "Airborne Tatsumaki Zankukyaku"
+    },
+    {
+     "name": "Ashura Senku"
+    },
+    {
+     "name": "Hyakkishu"
+    },
+    {
+     "name": "Hyakki Gozan"
+    },
+    {
+     "name": "Hyakki Gosho"
+    },
+    {
+     "name": "Hyakki Gojin"
+    },
+    {
+     "name": "Hyakki Gosai"
+    },
+    {
+     "name": "Hyakki Gozanku"
+    },
+    {
+     "name": "Hyakki Gorasen"
+    },
+    {
+     "name": "Sekia Kuretsuha"
+    },
+    {
+     "name": "Shun Goku Satsu"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/kolin/",
+   "moves": [
+    {
+     "name": "Pressure Ridge"
+    },
+    {
+     "name": "Sublimation"
+    },
+    {
+     "name": "Avalanche Lock"
+    },
+    {
+     "name": "Inside Slash"
+    },
+    {
+     "name": "Glacier Through"
+    },
+    {
+     "name": "Diamond Dust"
+    },
+    {
+     "name": "Absolute Zero"
+    },
+    {
+     "name": "Third Eye"
+    },
+    {
+     "name": "Blizzard Heel"
+    },
+    {
+     "name": "Icicle Stamp"
+    },
+    {
+     "name": "Sniping Kick"
+    },
+    {
+     "name": "Frost Spike"
+    },
+    {
+     "name": "White Out"
+    },
+    {
+     "name": "White Pressure"
+    },
+    {
+     "name": "Cold Low"
+    },
+    {
+     "name": "Brinicle"
+    },
+    {
+     "name": "Snow Grain"
+    },
+    {
+     "name": "White Spear"
+    },
+    {
+     "name": "Frost Touch (LOW)"
+    },
+    {
+     "name": "Frost Touch (MIDDLE)"
+    },
+    {
+     "name": "Frost Touch (HIGH)"
+    },
+    {
+     "name": "Parabellum"
+    },
+    {
+     "name": "Vanity Step"
+    },
+    {
+     "name": "Silver Edge"
+    },
+    {
+     "name": "Glacier Through"
+    },
+    {
+     "name": "Hailstorm"
+    },
+    {
+     "name": "Diamond Dust"
+    },
+    {
+     "name": "Frost Edge"
+    },
+    {
+     "name": "Reverse Javelin"
+    },
+    {
+     "name": "Frost Tower"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/ed/",
+   "moves": [
+    {
+     "name": "Psycho Blow"
+    },
+    {
+     "name": "Cheat & Smash"
+    },
+    {
+     "name": "Psycho Snatcher - Ground"
+    },
+    {
+     "name": "Psycho Snatcher - Air"
+    },
+    {
+     "name": "Psycho Swing"
+    },
+    {
+     "name": "Psycho Smash"
+    },
+    {
+     "name": "Psycho Cannon"
+    },
+    {
+     "name": "Enhanced Snatcher"
+    },
+    {
+     "name": "Kill Step"
+    },
+    {
+     "name": "Psycho Spark"
+    },
+    {
+     "name": "Psycho Shot"
+    },
+    {
+     "name": "Psycho Knuckle"
+    },
+    {
+     "name": "Psycho Upper"
+    },
+    {
+     "name": "Psycho Flicker"
+    },
+    {
+     "name": "Psycho Rising"
+    },
+    {
+     "name": "Psycho Splash"
+    },
+    {
+     "name": "Ultra Snatcher - Ground"
+    },
+    {
+     "name": "Ultra Snatcher - Air"
+    },
+    {
+     "name": "Psycho Barrage"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/abigail/",
+   "moves": [
+    {
+     "name": "Red Leaf"
+    },
+    {
+     "name": "Hit & Run"
+    },
+    {
+     "name": "Hungabee High"
+    },
+    {
+     "name": "Hungabee Low"
+    },
+    {
+     "name": "C'mon Spare Tire"
+    },
+    {
+     "name": "Max Power"
+    },
+    {
+     "name": "Hybrid Charge"
+    },
+    {
+     "name": "Ontario Drop"
+    },
+    {
+     "name": "Abi Hammer"
+    },
+    {
+     "name": "Abi Lift"
+    },
+    {
+     "name": "Abi Blaster"
+    },
+    {
+     "name": "Abi Scissor"
+    },
+    {
+     "name": "Vroom Vroom"
+    },
+    {
+     "name": "Bang Bang"
+    },
+    {
+     "name": "Abi Twist"
+    },
+    {
+     "name": "Abigail Punch"
+    },
+    {
+     "name": "Giant Flip"
+    },
+    {
+     "name": "Abigail Smash"
+    },
+    {
+     "name": "Nitro Charge"
+    },
+    {
+     "name": "Drop Back"
+    },
+    {
+     "name": "Dynamite Punch"
+    },
+    {
+     "name": "Avalanche Press"
+    },
+    {
+     "name": "Bay Area Sunrise"
+    },
+    {
+     "name": "Nitro Hungabee High"
+    },
+    {
+     "name": "Nitro Hungabee Low"
+    },
+    {
+     "name": "Metro Crash"
+    },
+    {
+     "name": "Abigail Special"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/menat/",
+   "moves": [
+    {
+     "name": "Overflowing Nile"
+    },
+    {
+     "name": "Pyramid Hopscotch"
+    },
+    {
+     "name": "Soul Reflect - Kamal"
+    },
+    {
+     "name": "Soull Reflect - Stella"
+    },
+    {
+     "name": "Soul Spiral"
+    },
+    {
+     "name": "Wisdom Of Thoth"
+    },
+    {
+     "name": "Prophecy Of Thoth"
+    },
+    {
+     "name": "Left Eye Of The Lion"
+    },
+    {
+     "name": "Judgement Of Anubis"
+    },
+    {
+     "name": "Divine Retribution"
+    },
+    {
+     "name": "Khamun Kick"
+    },
+    {
+     "name": "Soul Sphere"
+    },
+    {
+     "name": "Soul Sphere: Ankh"
+    },
+    {
+     "name": "Guardian of The Sun"
+    },
+    {
+     "name": "Soul Spark"
+    },
+    {
+     "name": "Judgement Of Thoth"
+    },
+    {
+     "name": "Prophecy Of Thoth"
+    },
+    {
+     "name": "The Nefertem"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/zeku/",
+   "moves": [
+    {
+     "name": "Tsurigane Otoshi"
+    },
+    {
+     "name": "Mikoshi"
+    },
+    {
+     "name": "Fukuro"
+    },
+    {
+     "name": "Kuchiyose - Shii"
+    },
+    {
+     "name": "Bushinryu Shingekiko"
+    },
+    {
+     "name": "Karura Tenzan"
+    },
+    {
+     "name": "Toushi"
+    },
+    {
+     "name": "Nouten Wari"
+    },
+    {
+     "name": "Bushin Gram - Koku"
+    },
+    {
+     "name": "Bushin Gram - Ban"
+    },
+    {
+     "name": "Bushin Gram - Teki"
+    },
+    {
+     "name": "Bushin Jakura"
+    },
+    {
+     "name": "Bushin Gekirinchu"
+    },
+    {
+     "name": "Bushin Kirinkyaku"
+    },
+    {
+     "name": "Bushin Tengen"
+    },
+    {
+     "name": "Shukumyo"
+    },
+    {
+     "name": "Idaten"
+    },
+    {
+     "name": "Bushin Bakujasho"
+    },
+    {
+     "name": "Karura Tenzan"
+    },
+    {
+     "name": "Batsuzan Gaisei"
+    },
+    {
+     "name": "Tesso"
+    },
+    {
+     "name": "Raiju"
+    },
+    {
+     "name": "Tenpo Kari"
+    },
+    {
+     "name": "Kuchiyose - Bii"
+    },
+    {
+     "name": "Bushinryu Shingekiko"
+    },
+    {
+     "name": "Karura Tenzan"
+    },
+    {
+     "name": "Toushi"
+    },
+    {
+     "name": "Kubi Kudaki"
+    },
+    {
+     "name": "Kaeshi Saiha"
+    },
+    {
+     "name": "Kaeshi Urasaiha"
+    },
+    {
+     "name": "Kagerou"
+    },
+    {
+     "name": "Urakagerou"
+    },
+    {
+     "name": "Hakuso No Jin"
+    },
+    {
+     "name": "Bushin Soukosou"
+    },
+    {
+     "name": "Bushin Gokusanken - Ni"
+    },
+    {
+     "name": "Bushin Gokusanken - San"
+    },
+    {
+     "name": "Bushin Gokusanken - Shu"
+    },
+    {
+     "name": "Bushin Gokusanage"
+    },
+    {
+     "name": "Sankaku Tobi"
+    },
+    {
+     "name": "Hassou Tobi"
+    },
+    {
+     "name": "Bushin Shidenkyaku"
+    },
+    {
+     "name": "Bushin Sho"
+    },
+    {
+     "name": "Hozanto"
+    },
+    {
+     "name": "Bushin Sandoku Otoshi"
+    },
+    {
+     "name": "Hayagake"
+    },
+    {
+     "name": "Tozetsu"
+    },
+    {
+     "name": "Ashikari"
+    },
+    {
+     "name": "Gekkou"
+    },
+    {
+     "name": "Shukumyo"
+    },
+    {
+     "name": "Idaten"
+    },
+    {
+     "name": "Bushin Seiryukyaku"
+    },
+    {
+     "name": "Karura Tenzan"
+    },
+    {
+     "name": "Batsuzan Gaisei"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/sakura/",
+   "moves": [
+    {
+     "name": "Hanakaze"
+    },
+    {
+     "name": "Sakura Shoulder Throw"
+    },
+    {
+     "name": "Sailor Hop"
+    },
+    {
+     "name": "Haru Kaze"
+    },
+    {
+     "name": "Sakura Otoshi"
+    },
+    {
+     "name": "Oukakyaku"
+    },
+    {
+     "name": "Kashinfu"
+    },
+    {
+     "name": "Haru Hayate"
+    },
+    {
+     "name": "Haru Arashi"
+    },
+    {
+     "name": "Sakura Senpu"
+    },
+    {
+     "name": "Floral Spin"
+    },
+    {
+     "name": "Floral Kick"
+    },
+    {
+     "name": "Furiko Upper"
+    },
+    {
+     "name": "Chin Buster Kick"
+    },
+    {
+     "name": "Hadoken"
+    },
+    {
+     "name": "Tengyo Hadoken"
+    },
+    {
+     "name": "Shouoken"
+    },
+    {
+     "name": "Shunpukyaku"
+    },
+    {
+     "name": "Airborne Shunpukyaku"
+    },
+    {
+     "name": "Hogasho"
+    },
+    {
+     "name": "Sakura Rain"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/blanka/",
+   "moves": [
+    {
+     "name": "Wild Fang"
+    },
+    {
+     "name": "Jungle Wheel"
+    },
+    {
+     "name": "Coward Crouch"
+    },
+    {
+     "name": "Wild Lift"
+    },
+    {
+     "name": "Raid Jump"
+    },
+    {
+     "name": "Shout of Earth"
+    },
+    {
+     "name": "Jungle Dynamo"
+    },
+    {
+     "name": "Lightning Beast"
+    },
+    {
+     "name": "Quick Rolling"
+    },
+    {
+     "name": "Rock Crusher"
+    },
+    {
+     "name": "Amazon River Run"
+    },
+    {
+     "name": "Raging Bash"
+    },
+    {
+     "name": "Lightning Dance"
+    },
+    {
+     "name": "Surprise Forward"
+    },
+    {
+     "name": "Surprise Back"
+    },
+    {
+     "name": "Rolling Attack"
+    },
+    {
+     "name": "Back Step Rolling"
+    },
+    {
+     "name": "Vertical Rolling"
+    },
+    {
+     "name": "Wild Hunt"
+    },
+    {
+     "name": "Electric Thunder"
+    },
+    {
+     "name": "Ground Shave Rolling"
+    },
+    {
+     "name": "Rolling Cannon"
+    },
+    {
+     "name": "Dynamic Rolling"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/falke/",
+   "moves": [
+    {
+     "name": "Wirbelwind"
+    },
+    {
+     "name": "Luftstrom"
+    },
+    {
+     "name": "Windstoss"
+    },
+    {
+     "name": "Psycho Trombe"
+    },
+    {
+     "name": "Psycho Mine"
+    },
+    {
+     "name": "Staerken"
+    },
+    {
+     "name": "Psycho Angriff"
+    },
+    {
+     "name": "Psycho Impulse"
+    },
+    {
+     "name": "Psycho Spitze"
+    },
+    {
+     "name": "Blaukraehe"
+    },
+    {
+     "name": "Luftjagd"
+    },
+    {
+     "name": "Zweitrit"
+    },
+    {
+     "name": "Psycho Kugel"
+    },
+    {
+     "name": "Psycho Kanonen"
+    },
+    {
+     "name": "Psycho Feder"
+    },
+    {
+     "name": "Psycho Schneide"
+    },
+    {
+     "name": "Katapult"
+    },
+    {
+     "name": "Psycho Schrot"
+    },
+    {
+     "name": "Psycho Panzer"
+    },
+    {
+     "name": "Psycho Jaeger"
+    },
+    {
+     "name": "Psycho Sturm"
+    },
+    {
+     "name": "Psycho Klinge"
+    },
+    {
+     "name": "Psycho Fluegel"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/cody/",
+   "moves": [
+    {
+     "name": "Trash Out"
+    },
+    {
+     "name": "Crime Throw"
+    },
+    {
+     "name": "Secret Work"
+    },
+    {
+     "name": "Double Kick"
+    },
+    {
+     "name": "Crime Sway (HIGH)"
+    },
+    {
+     "name": "Wrench Fist"
+    },
+    {
+     "name": "Crime Sway (LOW)"
+    },
+    {
+     "name": "Lumber Sweep"
+    },
+    {
+     "name": "Side Arm"
+    },
+    {
+     "name": "Dirty Coach"
+    },
+    {
+     "name": "Prison Breaker"
+    },
+    {
+     "name": "Axel Knuckle"
+    },
+    {
+     "name": "Hammer Kick"
+    },
+    {
+     "name": "Bad Spray"
+    },
+    {
+     "name": "Slip Jab"
+    },
+    {
+     "name": "Crime Blow"
+    },
+    {
+     "name": "Final Combination"
+    },
+    {
+     "name": "Final Combo Throw"
+    },
+    {
+     "name": "Air Raid Punch"
+    },
+    {
+     "name": "Air Raid Kick"
+    },
+    {
+     "name": "Crack Combination"
+    },
+    {
+     "name": "Crime Combination"
+    },
+    {
+     "name": "Burst Shot"
+    },
+    {
+     "name": "Zonk Knuckle"
+    },
+    {
+     "name": "Tornado Sweep"
+    },
+    {
+     "name": "Ruffian Kick"
+    },
+    {
+     "name": "Snipe Shot"
+    },
+    {
+     "name": "Anti-Air Snipe Shot"
+    },
+    {
+     "name": "Reload"
+    },
+    {
+     "name": "Rapid Fire"
+    },
+    {
+     "name": "Gentle Swing"
+    },
+    {
+     "name": "Gentle Upper Swing"
+    },
+    {
+     "name": "Bean Ball"
+    },
+    {
+     "name": "Present Delivery"
+    },
+    {
+     "name": "Unluck Gift"
+    },
+    {
+     "name": "Toss & Smash"
+    },
+    {
+     "name": "Criminal Punisher"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/g/",
+   "moves": [
+    {
+     "name": "Violence President"
+    },
+    {
+     "name": "Shining President"
+    },
+    {
+     "name": "Destroy President"
+    },
+    {
+     "name": "G Barrier"
+    },
+    {
+     "name": "Airborne G Barrier"
+    },
+    {
+     "name": "G Protection"
+    },
+    {
+     "name": "Maximum President"
+    },
+    {
+     "name": "Dangerous President"
+    },
+    {
+     "name": "G Revenge"
+    },
+    {
+     "name": "Wild President"
+    },
+    {
+     "name": "Strong President"
+    },
+    {
+     "name": "Crash President"
+    },
+    {
+     "name": "Flying President"
+    },
+    {
+     "name": "Message To The People"
+    },
+    {
+     "name": "Message To The People (CANCEL)"
+    },
+    {
+     "name": "G Smash Over"
+    },
+    {
+     "name": "G Smash Under"
+    },
+    {
+     "name": "G Burst"
+    },
+    {
+     "name": "G Spin Kick"
+    },
+    {
+     "name": "G Impact"
+    },
+    {
+     "name": "G Charge"
+    },
+    {
+     "name": "G Charge (Cancel)"
+    },
+    {
+     "name": "G Explosion"
+    },
+    {
+     "name": "G Rage"
+    },
+    {
+     "name": "Pangaea Burst"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/sagat/",
+   "moves": [
+    {
+     "name": "Tiger Hang"
+    },
+    {
+     "name": "Tiger Swing"
+    },
+    {
+     "name": "Angry Charge"
+    },
+    {
+     "name": "Hanuman Charge"
+    },
+    {
+     "name": "Tiger Charge"
+    },
+    {
+     "name": "Tiger Assault"
+    },
+    {
+     "name": "Tiger Revenge"
+    },
+    {
+     "name": "Tiger Heavy Elbow"
+    },
+    {
+     "name": "Step High Kick"
+    },
+    {
+     "name": "Step Low Kick"
+    },
+    {
+     "name": "Tiger Shot"
+    },
+    {
+     "name": "Grand Tiger Shot"
+    },
+    {
+     "name": "Tiger Uppercut"
+    },
+    {
+     "name": "Tiger Knee Crush"
+    },
+    {
+     "name": "Tiger Cannon"
+    },
+    {
+     "name": "Tiger Spike"
+    },
+    {
+     "name": "Tiger Rush"
+    },
+    {
+     "name": "Tiger Rampage"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/kage/",
+   "moves": [
+    {
+     "name": "Shoulder Throw"
+    },
+    {
+     "name": "Somersault Throw"
+    },
+    {
+     "name": "Senha Kassatsu"
+    },
+    {
+     "name": "SEKIEKEN"
+    },
+    {
+     "name": "Taigyaku Mudo"
+    },
+    {
+     "name": "Rikudo Osatsu"
+    },
+    {
+     "name": "Senbugeki"
+    },
+    {
+     "name": "Zugaihasatsu"
+    },
+    {
+     "name": "Kikokuduki"
+    },
+    {
+     "name": "Kikokuretsuzan"
+    },
+    {
+     "name": "Sekei Gozanken"
+    },
+    {
+     "name": "Tenmakujinkyaku"
+    },
+    {
+     "name": "Hadoken"
+    },
+    {
+     "name": "Airborne Hadoken"
+    },
+    {
+     "name": "Shakunetsu Hadoken"
+    },
+    {
+     "name": "Shoryuken"
+    },
+    {
+     "name": "Kurekijin"
+    },
+    {
+     "name": "Airborne Kurekijin"
+    },
+    {
+     "name": "Ryusokyaku"
+    },
+    {
+     "name": "Ashura Senku"
+    },
+    {
+     "name": "Misogi"
+    },
+    {
+     "name": "Metsu Shoryuken"
+    },
+    {
+     "name": "Shun Goku Satsu"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/e-honda/",
+   "moves": [
+    {
+     "name": "Saba-Ori"
+    },
+    {
+     "name": "Tawara Throw"
+    },
+    {
+     "name": "Neko Damashi"
+    },
+    {
+     "name": "Sumo Spirit"
+    },
+    {
+     "name": "Onigawara"
+    },
+    {
+     "name": "Tajikarao"
+    },
+    {
+     "name": "Raiden-Ho"
+    },
+    {
+     "name": "Harai-Geri"
+    },
+    {
+     "name": "Chikara-Ashi"
+    },
+    {
+     "name": "Flying Sumo Press"
+    },
+    {
+     "name": "Tokoshizume"
+    },
+    {
+     "name": "Tsurane Harite"
+    },
+    {
+     "name": "Hirate"
+    },
+    {
+     "name": "Hundred Hand Slap"
+    },
+    {
+     "name": "Sumo Headbutt"
+    },
+    {
+     "name": "Sumo Smash"
+    },
+    {
+     "name": "Oicho Throw"
+    },
+    {
+     "name": "Oni-Daikaku"
+    },
+    {
+     "name": "Oni-Muso"
+    },
+    {
+     "name": "Iwato Biraki"
+    },
+    {
+     "name": "Kamigashima"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/lucia/",
+   "moves": [
+    {
+     "name": "German Suplex"
+    },
+    {
+     "name": "Back-Carry Throw"
+    },
+    {
+     "name": "Tap-Kick"
+    },
+    {
+     "name": "Arrest Heel"
+    },
+    {
+     "name": "Burning Fight"
+    },
+    {
+     "name": "Weapon Fury"
+    },
+    {
+     "name": "Hammer Knuckle"
+    },
+    {
+     "name": "Knee Slide"
+    },
+    {
+     "name": "Elbow Crush"
+    },
+    {
+     "name": "Quick Side-Kick"
+    },
+    {
+     "name": "Spin Drive"
+    },
+    {
+     "name": "Street-Style Set"
+    },
+    {
+     "name": "Carry Bonus"
+    },
+    {
+     "name": "Drop Target"
+    },
+    {
+     "name": "Gun Smoke"
+    },
+    {
+     "name": "Rough Chase"
+    },
+    {
+     "name": "Tornado Spinner"
+    },
+    {
+     "name": "Cyclone Spinner"
+    },
+    {
+     "name": "Nubbing Needle"
+    },
+    {
+     "name": "Braking"
+    },
+    {
+     "name": "Firecracker"
+    },
+    {
+     "name": "Flipper Shot"
+    },
+    {
+     "name": "Fire Spinner"
+    },
+    {
+     "name": "Hurricane Spinner"
+    },
+    {
+     "name": "Tactical Weapon"
+    },
+    {
+     "name": "Hard Hit Knee"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/poison/",
+   "moves": [
+    {
+     "name": "Slap Shot"
+    },
+    {
+     "name": "Frankensteiner"
+    },
+    {
+     "name": "Perfume Swing"
+    },
+    {
+     "name": "Cartwheel"
+    },
+    {
+     "name": "Poison Cocktail"
+    },
+    {
+     "name": "Toxic Glamor"
+    },
+    {
+     "name": "Power Cord"
+    },
+    {
+     "name": "Whiplash"
+    },
+    {
+     "name": "Slap & Smash"
+    },
+    {
+     "name": "Slap & Slash"
+    },
+    {
+     "name": "Avant Line"
+    },
+    {
+     "name": "Heart Raid"
+    },
+    {
+     "name": "Shocking Heel"
+    },
+    {
+     "name": "Love Me Tender"
+    },
+    {
+     "name": "Fire Squall"
+    },
+    {
+     "name": "Toxic Hold"
+    },
+    {
+     "name": "Toxic Bind"
+    },
+    {
+     "name": "Love Hurricane"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/gill/",
+   "moves": [
+    {
+     "name": "Impact Claw"
+    },
+    {
+     "name": "Guilty Bomb"
+    },
+    {
+     "name": "Meteor Strike"
+    },
+    {
+     "name": "Hail Sting"
+    },
+    {
+     "name": "Blocking"
+    },
+    {
+     "name": "Primal Fire"
+    },
+    {
+     "name": "Ice of Doom"
+    },
+    {
+     "name": "Pyro Reverse Kick"
+    },
+    {
+     "name": "Cryo Drop Elbow"
+    },
+    {
+     "name": "Pyro Quarrel Kick"
+    },
+    {
+     "name": "Cryo Rise Kick"
+    },
+    {
+     "name": "Guilty Straight"
+    },
+    {
+     "name": "Penalty Break"
+    },
+    {
+     "name": "Pyrokinesis"
+    },
+    {
+     "name": "Cryokinesis"
+    },
+    {
+     "name": "Pyro Cyber Lariat"
+    },
+    {
+     "name": "Cyro Cyber Lariat"
+    },
+    {
+     "name": "Moonsault Knee Drop"
+    },
+    {
+     "name": "Burn Storm"
+    },
+    {
+     "name": "Flame Javelin"
+    },
+    {
+     "name": "Volcanic Storm"
+    },
+    {
+     "name": "Tree of Frost"
+    },
+    {
+     "name": "Delay Freeze Lance"
+    },
+    {
+     "name": "Seraphic Wing"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/seth/",
+   "moves": [
+    {
+     "name": "Death Throw"
+    },
+    {
+     "name": "Tanden Engine"
+    },
+    {
+     "name": "Tanden Install"
+    },
+    {
+     "name": "Install Art"
+    },
+    {
+     "name": "Tanden Booster"
+    },
+    {
+     "name": "Hecatoncheires Glide"
+    },
+    {
+     "name": "Mad Spiral"
+    },
+    {
+     "name": "Spin Pendulum"
+    },
+    {
+     "name": "Tanden Booster (STOP)"
+    },
+    {
+     "name": "Tanden Ignition"
+    },
+    {
+     "name": "Tanden Maneuver"
+    },
+    {
+     "name": "Calamity Shutter"
+    },
+    {
+     "name": "Step Shoot"
+    },
+    {
+     "name": "Hazard Blow"
+    },
+    {
+     "name": "Head Hunter"
+    },
+    {
+     "name": "Turning Slicer"
+    },
+    {
+     "name": "Twin Claw"
+    },
+    {
+     "name": "Tanden Combination"
+    },
+    {
+     "name": "Shoot Slicer"
+    },
+    {
+     "name": "Fatal Rush"
+    },
+    {
+     "name": "Hecatoncheires"
+    },
+    {
+     "name": "Mad Cradle"
+    },
+    {
+     "name": "Cruel Disaster"
+    },
+    {
+     "name": "Annihilate Sword"
+    },
+    {
+     "name": "Titanomachy"
+    },
+    {
+     "name": "Mad Spin"
+    },
+    {
+     "name": "Cyclone Disaster"
+    },
+    {
+     "name": "Hell's Gate"
+    },
+    {
+     "name": "Tanden Maneuver (ADDITIONAL CONTROL)"
+    },
+    {
+     "name": "Tanden Explode"
+    },
+    {
+     "name": "Tanden Destruction"
+    },
+    {
+     "name": "Tanden Extreme"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/dan/",
+   "moves": [
+    {
+     "name": "Saikyo Taikuzushi"
+    },
+    {
+     "name": "Saikyo Haraigoshi"
+    },
+    {
+     "name": "Saikyo-Style Burairuten No Kamae I"
+    },
+    {
+     "name": "Saikyo-Style Burairuten No Kamae II"
+    },
+    {
+     "name": "Saikyo-Style Burairuten No Kamae III"
+    },
+    {
+     "name": "Saikyo-Style Otokoboe I"
+    },
+    {
+     "name": "Saikyo-Style Otokoboe II"
+    },
+    {
+     "name": "Haoh Gadoken"
+    },
+    {
+     "name": "Tenchi Saikyo No Kata"
+    },
+    {
+     "name": "Saikyo-Style Kaihi Jutsu"
+    },
+    {
+     "name": "Saikyo Donukigeri"
+    },
+    {
+     "name": "Saikyo Chop"
+    },
+    {
+     "name": "Saikyo Jawbreaker"
+    },
+    {
+     "name": "Gadoken"
+    },
+    {
+     "name": "Koryuken"
+    },
+    {
+     "name": "Dankukyaku"
+    },
+    {
+     "name": "Danretsuken"
+    },
+    {
+     "name": "Haten Gadoken"
+    },
+    {
+     "name": "Goh Koryuken"
+    },
+    {
+     "name": "Hisshou Buraiken"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/rose/",
+   "moves": [
+    {
+     "name": "Soul Fall"
+    },
+    {
+     "name": "Soul Drain"
+    },
+    {
+     "name": "Soul Fortune"
+    },
+    {
+     "name": "Fortune Shuffle"
+    },
+    {
+     "name": "Soul Satellite"
+    },
+    {
+     "name": "Soul Dimension"
+    },
+    {
+     "name": "Soul Illusion"
+    },
+    {
+     "name": "Soul Reflect"
+    },
+    {
+     "name": "Soul Veloce"
+    },
+    {
+     "name": "Soul Presa"
+    },
+    {
+     "name": "Slide"
+    },
+    {
+     "name": "Soul Piede"
+    },
+    {
+     "name": "Soul Pilastro"
+    },
+    {
+     "name": "Soul Levare"
+    },
+    {
+     "name": "Soul Spark"
+    },
+    {
+     "name": "Soul Spark (AIRBORNE)"
+    },
+    {
+     "name": "Soul Punish"
+    },
+    {
+     "name": "Soul Bind"
+    },
+    {
+     "name": "Soul Spiral"
+    },
+    {
+     "name": "Soul Terra"
+    },
+    {
+     "name": "Soul Mare"
+    },
+    {
+     "name": "Soul Cielo"
+    },
+    {
+     "name": "Fate Aura Spark"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/oro/",
+   "moves": [
+    {
+     "name": "Yashi Kudaki"
+    },
+    {
+     "name": "Tomoe Nage"
+    },
+    {
+     "name": "Kuchu Jigoku Guruma"
+    },
+    {
+     "name": "Onibi"
+    },
+    {
+     "name": "Minomushi"
+    },
+    {
+     "name": "Kaki Otoshi"
+    },
+    {
+     "name": "Eda Uchi"
+    },
+    {
+     "name": "Manrikitan"
+    },
+    {
+     "name": "Tengu Stone"
+    },
+    {
+     "name": "Tengu Midare Stone"
+    },
+    {
+     "name": "Ashi Barai"
+    },
+    {
+     "name": "Kaeshi Genkotsu"
+    },
+    {
+     "name": "Tobi Hiza"
+    },
+    {
+     "name": "Hane Jodan Mawashi"
+    },
+    {
+     "name": "Tsurane Uchiage"
+    },
+    {
+     "name": "Oi Onibi"
+    },
+    {
+     "name": "Oi Minomushi"
+    },
+    {
+     "name": "Oi Kaki Otoshi"
+    },
+    {
+     "name": "Oi Eda Uchi"
+    },
+    {
+     "name": "Double Jump"
+    },
+    {
+     "name": "Nichirin Sho"
+    },
+    {
+     "name": "Oni Yanma"
+    },
+    {
+     "name": "Nioh Riki"
+    },
+    {
+     "name": "Jinchu Watari"
+    },
+    {
+     "name": "Jinchu Nobori"
+    },
+    {
+     "name": "Tsuranekeashi"
+    },
+    {
+     "name": "Kishinriki"
+    },
+    {
+     "name": "Kishin Kuchu Jigoku Guruma"
+    },
+    {
+     "name": "Daishinsenriki"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/akira/",
+   "moves": [
+    {
+     "name": "Shin'iha"
+    },
+    {
+     "name": "Yoshisenrin"
+    },
+    {
+     "name": "Kurakusho"
+    },
+    {
+     "name": "Kiko Rensei"
+    },
+    {
+     "name": "Tsutenda"
+    },
+    {
+     "name": "Otoko No Senaka"
+    },
+    {
+     "name": "Haten No Kamae"
+    },
+    {
+     "name": "Gutsy Counter"
+    },
+    {
+     "name": "Kaihosho"
+    },
+    {
+     "name": "Kutenshu"
+    },
+    {
+     "name": "Totenshu"
+    },
+    {
+     "name": "Shintenshu"
+    },
+    {
+     "name": "Ressenda"
+    },
+    {
+     "name": "Tsuten Rengeki"
+    },
+    {
+     "name": "Renkan Ko"
+    },
+    {
+     "name": "Renkan Renkiko"
+    },
+    {
+     "name": "Renkan Tsutenda"
+    },
+    {
+     "name": "Kiko Kai"
+    },
+    {
+     "name": "Airborne Kiko Kai"
+    },
+    {
+     "name": "Urarimon"
+    },
+    {
+     "name": "Hotenshu"
+    },
+    {
+     "name": "Senshubu"
+    },
+    {
+     "name": "Haten No Kamae"
+    },
+    {
+     "name": "Ha No Sogeki"
+    },
+    {
+     "name": "Ha No Renbu"
+    },
+    {
+     "name": "Ten No Renbu"
+    },
+    {
+     "name": "Kamae Cancel"
+    },
+    {
+     "name": "Kyoso Kiko Kai"
+    }
+   ]
+  },
+  {
+   "url": "https://us.streetfighter.com/characters/luke/",
+   "moves": [
+    {
+     "name": "Punisher"
+    },
+    {
+     "name": "Scrapper"
+    },
+    {
+     "name": "Hard Shot"
+    },
+    {
+     "name": "Suppressor"
+    },
+    {
+     "name": "Fully Armed"
+    },
+    {
+     "name": "Vanguard"
+    },
+    {
+     "name": "Ejector"
+    },
+    {
+     "name": "Rawhide"
+    },
+    {
+     "name": "Brutal Spike"
+    },
+    {
+     "name": "Heavy Impact"
+    },
+    {
+     "name": "Outlaw Kick"
+    },
+    {
+     "name": "Triple Impact"
+    },
+    {
+     "name": "Snapback Combo"
+    },
+    {
+     "name": "Sand Blaster"
+    },
+    {
+     "name": "Rising Rocket"
+    },
+    {
+     "name": "Flash Knuckle"
+    },
+    {
+     "name": "Avenger"
+    },
+    {
+     "name": "No Chaser"
+    },
+    {
+     "name": "Impaler"
+    },
+    {
+     "name": "Rock Smasher"
+    },
+    {
+     "name": "Thermobaric Thrash"
+    },
+    {
+     "name": "Annihilator"
+    }
+   ]
+  }
+ ]
+}
