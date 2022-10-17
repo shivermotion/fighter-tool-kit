@@ -6,12 +6,12 @@ import { Container, Grid } from "@mui/material"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import SEO from "../../components/seo-helmet/seo-helmet"
-import { FeatArticle } from "../../components/featured-article/featured-article"
+import { FeatArticleThumbNail } from "../../components/featured-article-thumbnail/featured-article-thumbnail"
 import Header from "../../components/header/header"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
 import BlogList from "../../components/bloglist/bloglist"
-import ken from "../../assets/blog-assets/ken-blog.jpg"
+import fightStick from "../../assets/blog-assets/fightstick.jpg"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -40,7 +40,7 @@ export default function WhatsNewPage() {
                 },
               }}
             >
-              <FeatArticle src={ken} text=";alskdfj;asdkjf;aslkfjls;afj;askjf;ajskfj;sadfj" title="Ken Announced for Street Fighter 6" />
+              <FeatArticleThumbNail src={fightStick} text="" title="Welcome to Fighter Tool Kit" link="/whatsnew/welcome" />
             </Grid>
             <Grid item xs={12}>
               <BlogList />
