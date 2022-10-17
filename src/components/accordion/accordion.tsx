@@ -112,7 +112,7 @@ export function Vtrigger2() {
     </AccordionDetails>
   )
 }
-export function VskillⅠ() {
+export function Vskill1() {
   return (
     <AccordionDetails>
       <Grid container sx={{ justifyContent: "center" }}>
@@ -124,12 +124,12 @@ export function VskillⅠ() {
     </AccordionDetails>
   )
 }
-export function VskillIⅠ() {
+export function Vskill2() {
   return (
     <AccordionDetails>
       <Grid container sx={{ justifyContent: "center" }}>
         <Typography sx={{ fontFamily: "montserrat", fontSize: "24px" }}>
-        V-SKILL ⅠI
+        V-SKILL ⅠⅠ
         </Typography>
       </Grid>
       <Divider />
