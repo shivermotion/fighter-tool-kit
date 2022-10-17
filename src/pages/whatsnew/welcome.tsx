@@ -180,8 +180,13 @@ export function FeatArticle() {
           </Typography>
         </Box>
       </Container>
+      <Divider />
+      <Container maxWidth="lg" sx={{ marginTop: "4rem" }}>
+        {/* <!-- begin wwww.htmlcommentbox.com --> */}
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/simple/skin.css" />
+        {/* <!-- end www.htmlcommentbox.com --> */}
+      </Container>
     </ThemeWrapper>
   )
 }
-
-
