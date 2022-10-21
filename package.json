@@ -1,5 +1,5 @@
 {
-  "homepage": "https://shivermotion.github.io/Fighter-Tool-Kit/",
+  "homepage": "/",
   "name": "fighter-tool-kit",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +14,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-helmet-async": "^1.3.0",
     "react-reveal": "^1.2.2",
-    "react-router-dom": "^6.3.0",
+    "react-router": "^6.4.0",
+    "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.55.0",
+    "swiper": "^8.4.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -24,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "CI": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
