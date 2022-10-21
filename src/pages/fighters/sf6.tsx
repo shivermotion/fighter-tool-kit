@@ -22,7 +22,7 @@ export default function Sf6() {
     <>
       <SEO
         title="Fighters | Street Fighter 6"
-        description="Fighter List"
+        description="Street Fighter 6 - featuring character moves, combos, and more."
         name="Fighter Tool Kit"
         type="website"
       />

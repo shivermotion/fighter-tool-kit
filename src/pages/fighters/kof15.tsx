@@ -65,7 +65,8 @@ export default function Kof15() {
     <>
       <SEO
         title="Fighters | The King of Fighters XIV"
-        description="Fighter List"
+        description="he King of Fighters XIV.
+        Including character moves, combos, and more."
         name="Fighter Tool Kit"
         type="website"
       />

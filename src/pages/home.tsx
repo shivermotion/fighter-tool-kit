@@ -23,7 +23,8 @@ const Home = () => (
   <>
     <SEO
       title="Fighter Tool Kit | Home"
-      description="Fighting Game Ultimate Tool Kit"
+      description="Fighting Game List - featuring Street Fighter, Mortal Kombat, Tekken, and more.
+      Including character moves, combos, and more. Home Page"
       name="Fighter Tool Kit"
       type="website"
     />

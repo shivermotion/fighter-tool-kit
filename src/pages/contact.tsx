@@ -17,7 +17,8 @@ const ContactRoute = () => (
   <>
     <SEO
       title=" Fighter Tool Kit | Contact"
-      description="Contact"
+      description="Fighting Game List - featuring Street Fighter, Mortal Kombat, Tekken, and more.
+      Including character moves, combos, and more. Contact Us"
       name="Fighter Tool Kit"
       type="website"
     />

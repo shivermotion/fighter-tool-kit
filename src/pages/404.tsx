@@ -20,7 +20,7 @@ export const FourOhFour = () => (
   <>
     <SEO
       title="Fighter Tool Kit | 404"
-      description="404"
+      description="Fighting Game List - featuring Street Fighter, Mortal Kombat, Tekken, and more. Including character moves, combos, and more. 404 Page"
       name="Fighter Tool Kit"
       type="website"
     />

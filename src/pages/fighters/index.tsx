@@ -20,7 +20,8 @@ export default function FightersPage() {
     <>
       <SEO
         title="Fighter Tool Kit | Fighters"
-        description="Fighting Game List"
+        description="Fighting Game List - featuring Street Fighter, Mortal Kombat, Tekken, and more.
+        Including character moves, combos, and more."
         name="Fighter Tool Kit"
         type="website"
       />
