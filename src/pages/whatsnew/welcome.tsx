@@ -25,7 +25,6 @@ export function FeatArticle() {
       </NavBar>
 
       <Container sx={{ mb: "8rem" }}>
-        CHECK BACK FOR UPDATES TO THIS SECTION
         <Grid
           container
           direction="column"
@@ -57,10 +56,10 @@ export function FeatArticle() {
             mt="2rem"
           >
             <Grid item>
-              <Box sx={{ display: "flex", justifyContent: "center" }} my="2rem">
-                {/* <img className="blog-author-img" src={pic} alt="author " /> */}
-                <Avatar alt="Jason Day" src="/static/images/avatar/1.jpg" />
-              </Box>
+              {/* <Box sx={{ display: "flex", justifyContent: "center" }} my="2rem"> */}
+              {/* <img className="blog-author-img" src={pic} alt="author " /> */}
+              {/* <Avatar alt="Jason Day" src="/static/images/avatar/1.jpg" />
+              </Box> */}
             </Grid>
             {/* <Grid item>
               <Box>
@@ -115,7 +114,9 @@ export function FeatArticle() {
            Expect Frame Data, Combos, and more!
           </Typography>
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Hear What Others Are Saying in the Fighting Game Community</Typography>
+          CHECK BACK FOR UPDATES TO THIS SECTION
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">News, Blogs, Features</Typography>
+          CHECK BACK FOR UPDATES TO THIS SECTION
           {/* <Typography variant="subtitle1" mb="1rem">
             As people spend more and more time on their devices,
             <b>dark mode</b> is becoming more and more popular. There are a lot
@@ -146,6 +147,7 @@ export function FeatArticle() {
             the curve.
           </Typography> */}
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Match Breakdowns, Gear Reviews, Featured Art, Tool Kit Updates</Typography>
+          CHECK BACK FOR UPDATES TO THIS SECTION
           {/* <Typography variant="subtitle1" mb="1rem">
             What is <b>minimalism?</b> Minimalism is a concept that embodies
             "less is more". There are a few different ways to utilize minimalism
@@ -177,7 +179,7 @@ export function FeatArticle() {
           </Typography> */}
           <Typography variant="subtitle1" mb="1rem">
             Want to write for us?
-            <Link to="/contact/" className="link"> Contact us today.</Link>
+            <Link to="/contact/" className="link" style={{ fontWeight: "bold" }}> Contact us today.</Link>
           </Typography>
         </Box>
       </Container>

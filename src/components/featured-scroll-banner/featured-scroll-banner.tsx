@@ -38,7 +38,7 @@ export default function FeaturedScrollBanner() {
         {windowWidth > 600 ? (
           <>
             <SwiperSlide>
-              <Link to="whatsnew/welcome"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
+              <Link to="whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
             </SwiperSlide>
             {/* <SwiperSlide>
               <FeaturedMediaCard blogImage={honda} backgroundImg={anime} />

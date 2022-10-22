@@ -12,7 +12,7 @@ import FeaturedScrollBanner from "../components/featured-scroll-banner/featured-
 import MultiCard from "../components/non-featured-media-card/multi-card"
 import FeaturedArtScroller from "../components/featured-art-scroller/featured-art-scroller"
 import fightStick from "../assets/blog-assets/fightstick.jpg"
-import evo from "../assets/blog-assets/evo.jpg"
+import twitter from "../assets/blog-assets/twitter.png"
 import FeatureBar from "../components/feature-bar/feature-bar"
 import SEO from "../components/seo-helmet/seo-helmet"
 import kof15 from "../assets/blog-assets/kof15screen.png"
@@ -58,10 +58,11 @@ const Home = () => (
                 </Link>
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography sx={{ mt: "2rem" }}>BLOG</Typography>
+                <Typography sx={{ mt: "2rem" }}>ADD US ON TWITTER</Typography>
+                {/* <Typography sx={{ mt: "2rem" }}>BLOG</Typography> */}
                 <Divider />
                 <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
-                  <MultiCard image={evo} title="EVO FG Tourney Returns!" description="These past two years have been challenging to say the very least, for many reasons. The world has never experienced the things we have gone through and are still going through to this day. We are grateful that we have been able to come together through our passion for fighting games and play with one another in online events." />
+                  <a href="https://twitter.com/fightertoolkit" aria-label="twitter link"><MultiCard image={twitter} title="ADD US ON TWITTER" description="@fightertoolkit" /></a>
                 </Paper>
               </Grid>
             </Grid>

@@ -14,6 +14,7 @@ import { FourOhFour } from "./404"
 import Sf6 from "./fighters/sf6"
 import Footer from "../components/footer/footer"
 import { FeatArticle } from "./whatsnew/welcome"
+import { Blog } from "./whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"
 
 
 // Application Screen || Define Exports
@@ -34,6 +35,7 @@ const App = () => (
           {/* Blogs */}
           <Route path="/whatsnew" element={<WhatsNewPage />} />
           <Route path="/whatsnew/welcome" element={<FeatArticle />} />
+          <Route path="/whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta" element={<Blog />} />
           {/* Contact */}
           <Route path="/contact" element={<Contact />} />
           {/* 404 */}
