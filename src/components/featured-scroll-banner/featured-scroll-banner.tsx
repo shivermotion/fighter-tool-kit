@@ -11,7 +11,7 @@ import { FeaturedMediaCard } from "../featured-media-card/featured-media-card"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import "./featured-scroll-banner.scss"
 import honda from "../../assets/blog-assets/honda-sketch.jpg"
-import ken from "../../assets/blog-assets/ken-blog.jpg"
+import featThumbnail from "../../assets/blog-assets/battlehub-min.jpg"
 import anime from "../../assets/icons/anime.png"
 
 // Application Screen || Define Exports
@@ -38,7 +38,7 @@ export default function FeaturedScrollBanner() {
         {windowWidth > 600 ? (
           <>
             <SwiperSlide>
-              <Link to="whatsnew/welcome"> <FeaturedMediaCard blogImage={ken} backgroundImg={honda} alt="honda" /></Link>
+              <Link to="whatsnew/welcome"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
             </SwiperSlide>
             {/* <SwiperSlide>
               <FeaturedMediaCard blogImage={honda} backgroundImg={anime} />
@@ -50,7 +50,7 @@ export default function FeaturedScrollBanner() {
         ) : windowWidth < 600 ? (
           <>
             <SwiperSlide>
-              <Link to="whatsnew/welcome"> <FeaturedMediaCard blogImage={ken} /></Link>
+              <Link to="whatsnew/welcome"> <FeaturedMediaCard blogImage={featThumbnail} /></Link>
             </SwiperSlide>
             <SwiperSlide>
               <FeaturedMediaCard blogImage={honda} />
