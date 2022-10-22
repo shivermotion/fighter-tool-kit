@@ -25,6 +25,7 @@ export function FeatArticle() {
       </NavBar>
 
       <Container sx={{ mb: "8rem" }}>
+        CHECK BACK FOR UPDATES TO THIS SECTION
         <Grid
           container
           direction="column"
@@ -36,7 +37,7 @@ export function FeatArticle() {
             <img src={fightStick} alt={fightStick} style={{ maxWidth: "800px", display: "flex", justifyContent: "center", width: "100%" }} />
           </Grid>
           <Grid item mt="1rem" mx="2rem">
-            <Typography variant="body1">
+            {/* <Typography variant="body1">
               By creating a unique, visually aesthetic, and easy-to-use website,
               your visitors will prefer you over your competitors. 88% of polled
               users said that they were less likely to return to a website after a
@@ -45,7 +46,7 @@ export function FeatArticle() {
               <a href="https://uxcam.com/blog/ux-statistics/">bluespace</a> The
               pressure is on. Not only does your desktop site have to go above and
               beyond, but your mobile site has to be even better.
-            </Typography>
+            </Typography> */}
           </Grid>
           <Divider variant="middle" sx={{ borderColor: "black" }} />
 
@@ -61,7 +62,7 @@ export function FeatArticle() {
                 <Avatar alt="Jason Day" src="/static/images/avatar/1.jpg" />
               </Box>
             </Grid>
-            <Grid item>
+            {/* <Grid item>
               <Box>
 
                 <Typography
@@ -75,16 +76,16 @@ export function FeatArticle() {
                  rawr
                 </Typography>
               </Box>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
         <Box mx="2rem">
-          <Typography variant="subtitle1" mb="1rem" sx={{ paddingLeft: "1rem", borderLeft: "3px solid black" }}>
+          {/* <Typography variant="subtitle1" mb="1rem" sx={{ paddingLeft: "1rem", borderLeft: "3px solid black" }}>
             As a web design and development company, we must stay on top of the
             UI/UX design. So, we've compiled a list of the top web design trends
             that you should keep an eye out for when you redesign your website.
             These trends will surely set you apart from your competitors.
-          </Typography>
+          </Typography> */}
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">
             Currently Supporting</Typography>
           <Typography variant="subtitle1" mb="1rem">
@@ -115,7 +116,7 @@ export function FeatArticle() {
           </Typography>
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Hear What Others Are Saying in the Fighting Game Community</Typography>
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">News, Blogs, Features</Typography>
-          <Typography variant="subtitle1" mb="1rem">
+          {/* <Typography variant="subtitle1" mb="1rem">
             As people spend more and more time on their devices,
             <b>dark mode</b> is becoming more and more popular. There are a lot
             of conflicting scientific and personal opinions online whether dark
@@ -126,11 +127,11 @@ export function FeatArticle() {
             have pushed out a dark state that mimics your desktop settings.
             YouTube and Snapchat have also enabled a dark mode (although not
             available for Snapchat on all devices.)
-          </Typography>
+          </Typography> */}
           <Box sx={{ display: "flex", justifyContent: "center" }} my="2rem">
             {/* <img className="blog-image" alt="dark theme" src={darkTheme} /> */}
           </Box>
-          <Typography variant="subtitle1" mb="1rem">
+          {/* <Typography variant="subtitle1" mb="1rem">
             Darker colors tend to be considered more moody, elegant, and clean.
             You will need to consider how the dark theme will affect how your
             users interact and interpret your business. Regardless, the theme
@@ -143,9 +144,9 @@ export function FeatArticle() {
             Few websites utilize a dark theme, so by using dark colors and light
             text you will set yourself apart from your competitors and ahead of
             the curve.
-          </Typography>
+          </Typography> */}
           <Typography variant="h5" color="grey.600" mb="4rem" my="4rem">Match Breakdowns, Gear Reviews, Featured Art, Tool Kit Updates</Typography>
-          <Typography variant="subtitle1" mb="1rem">
+          {/* <Typography variant="subtitle1" mb="1rem">
             What is <b>minimalism?</b> Minimalism is a concept that embodies
             "less is more". There are a few different ways to utilize minimalism
             for your website design. Based on weight, size, and tones components
@@ -153,13 +154,13 @@ export function FeatArticle() {
             minimalism. Embrace the white space on your website, just because it
             is called "white space" doesn't mean it has to be white. Color and
             shapes will make an even larger impact with fewer elements.
-          </Typography>
+          </Typography> */}
           <Box sx={{ display: "flex", justifyContent: "center" }} my="2rem">
             {/* <img className="blog-image" alt="minimalist" src={minimalist} /> */}
           </Box>
 
 
-          <Typography variant="subtitle1" mb="1rem">
+          {/* <Typography variant="subtitle1" mb="1rem">
             The experience your users have on your site will determine whether
             they do business with you, whether they recommend your business to
             their friends, and if they will remember you.
@@ -173,10 +174,10 @@ export function FeatArticle() {
             <Link to="/blogs/6-practices-for-aesthetic-ui/" className="link">
               6 Simple Practices to Creating Aesthetic UI.
             </Link>
-          </Typography>
+          </Typography> */}
           <Typography variant="subtitle1" mb="1rem">
-            Want to write for us? Email us at,
-            <Link to="/contact/" className="link"> contact us today.</Link>
+            Want to write for us?
+            <Link to="/contact/" className="link"> Contact us today.</Link>
           </Typography>
         </Box>
       </Container>

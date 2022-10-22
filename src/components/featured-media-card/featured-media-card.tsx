@@ -42,11 +42,10 @@ alt?:string,
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-               Ken Announced for Street Fighter 6
+              Street Fighter 6 - Surpassing Your Expectation from a Fighting Game Beta
               </Typography>
               <Typography variant="body2" color="text.primary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+              One of the most popular fighting game franchises just completed its beta testing of their latest addition Street Fighter 6 and the fans were not expecting things to get this spicy.
               </Typography>
             </CardContent>
           </CardActionArea>
