@@ -71,7 +71,14 @@ const Home = () => (
               <Grid item xs={12} md={6}>
                 <Typography sx={{ mt: "2rem" }}>MATCH HIGHLIGHT</Typography>
                 <Divider style={{ marginBottom: "1rem" }} />
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JzS96auqau0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <Grid item>
+                  <CardMedia
+                    component="iframe"
+                    title="Match Highlight"
+                    src="https://www.youtube.com/embed/JzS96auqau0"
+                  />
+                  <Typography sx={{ mt: "2rem" }}>You've seen it, you know it by heart. Now watch it again with empty mind.</Typography>
+                </Grid>
               </Grid>
               <Grid item xs={12} md={6}>
                 <Typography sx={{ mt: "2rem" }}>LATEST FIGHTER TOOL KIT UPDATE</Typography>

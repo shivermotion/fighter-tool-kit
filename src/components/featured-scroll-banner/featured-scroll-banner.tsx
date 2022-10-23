@@ -35,31 +35,19 @@ export default function FeaturedScrollBanner() {
         modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
-        {windowWidth > 600 ? (
-          <>
-            <SwiperSlide>
-              <Link to="whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
-            </SwiperSlide>
-            {/* <SwiperSlide>
+
+        <>
+          <SwiperSlide>
+            <Link to="whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
+          </SwiperSlide>
+          {/* <SwiperSlide>
               <FeaturedMediaCard blogImage={honda} backgroundImg={anime} />
             </SwiperSlide>
             <SwiperSlide>
               <FeaturedMediaCard blogImage={anime} backgroundImg={ken} />
             </SwiperSlide> */}
-          </>
-        ) : windowWidth < 600 ? (
-          <>
-            <SwiperSlide>
-              <Link to="whatsnew/welcome"> <FeaturedMediaCard blogImage={featThumbnail} /></Link>
-            </SwiperSlide>
-            <SwiperSlide>
-              <FeaturedMediaCard blogImage={honda} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FeaturedMediaCard blogImage={anime} />
-            </SwiperSlide>
-          </>
-        ) : null}
+        </>
+
 
       </Swiper>
     </>
