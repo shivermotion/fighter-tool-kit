@@ -29,25 +29,28 @@ export const NavBar = (props: { color?: "white" | "black", children?: React.Reac
       </Typography>
       <Divider />
       <List>
-
-        <List id="list-item">
+        <ListItem id="list-item">
           <Link to="/" style={{ textDecoration: "none" }}>
-            Home
+            <Typography variant="subtitle1">HOME</Typography>
           </Link>
-        </List>
+        </ListItem>
+        <ListItem id="list-item">
+          <Link to="/whatsnew" style={{ textDecoration: "none" }}>
+            <Typography variant="subtitle1">WHATS NEW</Typography>
+          </Link>
+        </ListItem>
 
-
-        <List id="list-item">
+        <ListItem id="list-item">
           <Link to="/fighters" style={{ textDecoration: "none" }}>
-            Fighters
+            <Typography variant="subtitle1">FIGHTERS</Typography>
           </Link>
-        </List>
+        </ListItem>
 
-        <List id="list-item">
+        <ListItem id="list-item">
           <Link to="/contact" style={{ textDecoration: "none" }}>
-            Contact
+            <Typography variant="subtitle1">CONTACT</Typography>
           </Link>
-        </List>
+        </ListItem>
       </List>
     </Box>
   )
