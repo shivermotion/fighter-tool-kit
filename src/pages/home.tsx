@@ -104,6 +104,13 @@ const Home = () => (
       </Grid>
     </Grid> */}
             <Grid item xs={12}>
+              <Typography sx={{ mt: "2rem" }}>SUPPORT THIS SITE - SHOP AT PLAYASIA USING THIS LINK</Typography>
+              <Divider style={{ marginBottom: "1rem" }} /> <iframe id="id01_611265" title="affiliate link" src="https://www.play-asia.com/38/190%2C000000%2Cnone%2C0%2C0%2C0%2C0%2CFFFFFF%2C000000%2Cleft%2C0%2C0-391-76a-70204t-062-783c-2910_2351_2353_3137_3147_3169_3375_3401_3411_3451_3529-9031tfb-44500" style={{ borderStyle: "groove", borderWidth: "2px", borderColor: "black", padding: "0", margin: "0", width: "100%", height: "20rem" }} />
+              <script type="text/javascript">var t = "";t += window.location;t = t.replace( /#.*$/g, "" ).replace( /^.*:\/*/i, "" ).replace( /\./g, "[dot]" ).replace( /\//g, "[obs]" ).replace( /-/g, "[dash]" );t = encodeURIComponent( encodeURIComponent( t ) );var iframe = document.getElementById( "id01_611265" );iframe.src = iframe.src.replace( "iframe_banner", t );      </script>
+
+            </Grid>
+
+            <Grid item xs={12}>
               <Divider />
               <Typography sx={{ mb: "2rem" }}>FEATURED ART</Typography>
               <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
