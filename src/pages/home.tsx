@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, CardMedia, Container, Divider, Grid, Paper, Stack, Typography } from "@mui/material"
+import { Box, CardMedia, Container, Divider, Grid, Paper, Typography, Slide } from "@mui/material"
 
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -35,58 +35,80 @@ const Home = () => (
         </NavBar>
         <Container style={{ backgroundColor: "whitesmoke" }}>
           <Grid container>
-            <Typography>HILIGHTS</Typography>
             <Grid item xs={12}>
-              <Divider />
-              <FeaturedScrollBanner />
-            </Grid>
-            <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
-
-              <Grid item xs={12} md={6}>
-                <Typography sx={{ mt: "2rem" }}>WELCOME TO FIGHTER TOOL KIT </Typography>
-                <Divider />
-                <Link to="/whatsnew/welcome"> <Paper
-                  sx={{
-                    ":hover": {
-                      boxShadow: 20,
-                    },
-                  }}
-                  style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}
-                >
-                  <MultiCard image={fightStick} title="What is Fighter Tool Kit?" description="A new kind of fighting game site with its own kind of style. What is Fighter Tool Kit?" />
-                </Paper>
-                </Link>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <Typography sx={{ mt: "2rem" }}>ADD US ON TWITTER</Typography>
-                {/* <Typography sx={{ mt: "2rem" }}>BLOG</Typography> */}
-                <Divider />
-                <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
-                  <a href="https://twitter.com/fightertoolkit" aria-label="twitter link"><MultiCard image={twitter} title="ADD US ON TWITTER" description="@fightertoolkit" /></a>
-                </Paper>
-              </Grid>
+              <Slide direction="up" in mountOnEnter unmountOnExit timeout={1000}>
+                <Box>
+                  <Typography>HILIGHTS</Typography>
+                  <Divider />
+                  <FeaturedScrollBanner />
+                </Box>
+              </Slide>
             </Grid>
             <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
               <Grid item xs={12} md={6}>
-                <Typography sx={{ mt: "2rem" }}>MATCH HIGHLIGHT</Typography>
-                <Divider style={{ marginBottom: "1rem" }} />
-                <Grid item>
-                  <CardMedia
-                    component="iframe"
-                    title="Match Highlight"
-                    src="https://www.youtube.com/embed/JzS96auqau0"
-                  />
-                  <Typography sx={{ mt: "2rem" }}>You've seen it, you know it by heart. Now watch it again with empty mind.</Typography>
-                </Grid>
+                <Slide direction="up" in mountOnEnter unmountOnExit timeout={2000}>
+                  <Box>
+                    <Typography sx={{ mt: "2rem" }}>WELCOME TO FIGHTER TOOL KIT </Typography>
+                    <Divider />
+                    <Link to="/whatsnew/welcome">
+                      <Paper
+                        sx={{
+                          ":hover": {
+                            boxShadow: 20,
+                          },
+                        }}
+                        style={{ backgroundColor: "black", boxShadow: "none", borderRadius: "22px" }}
+                      >
+                        <MultiCard image={fightStick} title="What is Fighter Tool Kit?" description="A new kind of fighting game site with its own kind of style. What is Fighter Tool Kit?" />
+                      </Paper>
+                    </Link>
+                  </Box>
+                </Slide>
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography sx={{ mt: "2rem" }}>LATEST FIGHTER TOOL KIT UPDATE</Typography>
-                <Divider style={{ marginBottom: "1rem" }} />
-                <Link to="/fighters/kof15">
-                  <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
-                    <MultiCard image={kof15} title="King of Fighter 15 Data and Moves" description="Dig into the fighter tool kit and get all the frame data and move list/stats for KOFXV" />
-                  </Paper>
-                </Link>
+                <Slide direction="up" in mountOnEnter unmountOnExit timeout={2000}>
+                  <Box>
+                    <Typography sx={{ mt: "2rem" }}>ADD US ON TWITTER</Typography>
+                    {/* <Typography sx={{ mt: "2rem" }}>BLOG</Typography> */}
+                    <Divider />
+                    <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
+                      <a href="https://twitter.com/fightertoolkit" aria-label="twitter link">
+                        <MultiCard image={twitter} title="ADD US ON TWITTER" description="@fightertoolkit" />
+                      </a>
+                    </Paper>
+                  </Box>
+                </Slide>
+              </Grid>
+            </Grid>
+            <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
+              <Grid item xs={12} md={6}>
+                <Slide direction="up" in mountOnEnter unmountOnExit timeout={3000}>
+                  <Box>
+                    <Typography sx={{ mt: "2rem" }}>MATCH HIGHLIGHT</Typography>
+                    <Divider style={{ marginBottom: "1rem" }} />
+                    <Grid item>
+                      <CardMedia
+                        component="iframe"
+                        title="Match Highlight"
+                        src="https://www.youtube.com/embed/JzS96auqau0"
+                      />
+                      <Typography sx={{ mt: "2rem" }}>You've seen it, you know it by heart. Now watch it again with empty mind.</Typography>
+                    </Grid>
+                  </Box>
+                </Slide>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Slide direction="up" in mountOnEnter unmountOnExit timeout={3000}>
+                  <Box>
+                    <Typography sx={{ mt: "2rem" }}>LATEST FIGHTER TOOL KIT UPDATE</Typography>
+                    <Divider style={{ marginBottom: "1rem" }} />
+                    <Link to="/fighters/kof15">
+                      <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
+                        <MultiCard image={kof15} title="King of Fighter 15 Data and Moves" description="Dig into the fighter tool kit and get all the frame data and move list/stats for KOFXV" />
+                      </Paper>
+                    </Link>
+                  </Box>
+                </Slide>
               </Grid>
               {/* <Grid item xs={12} md={6}>
                 <Typography sx={{ mt: "2rem" }}>GEAR REVIEW</Typography>
@@ -103,11 +125,15 @@ const Home = () => (
       </Grid>
     </Grid> */}
             <Grid item xs={12}>
-              <Divider />
-              <Typography sx={{ mb: "2rem" }}>FEATURED ART</Typography>
-              <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
-                <FeaturedArtScroller />
-              </Paper>
+              <Slide direction="up" in mountOnEnter unmountOnExit timeout={3000}>
+                <Box>
+                  <Divider />
+                  <Typography sx={{ mb: "2rem" }}>FEATURED ART</Typography>
+                  <Paper style={{ backgroundColor: "whitesmoke", boxShadow: "none", borderRadius: "22px" }}>
+                    <FeaturedArtScroller />
+                  </Paper>
+                </Box>
+              </Slide>
             </Grid>
           </Grid>
           <Divider />
