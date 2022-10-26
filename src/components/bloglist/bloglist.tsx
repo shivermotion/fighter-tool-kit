@@ -23,7 +23,7 @@ export default function BlogList() {
             <Item sx={{ ":hover": {
               boxShadow: 20 } }}
             >
-              <BlogThumbnail text={undefined} title="Ken Announced for Street Fighter 6" img={battleHub} url="street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta" />
+              <BlogThumbnail text={undefined} title="Street Fighter 6 - Surpassing Your Expectation from a Fighting Game Beta" img={battleHub} url="street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta" />
             </Item>
           </Grid>
         ))}
