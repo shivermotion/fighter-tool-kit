@@ -15,6 +15,7 @@ import Sf6 from "./fighters/sf6"
 import Footer from "../components/footer/footer"
 import { FeatArticle } from "./whatsnew/welcome"
 import { Blog } from "./whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"
+import SiteMap from "./sitemap"
 
 
 // Application Screen || Define Exports
@@ -40,6 +41,8 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           {/* 404 */}
           <Route path="*" element={<FourOhFour />} />
+          {/* pagemap */}
+          <Route path="/sitemap" element={<SiteMap />} />
         </Routes>
       </main>
       <Footer />
