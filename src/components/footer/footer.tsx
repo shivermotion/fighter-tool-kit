@@ -52,7 +52,7 @@ export default function Footer() {
           </Grid>
           <Grid item>
             <Box className="site-map-text-row">
-              {/* <a href="/pagemap">Sitemap</a> */}
+              <a href="/sitemap">sitemap</a>
             </Box>
           </Grid>
         </Grid>
