@@ -67,7 +67,6 @@ const Home = () => (
               </Grid>
             </Grid>
             <Grid container sx={{ display: "flex", justifyContent: "space-evenly" }}>
-
               <Grid item xs={12} md={6}>
                 <Typography sx={{ mt: "2rem" }}>MATCH HIGHLIGHT</Typography>
                 <Divider style={{ marginBottom: "1rem" }} />
