@@ -31,7 +31,7 @@ import pic from "../../../assets/game-logos/sf5/portrait-ryu-stats-2.jpg"
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-export default function Ryu() {
+export default function Fang() {
   const [shiny, setShiny] = useState(true)
   return (
     <Accordion className={shiny ? ("shine-effect-button") : ""} onClick={() => { setShiny(!shiny) }}>
@@ -47,7 +47,7 @@ export default function Ryu() {
           </Grid>
 
           <Grid item xs={10} sx={{ display: "flex", justifyContent: "left", alignItems: "flex-end" }}>
-            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>RYU</Typography>
+            <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>FANG</Typography>
           </Grid>
         </Grid>
       </AccordionSummary>
