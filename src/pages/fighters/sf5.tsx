@@ -10,6 +10,8 @@ import SEO from "../../components/seo-helmet/seo-helmet"
 import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
 import Header from "../../components/header/header"
+import Luke from "../../components/fighters/sf5/luke"
+import Lucia from "../../components/fighters/sf5/lucia"
 import Abigail from "../../components/fighters/sf5/abigail"
 import Akuma from "../../components/fighters/sf5/akuma"
 import Ryu from "../../components/fighters/sf5/ryu"
@@ -39,6 +41,7 @@ import Nash from "../../components/fighters/sf5/nash"
 import Oro from "../../components/fighters/sf5/oro"
 import Poison from "../../components/fighters/sf5/poison"
 import Rashid from "../../components/fighters/sf5/rashid"
+import Rose from "../../components/fighters/sf5/rose"
 import Rmika from "../../components/fighters/sf5/rmika"
 import Sagat from "../../components/fighters/sf5/sagat"
 import Sakura from "../../components/fighters/sf5/sakura"
@@ -71,8 +74,8 @@ export default function Sf5() {
         </NavBar>
         <Container>
           <Typography variant="h3" component="h1" p={2} display="flex" justifyContent="center">-CHOOSE A FIGHTER-</Typography>
-          <Ryu />
           <Abigail />
+          <Akira />
           <Akuma />
           <Alex />
           <Balrog />
@@ -93,7 +96,11 @@ export default function Sf5() {
           <Juri />
           <Karin />
           <Ken />
+          <Kage />
+          <Kolin />
           <Laura />
+          <Lucia />
+          <Luke />
           <Mbison />
           <Menat />
           <Necalli />
@@ -101,7 +108,9 @@ export default function Sf5() {
           <Oro />
           <Poison />
           <Rashid />
+          <Rose />
           <Rmika />
+          <Ryu />
           <Sagat />
           <Sakura />
           <Seth />
@@ -109,9 +118,6 @@ export default function Sf5() {
           <Vega />
           <Zangief />
           <Zeku />
-          <Akira />
-          <Kage />
-          <Kolin />
         </Container>
       </ThemeWrapper></>
   )

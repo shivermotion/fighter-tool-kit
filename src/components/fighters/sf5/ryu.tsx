@@ -1,13 +1,12 @@
 import React, { useState } from "react"
-import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack } from "@mui/material"
+import { Accordion, AccordionSummary, AccordionDetails, Typography, Grid, Divider, Stack, Table, TableBody, TableCell, TableRow, Box } from "@mui/material"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
+import { ClassNames } from "@emotion/react"
 // Application Screen || Define Imports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-import { ClassNames } from "@emotion/react"
 import { NearOpponent, InAir, PressInOrder, AfterMove, InTimeWith, Charge, LinkTo, And } from "../../icons/condition"
-
 import { Vshift, Vreversal, Vtrigger1, Vtrigger2, UniqueAttacks, SpecialMoves, NormalThrows, MoveName, InputBar, CriticalArts, Vskill2, Vskill1 } from "../../accordion/accordion"
 import Press from "../../icons/press"
 import Or from "../../icons/or"
@@ -55,7 +54,62 @@ export default function Ryu() {
             <Typography variant="h2" mb={2} sx={{ color: "white", textShadow: "2px 2px black" }}>RYU</Typography>
           </Grid>
         </Grid>
+
+
       </AccordionSummary>
+      <Grid container p={2}>
+        <Grid item xs={12}>
+          <Typography>
+          Ryu is a fan favorite character from the Street Fighter series, known for his balanced and straightforward playstyle. He made his debut in the original Street Fighter game and has been a staple of the franchise ever since.
+          </Typography>
+          <Typography>
+          In the competitive scene, Ryu is generally considered to be a strong character due to his versatility and solid normals. He is able to adapt to different situations and has a variety of tools at his disposal, making him a formidable opponent.
+          </Typography>
+          <Typography variant="subtitle2" p={3}>
+          Fun Fact: Ryu's signature move, the Hadoken, is often imitated and has become a pop culture reference in media outside of the Street Fighter series.
+          </Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h6">Startup Frame Data:</Typography>
+          <Table>
+            <TableBody>
+              <TableRow>
+                <TableCell>Move</TableCell>
+                <TableCell>Startup (frames)</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Hadoken</TableCell>
+                <TableCell>14</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Shoryuken</TableCell>
+                <TableCell>4</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Tatsumaki Senpukyaku</TableCell>
+                <TableCell>5</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Joudan Sokutou Geri</TableCell>
+                <TableCell>6</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Ashura Senku (airborne)</TableCell>
+                <TableCell>3</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Metsu Hadoken</TableCell>
+                <TableCell>15</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Denjin Hadoken</TableCell>
+                <TableCell>16</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </Grid>
+      </Grid>
+      <Box sx={{ height: "1rem", backgroundColor: "black" }} />
       <NormalThrows />
       <MoveName move="SHOULDER THROW" />
       <InputBar>
