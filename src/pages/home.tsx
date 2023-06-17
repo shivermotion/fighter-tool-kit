@@ -90,9 +90,9 @@ const Home = () => (
                       <CardMedia
                         component="iframe"
                         title="Match Highlight"
-                        src="https://www.youtube.com/watch?v=-UUWKggqG2w"
+                        src="https://www.youtube.com/embed/watch?v=YO70ZR4wUGA"
                       />
-                      <Typography sx={{ mt: "2rem" }}>You've seen it, you know it by heart. Now watch it again with empty mind.</Typography>
+                      <Typography sx={{ mt: "2rem" }}>Street Fighter 6 💥 Tourniquet (MARISA) vs JustFog (RYU) 💥 SF6 Rank Match 💥</Typography>
                     </Grid>
                   </Box>
                 </Slide>
