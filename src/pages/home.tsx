@@ -90,7 +90,7 @@ const Home = () => (
                       <CardMedia
                         component="iframe"
                         title="Match Highlight"
-                        src="https://www.youtube.com/embed/JzS96auqau0"
+                        src="https://www.youtube.com/watch?v=-UUWKggqG2w"
                       />
                       <Typography sx={{ mt: "2rem" }}>You've seen it, you know it by heart. Now watch it again with empty mind.</Typography>
                     </Grid>
