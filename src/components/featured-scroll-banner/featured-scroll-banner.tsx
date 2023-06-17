@@ -11,7 +11,7 @@ import { FeaturedMediaCard } from "../featured-media-card/featured-media-card"
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 import "./featured-scroll-banner.scss"
 import honda from "../../assets/blog-assets/honda-sketch.jpg"
-import featThumbnail from "../../assets/blog-assets/battlehub-min.jpg"
+import featThumbnail from "../../assets/blog-assets/sf6framedata.jpg"
 import anime from "../../assets/icons/anime.png"
 
 // Application Screen || Define Exports
@@ -38,7 +38,7 @@ export default function FeaturedScrollBanner() {
 
         <>
           <SwiperSlide>
-            <Link to="whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
+            <Link to="/whatsnew/recognizing-your-turn-to-strike"> <FeaturedMediaCard blogImage={featThumbnail} backgroundImg={honda} alt="Featured Article" /></Link>
           </SwiperSlide>
           {/* <SwiperSlide>
               <FeaturedMediaCard blogImage={honda} backgroundImg={anime} />

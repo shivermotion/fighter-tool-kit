@@ -42,10 +42,10 @@ alt?:string,
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-              Street Fighter 6 - Surpassing Your Expectation from a Fighting Game Beta
+              Mastering Street Fighter: Recognizing Your Turn to Strike
               </Typography>
               <Typography variant="body2" color="text.primary">
-              One of the most popular fighting game franchises just completed its beta testing of their latest addition Street Fighter 6 and the fans were not expecting things to get this spicy.
+              In the high-stakes world of Street Fighter, timing is everything. One crucial aspect of becoming a formidable player is understanding when it's "your turn" to launch a punishing attack against your opponent.
               </Typography>
             </CardContent>
           </CardActionArea>

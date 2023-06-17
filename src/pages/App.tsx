@@ -15,6 +15,7 @@ import Sf6 from "./fighters/sf6"
 import Footer from "../components/footer/footer"
 import { FeatArticle } from "./whatsnew/welcome"
 import { Blog } from "./whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta"
+import { Blog2 } from "./whatsnew/recognizing-your-turn-to-strike"
 import SiteMap from "./sitemap"
 
 
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/whatsnew" element={<WhatsNewPage />} />
           <Route path="/whatsnew/welcome" element={<FeatArticle />} />
           <Route path="/whatsnew/street-fighter-6-surpassing-your-expectation-from-a-fighting-game-beta" element={<Blog />} />
+          <Route path="/whatsnew/recognizing-your-turn-to-strike" element={<Blog2 />} />
           {/* Contact */}
           <Route path="/contact" element={<Contact />} />
           {/* 404 */}

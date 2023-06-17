@@ -12,6 +12,7 @@ import { NavBar } from "../../components/navbar/navbar"
 import { ThemeWrapper } from "../../globals/global-wrapper/wrapper"
 import BlogList from "../../components/bloglist/bloglist"
 import fightStick from "../../assets/blog-assets/fightstick.jpg"
+import frameDateImage from "../../assets/blog-assets/sf6framedata.jpg"
 
 // Application Screen || Define Exports
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -40,7 +41,7 @@ export default function WhatsNewPage() {
                 },
               }}
             >
-              <FeatArticleThumbNail src={fightStick} text="" title="Welcome to Fighter Tool Kit" link="/whatsnew/welcome" />
+              <FeatArticleThumbNail src={frameDateImage} text="" title="Mastering Street Fighter: Recognizing Your Turn to Strike" link="/whatsnew/recognizing-your-turn-to-strike" />
             </Grid>
             <Grid item xs={12}>
               <BlogList />
