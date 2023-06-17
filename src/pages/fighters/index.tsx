@@ -27,7 +27,7 @@ export default function FightersPage() {
       />
       <ThemeWrapper>
         <NavBar>
-          <Header logo={null} title="FIGHTERS" link="" />
+          <Header logo={null} title="FIGHTERS" subtext="For Character Lists, Inputs and Combos, Tutorials and More" link="" />
         </NavBar>
         <Container>
           <Grid container>
